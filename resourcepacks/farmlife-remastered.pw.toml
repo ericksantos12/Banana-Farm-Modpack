@@ -1,0 +1,13 @@
+name = "FarmLife Remastered ( Animal Overhaul! Horse, Cow, Pig, Sheep )"
+filename = "5.3.1 FarmLife Remastered.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "cb0710220f138d8aed41f81f856f33ab9b730ce2"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7603907
+project-id = 1311617

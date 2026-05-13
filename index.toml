@@ -242,17 +242,17 @@ metafile = true
 
 [[files]]
 file = "mods/entity-model-features.pw.toml"
-hash = "5a8b971146de3aa8dc7e4b862a12c69e787189ca8252db119253efdcc99220fe"
-metafile = true
-
-[[files]]
-file = "mods/entity-texture-features-fabric.pw.toml"
-hash = "48d621f055c242082a47a9df3770b38000889b9e2b0e0d14c014ad1ae35968c4"
+hash = "b6bad0dc31bec26203bced18c111495357a1708404d21c4ce71ead00142aa5ad"
 metafile = true
 
 [[files]]
 file = "mods/entityculling.pw.toml"
 hash = "c9081708402e1fd5e5936c3119a43717c0fd51185f940faa79dbbd8670d55a40"
+metafile = true
+
+[[files]]
+file = "mods/entitytexturefeatures.pw.toml"
+hash = "aa2a1abbccb92ccc4ba3a5a70d24edcd1e39a035f15fb9ba49c27f270a5e74e3"
 metafile = true
 
 [[files]]
@@ -597,7 +597,7 @@ metafile = true
 
 [[files]]
 file = "mods/simply-cats.pw.toml"
-hash = "127a4d412eecd73dbec86225c4f4cdc3a9934f4585a3b50a382b30d92727e820"
+hash = "a476a0577ef41a9f752337a840c3b955224ce5b500abc26937baf201e5994b1b"
 metafile = true
 
 [[files]]
@@ -743,4 +743,54 @@ metafile = true
 [[files]]
 file = "mods/yungs-api.pw.toml"
 hash = "9fb6a1a06b18f2ce7b0811200339d997925cb39bde220fbaea4d5c8067376c12"
+metafile = true
+
+[[files]]
+file = "resourcepacks/create-sophisticated-backpacks.pw.toml"
+hash = "6d6b7da245ca52c3dcfa20907de5934af51634f07319c3072b26a7f9971e1738"
+metafile = true
+
+[[files]]
+file = "resourcepacks/create-sophisticated-storages.pw.toml"
+hash = "4aa679c0f51fd71c1cb353cbc948962f4d53184a83f8db57eb2b893d94492372"
+metafile = true
+
+[[files]]
+file = "resourcepacks/dragns-l-o-adopt-a-pet.pw.toml"
+hash = "5ca8ea03f8927658e4bcf8793a4c45e198423e08a8df4fcafdafb68f120ea370"
+metafile = true
+
+[[files]]
+file = "resourcepacks/farmergui.pw.toml"
+hash = "1e4941ff650f5329aac7473b294b764810bc45981b8ea33431f24060a685c685"
+metafile = true
+
+[[files]]
+file = "resourcepacks/farmlife-remastered.pw.toml"
+hash = "bd57517de3a8784c0ef6d684a0b28d65e9c8f1d06eeccec0f47764a690e23ad8"
+metafile = true
+
+[[files]]
+file = "resourcepacks/fresh-animations.pw.toml"
+hash = "da66421a2a0dcab59fc4b17705b0aae4cd88b20634ebea20b0224fee2bef8251"
+metafile = true
+
+[[files]]
+file = "resourcepacks/simple-create-radios.pw.toml"
+hash = "441cd7d1b5dd4a41b4950095b8def6142e1786d266eb06a7b9c00e2062643b14"
+metafile = true
+
+[[files]]
+file = "resourcepacks/simply-cats-16x-textures.pw.toml"
+hash = "8d3c105a8242a7bc8c14a22a73a2a5baff9d60985a3630c12515830dc4fc7791"
+metafile = true
+
+[[files]]
+file = "resourcepacks/stardew-valley-theme-for-jade.pw.toml"
+hash = "a0d56dcde2ef10caa07ba50e7efcf69541e910efb921d0770c7ffac3bd1c166b"
+metafile = true
+
+[[files]]
+file = "resourcepacks/toms-and-create-smashed.pw.toml"
+hash = "2627e3150f649066b86e7cb8f826172057ff922104abd3b43a688f359f2fd845"
 metafile = true

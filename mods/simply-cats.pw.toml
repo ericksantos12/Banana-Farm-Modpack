@@ -3,11 +3,11 @@ filename = "simplycats-1.20.1-0.3.0.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "2de92590d84279fea56ea5aae9d516de3764ca47"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/SRhXcqHZ/versions/FvJ1cwho/simplycats-1.20.1-0.3.0.jar"
+hash-format = "sha512"
+hash = "4d7a5f84a43f611e3606284dff421614e4fa39f62a23c9f93b57d2b54e96422ac1a8d0c6ba653f64e7c5f6f4e9f64593a5e5cebf084483ec2558092d8c5328f6"
 
 [update]
-[update.curseforge]
-file-id = 6689195
-project-id = 332910
+[update.modrinth]
+mod-id = "SRhXcqHZ"
+version = "FvJ1cwho"

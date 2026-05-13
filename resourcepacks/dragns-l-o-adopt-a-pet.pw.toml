@@ -1,0 +1,13 @@
+name = "Adopt a Pet!! [ Dog and Cat ]"
+filename = "5.2 Adopt a Pet!.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "7a41e26baea22d18b4bf674296c682fe928c9ef0"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8007895
+project-id = 1363061

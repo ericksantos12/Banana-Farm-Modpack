@@ -1,0 +1,13 @@
+name = "Simply Cats 16x Textures"
+filename = "Simply Cats 16x.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/fTrXhI5O/versions/hWSiftK1/Simply%20Cats%2016x.zip"
+hash-format = "sha512"
+hash = "ccfb475071b0008b3dafc052d59d4883ee11e366b55614ee6d80c6f316134cb73d5e75cf517b7ae3a1321d23c66970248ea22b39c28a177a5bb4a4f810ef167f"
+
+[update]
+[update.modrinth]
+mod-id = "fTrXhI5O"
+version = "hWSiftK1"

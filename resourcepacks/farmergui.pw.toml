@@ -1,0 +1,13 @@
+name = "Farmer GUI"
+filename = "Farmer GUI 1.20.1 [1.7.8].zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d4cfafa3bd15f2b57322c66e5a0dd1590cd9e137"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7389248
+project-id = 918818
