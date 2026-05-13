@@ -2,11 +2,11 @@ hash-format = "sha256"
 
 [[files]]
 file = ".github/workflows/release-packwiz.yml"
-hash = "ba98303edee493b36132c9880c3a43c8a377f885e7edca4feaffa5b3df6213bf"
+hash = "2a5837c921ca6e69adfa86e8e72c61ec81e6ca072b4cf5445477139700abe467"
 
 [[files]]
 file = "AGENTS.md"
-hash = "893680fa74dc9b149c9e0f9cd6f769a3278ab33b854506cd5075cac12676b2bd"
+hash = "16d8518390d7358b0baf1414ab91e1f35947528be66be8048b278db8cc6af87e"
 
 [[files]]
 file = "README.md"

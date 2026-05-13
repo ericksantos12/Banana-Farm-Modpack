@@ -15,6 +15,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Go
         uses: actions/setup-go@v5
@@ -42,6 +44,80 @@ jobs:
           echo "short_sha=$SHORT_SHA" >> "$GITHUB_OUTPUT"
           echo "tag=$SAFE_NAME-$PACK_VERSION-build-$GITHUB_RUN_NUMBER" >> "$GITHUB_OUTPUT"
 
+      - name: Generate changelog
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          PREVIOUS_TAG="$(git tag --list '${{ steps.meta.outputs.safe_name }}-*' --sort=-creatordate | head -n 1 || true)"
+
+          if [ -n "$PREVIOUS_TAG" ]; then
+            RANGE="$PREVIOUS_TAG..HEAD"
+            RANGE_LABEL="since $PREVIOUS_TAG"
+          else
+            RANGE="HEAD"
+            RANGE_LABEL="from repository history"
+          fi
+
+          COMMITS="$(git log "$RANGE" --pretty=format:'%s%x09%h' || true)"
+
+          {
+            echo "## ${{ steps.meta.outputs.pack_name }} ${{ steps.meta.outputs.pack_version }}"
+            echo ""
+            echo "Automated packwiz release for commit ${{ steps.meta.outputs.short_sha }}."
+            echo ""
+            echo "Changelog generated from semantic commits $RANGE_LABEL."
+          } > release-notes.md
+
+          add_section() {
+            local title="$1"
+            local pattern="$2"
+            local matches
+            matches="$(printf '%s\n' "$COMMITS" | awk -F '\t' -v pattern="$pattern" 'tolower($1) ~ pattern { print "- " $1 " (`" $2 "`)" }')"
+
+            if [ -n "$matches" ]; then
+              {
+                echo ""
+                echo "## $title"
+                printf '%s\n' "$matches"
+              } >> release-notes.md
+            fi
+          }
+
+          add_section "Breaking Changes" '^[a-z]+(\([^)]+\))?!:'
+          add_section "Novidades" '^feat(\([^)]+\))?!?:'
+          add_section "Correcoes" '^fix(\([^)]+\))?!?:'
+          add_section "Performance" '^perf(\([^)]+\))?!?:'
+          add_section "Refatoracoes" '^refactor(\([^)]+\))?!?:'
+          add_section "Documentacao" '^docs(\([^)]+\))?!?:'
+          add_section "Manutencao" '^(ci|build|chore)(\([^)]+\))?!?:'
+
+          OTHER_COMMITS="$(printf '%s\n' "$COMMITS" | awk -F '\t' 'length($1) > 0 && tolower($1) !~ /^[a-z]+(\([^)]+\))?!?:/ { print "- " $1 " (`" $2 "`)" }')"
+          if [ -n "$OTHER_COMMITS" ]; then
+            {
+              echo ""
+              echo "## Outros"
+              printf '%s\n' "$OTHER_COMMITS"
+            } >> release-notes.md
+          fi
+
+          if ! grep -q '^- ' release-notes.md; then
+            {
+              echo ""
+              echo "## Alteracoes"
+              echo "- Nenhum commit semantico encontrado no intervalo."
+            } >> release-notes.md
+          fi
+
+          {
+            echo ""
+            echo "## Assets"
+            echo "- Client pack: ${{ steps.meta.outputs.safe_name }}-${{ steps.meta.outputs.pack_version }}-client.zip"
+            echo "- Server pack: ${{ steps.meta.outputs.safe_name }}-${{ steps.meta.outputs.pack_version }}-server.zip"
+          } >> release-notes.md
+
+          cat release-notes.md
+
       - name: Refresh packwiz index
         run: packwiz refresh
 
@@ -60,4 +136,4 @@ jobs:
           gh release create "${{ steps.meta.outputs.tag }}" dist/*.zip \
             --target "$GITHUB_SHA" \
             --title "${{ steps.meta.outputs.pack_name }} ${{ steps.meta.outputs.pack_version }} build ${{ github.run_number }}" \
-            --notes "Automated packwiz release for commit ${{ steps.meta.outputs.short_sha }}."
+            --notes-file release-notes.md
