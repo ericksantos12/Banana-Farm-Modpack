@@ -1,0 +1,13 @@
+name = "Towering Golems"
+filename = "towering-golem-1.20.1.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/7cCt9Fxn/versions/1mntTorU/towering-golem-1.20.1.jar"
+hash-format = "sha512"
+hash = "e163a72bf55b75018f47244c415ffde57310ab331e49a3341b8a4b333f22325e89ca80b923cc4ddb8006a627f746ce56e26a78a754cff9a129f1595dd20b6d7c"
+
+[update]
+[update.modrinth]
+mod-id = "7cCt9Fxn"
+version = "1mntTorU"

@@ -1,0 +1,13 @@
+name = "Working Dogs"
+filename = "workdog-1.20.1-0.2.1-lite-hotfix1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "59b6b91fd6875feb5de2c3089bdd12cf643b8085"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8071397
+project-id = 1160842

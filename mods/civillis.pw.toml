@@ -1,0 +1,13 @@
+name = "Civillis"
+filename = "civillis-forge-1.3.3-release+mc1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0b324811f94ead812f32ad857076efb7d05756a4"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8028077
+project-id = 1460803

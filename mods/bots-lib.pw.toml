@@ -1,0 +1,13 @@
+name = "Bot's Lib"
+filename = "bots_lib-4.1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "faf519d3bd8ca08495cdd474864da3781ef44a37"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7283906
+project-id = 1062753

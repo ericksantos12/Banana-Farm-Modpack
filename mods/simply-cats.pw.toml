@@ -1,0 +1,13 @@
+name = "Simply Cats"
+filename = "simplycats-1.20.1-0.3.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2de92590d84279fea56ea5aae9d516de3764ca47"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6689195
+project-id = 332910

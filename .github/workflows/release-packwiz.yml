@@ -1,0 +1,63 @@
+name: Release Packwiz Pack
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: stable
+
+      - name: Install packwiz
+        shell: bash
+        run: |
+          go install github.com/packwiz/packwiz@latest
+          echo "$(go env GOPATH)/bin" >> "$GITHUB_PATH"
+
+      - name: Read pack metadata
+        id: meta
+        shell: bash
+        run: |
+          PACK_NAME="$(grep '^name = ' pack.toml | sed 's/name = "\(.*\)"/\1/')"
+          PACK_VERSION="$(grep '^version = ' pack.toml | sed 's/version = "\(.*\)"/\1/')"
+          SAFE_NAME="$(echo "$PACK_NAME" | tr '[:upper:] ' '[:lower:]-' | tr -cd 'a-z0-9._-')"
+          SHORT_SHA="${GITHUB_SHA::7}"
+
+          echo "pack_name=$PACK_NAME" >> "$GITHUB_OUTPUT"
+          echo "pack_version=$PACK_VERSION" >> "$GITHUB_OUTPUT"
+          echo "safe_name=$SAFE_NAME" >> "$GITHUB_OUTPUT"
+          echo "short_sha=$SHORT_SHA" >> "$GITHUB_OUTPUT"
+          echo "tag=$SAFE_NAME-$PACK_VERSION-build-$GITHUB_RUN_NUMBER" >> "$GITHUB_OUTPUT"
+
+      - name: Refresh packwiz index
+        run: packwiz refresh
+
+      - name: Export client and server packs
+        shell: bash
+        run: |
+          mkdir -p dist
+          packwiz curseforge export -s client -o "dist/${{ steps.meta.outputs.safe_name }}-${{ steps.meta.outputs.pack_version }}-client.zip"
+          packwiz curseforge export -s server -o "dist/${{ steps.meta.outputs.safe_name }}-${{ steps.meta.outputs.pack_version }}-server.zip"
+
+      - name: Create GitHub release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        shell: bash
+        run: |
+          gh release create "${{ steps.meta.outputs.tag }}" dist/*.zip \
+            --target "$GITHUB_SHA" \
+            --title "${{ steps.meta.outputs.pack_name }} ${{ steps.meta.outputs.pack_version }} build ${{ github.run_number }}" \
+            --notes "Automated packwiz release for commit ${{ steps.meta.outputs.short_sha }}."

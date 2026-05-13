@@ -1,0 +1,13 @@
+name = "Ride Along"
+filename = "ride_along-1.20.1-1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "dde438c16bf19142bcb75524d9aff4ad72b7d538"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4943807
+project-id = 517147
