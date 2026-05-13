@@ -61,7 +61,14 @@ jobs:
         run: |
           set -euo pipefail
 
-          PREVIOUS_TAG="$(git tag --list '${{ steps.meta.outputs.safe_name }}-*' --sort=-creatordate | head -n 1 || true)"
+          PREVIOUS_TAG=""
+          while IFS= read -r tag; do
+            TAG_SHA="$(git rev-list -n 1 "$tag")"
+            if [ "$TAG_SHA" != "$GITHUB_SHA" ]; then
+              PREVIOUS_TAG="$tag"
+              break
+            fi
+          done < <(git tag --list '${{ steps.meta.outputs.safe_name }}-*' --merged HEAD --sort=-creatordate)
 
           if [ -n "$PREVIOUS_TAG" ]; then
             RANGE="$PREVIOUS_TAG..HEAD"
@@ -113,11 +120,11 @@ jobs:
             } >> release-notes.md
           fi
 
-          if ! grep -q '^- ' release-notes.md; then
+          if [ -z "$COMMITS" ]; then
             {
               echo ""
               echo "## Alteracoes"
-              echo "- Nenhum commit semantico encontrado no intervalo."
+              echo "- Nenhum commit encontrado desde a ultima release."
             } >> release-notes.md
           fi
 
