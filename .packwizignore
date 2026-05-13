@@ -3,3 +3,9 @@
 
 # Exclude README
 /README.md
+
+# Exclude AGENTS.md, which is only relevant to pack development
+/AGENTS.md
+
+# Exclude .github, which is only relevant to pack development
+/.github

@@ -8,6 +8,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: release-packwiz-main
+  cancel-in-progress: false
+
 jobs:
   release:
     runs-on: ubuntu-latest
@@ -22,6 +26,14 @@ jobs:
         uses: actions/setup-go@v5
         with:
           go-version: stable
+
+      - name: Cache Go build data
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cache/go-build
+            ~/go/pkg/mod
+          key: go-${{ runner.os }}-packwiz
 
       - name: Install packwiz
         shell: bash
