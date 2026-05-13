@@ -1,6 +1,6 @@
 name = "FarmLife Remastered ( Animal Overhaul! Horse, Cow, Pig, Sheep )"
 filename = "5.3.1 FarmLife Remastered.zip"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"

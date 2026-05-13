@@ -1,6 +1,6 @@
 name = "Stardew Valley Theme for Jade"
 filename = "JadeStardewValleyTheme.zip"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"

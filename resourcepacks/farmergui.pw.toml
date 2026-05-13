@@ -1,6 +1,6 @@
 name = "Farmer GUI"
 filename = "Farmer GUI 1.20.1 [1.7.8].zip"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"
