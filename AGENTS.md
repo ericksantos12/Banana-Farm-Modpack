@@ -15,5 +15,4 @@
 ## Release Automation
 - `.github/workflows/release-packwiz.yml` runs on every push to `main`.
 - The workflow creates one GitHub Release per run and uploads both client and server CurseForge zip exports.
-- Release notes are generated from Conventional Commits since the latest `banana-farm-*` tag; the first release falls back to full repo history.
 - The release workflow needs `contents: write` for `GITHUB_TOKEN` so `gh release create` can publish releases and assets.
