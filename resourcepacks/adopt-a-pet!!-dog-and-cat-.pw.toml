@@ -1,0 +1,13 @@
+name = "Adopt a Pet!! [ Dog and Cat ]"
+filename = "5.2 Adopt a Pet!.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/qqh938zl/versions/6GDc09H0/5.2%20Adopt%20a%20Pet%21.zip"
+hash-format = "sha512"
+hash = "eefe6659e635df5589bc817b384f6819559728ff56864026bf46157c3a4d384a013d83491a959f4366de3e9e8ec5294f7ac41ca4c7b2a004a70492d0d6889dce"
+
+[update]
+[update.modrinth]
+mod-id = "qqh938zl"
+version = "6GDc09H0"

@@ -746,6 +746,11 @@ hash = "9fb6a1a06b18f2ce7b0811200339d997925cb39bde220fbaea4d5c8067376c12"
 metafile = true
 
 [[files]]
+file = "resourcepacks/adopt-a-pet!!-dog-and-cat-.pw.toml"
+hash = "aa6016ec1a956a50f6c8ded28471d5c96c1c836d780735aa31cab1a146b0287a"
+metafile = true
+
+[[files]]
 file = "resourcepacks/create-sophisticated-backpacks.pw.toml"
 hash = "4a1765568ea97948d6e8a1871896bff7e980c1b63593866b4cdb330152b713d3"
 metafile = true
@@ -756,23 +761,18 @@ hash = "4e069051ed9caad9723d82fac4c7dd195bf7ba313e3d34108a8ca6519ab889b0"
 metafile = true
 
 [[files]]
-file = "resourcepacks/dragns-l-o-adopt-a-pet.pw.toml"
-hash = "21960cf896e7889d8df2c0a74e9226b71c4892131f48ea0c02f69769386cc2ab"
-metafile = true
-
-[[files]]
 file = "resourcepacks/farmergui.pw.toml"
-hash = "7be5995dca1d5616a3f420c82310978330bf37ed5def0245f1a6c10b66a83e6b"
+hash = "1214d4ef164d55067adb7d700b08141220c1ddf9ec1bb4c6218954c4d64b4f23"
 metafile = true
 
 [[files]]
 file = "resourcepacks/farmlife-remastered.pw.toml"
-hash = "4fbe51fec99f24db60204a02ff03942bb7d3595eb6405ab7813dd28f2b25dd66"
+hash = "f7d65daba4a4db6ba16538be08aaf1662c7dea20d6042d306cd27f03e4389828"
 metafile = true
 
 [[files]]
 file = "resourcepacks/fresh-animations.pw.toml"
-hash = "9ec67e88b2aff3720a27dde232274a00e65b7ddc5e302a495d18bc41a42028a4"
+hash = "6a1556a0e4fcb411b33efafc3382b4abd9a6e671f140dc0d42e9aad2808e24f3"
 metafile = true
 
 [[files]]
@@ -787,7 +787,7 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/stardew-valley-theme-for-jade.pw.toml"
-hash = "6631ecaf8d0b916f1925cb778553d0922166a8c1038b0b3ce61dc4fabb6fcd89"
+hash = "864956cd501a18855d98f068ea5cb5338c34bc5481e0929a44a92867e5957e0f"
 metafile = true
 
 [[files]]
