@@ -1,2 +1,8 @@
 install-from-banana-json.ps1
 compare-banana-json.ps1
+
+# Exclude exported CurseForge zip files
+*.zip
+
+# Exclude exported Modrinth modpacks
+*.mrpack
