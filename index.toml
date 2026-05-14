@@ -677,7 +677,7 @@ metafile = true
 
 [[files]]
 file = "mods/towering-golems.pw.toml"
-hash = "7b4f5d287c2aa6202dbdcbae721233f5f21ee00d01c9264bcdc628c5fb4ee994"
+hash = "bdd238a1c4f5f87a4e5077615a029d4c4ad467fc1ac3ce0cd98c25df21aad0dd"
 metafile = true
 
 [[files]]
