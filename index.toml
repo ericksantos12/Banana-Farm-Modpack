@@ -676,11 +676,6 @@ hash = "edfafd11282b46cca84cce70807e85f8b11e918ead6a1ef7aa7d9e216d98ece3"
 metafile = true
 
 [[files]]
-file = "mods/towering-golems.pw.toml"
-hash = "bdd238a1c4f5f87a4e5077615a029d4c4ad467fc1ac3ce0cd98c25df21aad0dd"
-metafile = true
-
-[[files]]
 file = "mods/towns-and-towers.pw.toml"
 hash = "00a0cba74675174812eea16aca533adfe9bac7b30a81a7e33dd81bd9343b45c4"
 metafile = true
