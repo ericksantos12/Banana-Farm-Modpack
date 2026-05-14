@@ -65,13 +65,14 @@ jobs:
           mkdir -p dist
           packwiz curseforge export -s client -o "dist/${{ steps.meta.outputs.safe_name }}-${{ steps.meta.outputs.pack_version }}-client.zip"
           packwiz curseforge export -s server -o "dist/${{ steps.meta.outputs.safe_name }}-${{ steps.meta.outputs.pack_version }}-server.zip"
+          cp pack.toml "dist/${{ steps.meta.outputs.safe_name }}-${{ steps.meta.outputs.pack_version }}-pack.toml"
 
       - name: Create GitHub release
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         shell: bash
         run: |
-          gh release create "${{ steps.meta.outputs.tag }}" dist/*.zip \
+          gh release create "${{ steps.meta.outputs.tag }}" dist/*.zip dist/*.toml \
             --target "$GITHUB_SHA" \
             --title "${{ steps.meta.outputs.pack_name }} ${{ steps.meta.outputs.pack_version }} build ${{ github.run_number }}" \
             --notes "Automated packwiz release for commit ${{ steps.meta.outputs.short_sha }}."

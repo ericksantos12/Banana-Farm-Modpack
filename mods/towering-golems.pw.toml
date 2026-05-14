@@ -1,6 +1,6 @@
 name = "Towering Golems"
 filename = "towering-golem-1.20.1.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/7cCt9Fxn/versions/1mntTorU/towering-golem-1.20.1.jar"
