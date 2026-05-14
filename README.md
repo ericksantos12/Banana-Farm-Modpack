@@ -13,16 +13,14 @@
 
 ---
 
-## Visao Geral
+## Visão Geral
 
-`Banana Farm` e um modpack mantido com [`packwiz`](https://packwiz.infra.link/) para Minecraft `1.20.1` usando Forge `47.4.20`.
+O pack mistura mods de agricultura, animais, decoração, performance, estruturas, transporte, armazenamento e ferramentas sociais para servidor.
 
-O pack mistura mods de agricultura, animais, decoracao, performance, estruturas, transporte, armazenamento e ferramentas sociais para servidor.
-
-| Area | Exemplos no pack |
+| Área | Exemplos no pack |
 | --- | --- |
 | Fazenda e comida | Farmer's Delight, Pam's HarvestCraft 2 - Trees, Veggies Delight, Vintage Delight, Quality Food |
-| Decoracao | Handcrafted, Beautify, Fantasy's Furniture, Refurbished Furniture, Wallpapers |
+| Decoração | Handcrafted, Beautify, Fantasy's Furniture, Refurbished Furniture, Wallpapers |
 | Create e transporte | Create, Create: Steam 'n' Rails, Create Railways Navigator, Automobility, Via Romana |
 | Animais e vida rural | Aquaculture 2, Better Beekeeping, Buzzier Bees, Critters and Companions, Realistic Horse Genetics, Working Dogs |
 | Qualidade de vida | Jade, JEI, AppleSkin, Mouse Tweaks, Carry On, Construction Wand |
@@ -31,66 +29,60 @@ O pack mistura mods de agricultura, animais, decoracao, performance, estruturas,
 
 ---
 
+# Para Jogadores
+
+Esta seção é para quem quer baixar e jogar o Banana Farm.
+
 ## Downloads
 
-As releases do GitHub sao geradas automaticamente a cada push na branch `main`.
-
-Cada release contem dois arquivos:
+Vá na aba **Releases** do repositório e baixe os arquivos da release mais recente.
 
 | Arquivo | Uso |
 | --- | --- |
-| `banana-farm-<versao>-client.zip` | Pack normal para cliente/launcher |
-| `banana-farm-<versao>-server.zip` | Serverpack exportado pelo packwiz |
+| `banana-farm-<versão>-client.zip` | Pack para jogar no launcher |
+| `banana-farm-<versão>-server.zip` | Pack para hospedar servidor |
 
-Baixe os arquivos pela aba **Releases** do repositorio. Nao use o `Source code.zip` do GitHub como modpack jogavel.
+> **Não use** o `Source code.zip` do GitHub como modpack jogável.
 
----
-
-## Instalacao do Cliente
+## Instalação do Cliente
 
 ### CurseForge App
 
-1. Baixe o arquivo `banana-farm-<versao>-client.zip` na release mais recente.
+1. Baixe o arquivo `banana-farm-<versão>-client.zip` na release mais recente.
 2. Abra o CurseForge App.
-3. Va em Minecraft.
+3. Vá em Minecraft.
 4. Escolha importar perfil/modpack.
 5. Selecione o `.zip` baixado.
 6. Aguarde o CurseForge resolver e baixar os mods.
 
-### Launchers compativeis com CurseForge
+### Outros launchers
 
-Use o arquivo `client.zip` da release. O suporte de importacao depende do launcher usado.
+Use o arquivo `client.zip` da release. O suporte de importação depende do launcher usado.
 
----
+## Instalação do Servidor
 
-## Instalacao do Servidor
-
-1. Baixe o arquivo `banana-farm-<versao>-server.zip` na release mais recente.
-2. Extraia o conteudo em uma pasta limpa do servidor.
-3. Instale Java compativel com Minecraft `1.20.1`.
+1. Baixe o arquivo `banana-farm-<versão>-server.zip` na release mais recente.
+2. Extraia o conteúdo em uma pasta limpa do servidor.
+3. Instale Java compatível com Minecraft `1.20.1`.
 4. Siga o processo normal do Forge server para aceitar `eula.txt` e iniciar o servidor.
-5. Use a mesma versao do client pack nos jogadores.
-
-O serverpack e exportado com:
-
-```sh
-packwiz curseforge export -s server -o banana-farm-server.zip
-```
+5. Use a mesma versão do client pack nos jogadores.
 
 ---
 
-## Desenvolvimento do Pack
+# Para Desenvolvedores
 
-Este repositorio nao e um projeto de codigo tradicional. Os arquivos principais sao:
+Esta seção é para quem quer editar, manter ou contribuir com o modpack. O pack é gerenciado com [`packwiz`](https://packwiz.infra.link/).
 
-| Caminho | Funcao |
+## Estrutura do Repositório
+
+| Caminho | Função |
 | --- | --- |
-| `pack.toml` | Metadados do pack, versao do Minecraft e loader |
-| `index.toml` | Indice gerado pelo packwiz com hashes dos arquivos |
+| `pack.toml` | Metadados do pack, versão do Minecraft e loader |
+| `index.toml` | Índice gerado pelo packwiz com hashes dos arquivos |
 | `mods/*.pw.toml` | Metadados dos mods instalados |
-| `.github/workflows/release-packwiz.yml` | Automacao de release client + server |
+| `.github/workflows/release-packwiz.yml` | Automação de release client + server |
 
-### Comandos uteis
+## Comandos Úteis
 
 Listar mods instalados:
 
@@ -102,18 +94,6 @@ Atualizar hashes depois de mudar arquivos do pack:
 
 ```sh
 packwiz refresh
-```
-
-Exportar pack normal:
-
-```sh
-packwiz curseforge export -s client -o banana-farm-client.zip
-```
-
-Exportar serverpack:
-
-```sh
-packwiz curseforge export -s server -o banana-farm-server.zip
 ```
 
 Adicionar mod do CurseForge:
@@ -128,7 +108,30 @@ Adicionar mod do Modrinth:
 packwiz modrinth add --project-id <project-id>
 ```
 
----
+Exportar pack normal:
+
+```sh
+packwiz curseforge export -s client -o banana-farm-client.zip
+```
+
+Exportar serverpack:
+
+```sh
+packwiz curseforge export -s server -o banana-farm-server.zip
+```
+
+## Cuidados ao Manter
+
+- **Não edite** `index.toml` manualmente; rode `packwiz refresh`.
+- **Não confie** no nome do arquivo `.pw.toml` para identificar um mod; leia `name`, `filename`, `project-id` ou `mod-id` dentro do TOML.
+
+## Fluxo de Trabalho
+
+1. Rode o comando `packwiz add`, `packwiz remove` ou edite o metafile necessário.
+2. Execute `packwiz refresh`.
+3. Confira `packwiz list`.
+4. Exporte localmente se quiser validar os zips.
+5. Faça push para `main` para gerar a release automática.
 
 ## Workflow de Release
 
@@ -136,54 +139,32 @@ O workflow `.github/workflows/release-packwiz.yml` executa em todo push para `ma
 
 Ele faz:
 
-1. Checkout do repositorio.
+1. Checkout do repositório.
 2. Instala o `packwiz` via Go.
-3. Le `name` e `version` do `pack.toml`.
+3. Lê `name` e `version` do `pack.toml`.
 4. Executa `packwiz refresh`.
 5. Exporta o pack client.
 6. Exporta o serverpack.
 7. Cria uma GitHub Release com os dois `.zip`.
 
-As tags sao geradas no formato:
+As tags são geradas no formato:
 
 ```text
-banana-farm-<versao>-build-<numero-do-run>
+banana-farm-<versão>-build-<número-do-run>
 ```
 
----
-
-## Cuidados ao Manter
-
-- Nao edite `index.toml` manualmente; rode `packwiz refresh`.
-- Nao confie no nome do arquivo `.pw.toml` para identificar um mod; leia `name`, `filename`, `project-id` ou `mod-id` dentro do TOML.
-
----
-
-## Requisitos para Manutencao
+## Requisitos
 
 | Ferramenta | Uso |
 | --- | --- |
-| `packwiz` | Gerenciar mods, atualizar indice e exportar packs |
+| `packwiz` | Gerenciar mods, atualizar índice e exportar packs |
 | Go | Instalar `packwiz` no workflow do GitHub Actions |
-| GitHub CLI (`gh`) | Criar releases no workflow do GitHub Actions |
-
----
-
-## Estrutura Recomendada de Alteracao
-
-Ao alterar mods ou metadados:
-
-1. Rode o comando `packwiz add`, `packwiz remove` ou edite o metafile necessario.
-2. Execute `packwiz refresh`.
-3. Confira `packwiz list`.
-4. Exporte localmente se quiser validar os zips.
-5. Faça push para `main` para gerar a release automatica.
 
 ---
 
 <div align="center">
 
-**Banana Farm**  
-Fazenda, decoracao, amigos e caos controlado em Forge 1.20.1.
+**Banana Farm**
+Fazenda, decoração, amigos e caos controlado em Forge 1.20.1.
 
 </div>
