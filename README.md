@@ -55,6 +55,15 @@ Vá na aba **Releases** do repositório e baixe os arquivos da release mais rece
 5. Selecione o `.zip` baixado.
 6. Aguarde o CurseForge resolver e baixar os mods.
 
+### Prism Launcher
+
+1. Baixe o arquivo `banana-farm-<versão>-client.zip` na release mais recente.
+2. Abra o Prism Launcher.
+3. Clique em **Add Instance**.
+4. Escolha **Import from zip**.
+5. Selecione o `.zip` baixado.
+6. Aguarde o Prism Launcher importar o pack e baixar os mods.
+
 ### Outros launchers
 
 Use o arquivo `client.zip` da release. O suporte de importação depende do launcher usado.
