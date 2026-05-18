@@ -31,6 +31,11 @@ hash = "8d0321177fed4a0b48554c40158b43db62f6cdaa768f584ef6a11575dfaa6223"
 metafile = true
 
 [[files]]
+file = "mods/aquaculture-delight.pw.toml"
+hash = "da06aae3c2a37a247a474578a2e86ed604a5c282c62c524b4abea6333c0254e8"
+metafile = true
+
+[[files]]
 file = "mods/aquaculture.pw.toml"
 hash = "04aae524d364de0ec8ac66db6eaff094b9c9b9d69e5de89f11acb2a00ce35261"
 metafile = true
@@ -63,6 +68,11 @@ metafile = true
 [[files]]
 file = "mods/beautify-decorate.pw.toml"
 hash = "18e6f7ed5bd54b7daf15e5ece630d5a52ee3aabc79482297bbfbaacfc3048d47"
+metafile = true
+
+[[files]]
+file = "mods/bellsandwhistles.pw.toml"
+hash = "126db1f1ec01bbc4cf3393e087363e2fdbfe4a3face897ed27985b14a1a519a9"
 metafile = true
 
 [[files]]
@@ -166,6 +176,11 @@ hash = "fbd9aa57290eab3802b187f1baa9939dee9db2676653d923e31061b8deef0645"
 metafile = true
 
 [[files]]
+file = "mods/create-connected.pw.toml"
+hash = "d08820071cff0e5c0ac5f18260384fb0f9850651b97d44e0c3f44c8611cf538a"
+metafile = true
+
+[[files]]
 file = "mods/create-pattern-schematics.pw.toml"
 hash = "b629e1961449382a5240354a78dd6c4167d65c4da01f1cb0ac3360a96ce3d429"
 metafile = true
@@ -182,7 +197,12 @@ metafile = true
 
 [[files]]
 file = "mods/create.pw.toml"
-hash = "9d7971a7af2ff4a96a0e5aede76f9cf8dc978da601e2754f79d6ec8631125bb9"
+hash = "fb5c251cf4997fa65ca043bab7c9ecbd02e108031584a3e26276b77d212de23c"
+metafile = true
+
+[[files]]
+file = "mods/createaddition.pw.toml"
+hash = "e6d1f36e9e0193fe410d136e0cda8a7f6dbbc809c0644f06a601bddf5b38a395"
 metafile = true
 
 [[files]]
@@ -341,8 +361,18 @@ hash = "ea05f8426dda347174d1690299c4517a489c6c17370a98fd812e9d06ce1dbcfd"
 metafile = true
 
 [[files]]
+file = "mods/fusion-connected-textures.pw.toml"
+hash = "e4bf02e4f4d64894c96ef07b68762f90c138bb202665bc6b377e000c715f2efd"
+metafile = true
+
+[[files]]
 file = "mods/geckolib.pw.toml"
 hash = "a1dba016bfd85fbabc5ff7c78f0302d3dd5b20026842231d6422947a7bb5f6f0"
+metafile = true
+
+[[files]]
+file = "mods/gliders.pw.toml"
+hash = "6d77ca16224ccb8e09232b19a323f9e1c84e51b573684102a1f1015787bcdf90"
 metafile = true
 
 [[files]]
@@ -398,6 +428,11 @@ metafile = true
 [[files]]
 file = "mods/kiwi.pw.toml"
 hash = "481cc9765a61653ef25e572f1c49dbe1f4279873c1a0e0f0c24fa742a88ef740"
+metafile = true
+
+[[files]]
+file = "mods/kotlin-for-forge.pw.toml"
+hash = "70a4ecd9d0c04ad20aeb976c1ee28933ce48a0a1f43df42deafaeb2ad7235297"
 metafile = true
 
 [[files]]
@@ -521,6 +556,16 @@ hash = "fcb27d111bee02677bd43a57680fda0b592487a492174dc3b07833cf5b2180b2"
 metafile = true
 
 [[files]]
+file = "mods/moogs-structure-lib.pw.toml"
+hash = "17e4dafb5a358e998d47db18a2d0b2d66360a835adf1b3cf06514398e99b3017"
+metafile = true
+
+[[files]]
+file = "mods/moogs-voyager-structures.pw.toml"
+hash = "c2d4e0f4c71992d795116e94eeba7bc93ff67f8a1a167912f6c5f7a2d6ff00fc"
+metafile = true
+
+[[files]]
 file = "mods/moonlight.pw.toml"
 hash = "a55da407afd55d84a18db1ed031ac1242b3becc74cea2c379e0d91e0cfd55052"
 metafile = true
@@ -606,6 +651,16 @@ hash = "c56bcec3ee959718dc87225ddc946de960a7f0c04509fdf6e1c8490853b56b24"
 metafile = true
 
 [[files]]
+file = "mods/rechiseled-create.pw.toml"
+hash = "24e203f4cadbbbda2d3641ff33e60e2de7f1ef8d8130b6a69e18cedd9f89ae89"
+metafile = true
+
+[[files]]
+file = "mods/rechiseled.pw.toml"
+hash = "448787832873344d236008284eb11d7ae87b1c46c732b6bda1ed6f3f77544dc5"
+metafile = true
+
+[[files]]
 file = "mods/refurbished-furniture.pw.toml"
 hash = "2bcee75d08b33dd6506b7cd3f67ea9d0d2c1bf14e26728fa8e12ef19c895b165"
 metafile = true
@@ -686,6 +741,11 @@ hash = "fae5a07f49f9c7ce873cca73d9d4508885d301c574e0ce5b2d7abad8e43102c5"
 metafile = true
 
 [[files]]
+file = "mods/slice-and-dice.pw.toml"
+hash = "f49c7302f7a044aae67740fac3a7558ca2f26b3a89a69a3940d516a40e3b75b7"
+metafile = true
+
+[[files]]
 file = "mods/small-ships.pw.toml"
 hash = "a291a8d50f30843e49d92db1cde7734327e809b52d24183eecff8c165eed82a6"
 metafile = true
@@ -733,6 +793,16 @@ metafile = true
 [[files]]
 file = "mods/stardew-fishing.pw.toml"
 hash = "3b58ab7677e1805437c4e86152ca595050b820bf1592838cab57cadf34f03133"
+metafile = true
+
+[[files]]
+file = "mods/supermartijn642s-config-lib.pw.toml"
+hash = "1cf9cb3955b075664ea4fba13b47fe7160975740a28864983aebd53d39c1946e"
+metafile = true
+
+[[files]]
+file = "mods/supermartijn642s-core-lib.pw.toml"
+hash = "fca95445829b86500535b2dfa956893f6d8fefa806b55c8147f33d108f81fb55"
 metafile = true
 
 [[files]]
