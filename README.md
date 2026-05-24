@@ -19,31 +19,16 @@ O pack mistura mods de agricultura, animais, decoração, performance, estrutura
 
 | Área | Exemplos no pack |
 | --- | --- |
-| Fazenda e comida | Farmer's Delight, Create Slice & Dice, Pam's HarvestCraft 2 - Trees, Veggies Delight, Vintage Delight, Aquaculture Delight, Quality Food |
-| Decoração | Handcrafted, Beautify, Fantasy's Furniture, Refurbished Furniture, Rechiseled, Macaw's Doors, Macaw's Windows, Macaw's Fences and Walls, Macaw's Trapdoors, Wallpapers |
-| Create e transporte | Create, Create: Bells & Whistles, Create: Connected, Create Crafts & Additions, Create: Steam 'n' Rails, Create Railways Navigator, Automobility, Via Romana, Simple Planes, Small Ships, AstikorCarts Redux, Gliders |
-| Animais e vida rural | Aquaculture 2, Alex's Mobs, Better Beekeeping, Buzzier Bees, Critters and Companions, Realistic Horse Genetics, Working Dogs |
-| Exploração e mundo | MVS - Moog's Voyager Structures, Towns and Towers, William Wythers' Overhauled Overworld, Nature's Compass, Distant Horizons, Simple Clouds |
-| Ferramentas e progressão | Tinkers' Construct, Construction Wand, Tom's Simple Storage Mod, Sophisticated Backpacks, Sophisticated Storage |
-| Qualidade de vida | Jade, JEI, AppleSkin, Mouse Tweaks, Carry On, Inventory Tweaks: ReFoxed, Polymorph |
-| Visual e imersão | Fresh Animations, Particular Reforged, Continuity, Fusion, Entity Model Features, Entity Texture Features |
-| Multiplayer | Simple Voice Chat, Simple Voice Radio, What Are They Up To, Skin Restorer |
-| Performance e estabilidade | ModernFix, FerriteCore, Embeddium, Radium Reforged, Connectivity, Packet Fixer, Saturn, spark |
-
-## Novidades da Versão 1.1.0
-
-Esta versão expande o pack com mais opções de Create, transporte, exploração, decoração, vida selvagem e qualidade de vida.
-
-| Área | Mods adicionados ou destacados |
-| --- | --- |
-| Create e automação | Create: Bells & Whistles, Create: Connected, Create Crafts & Additions, Create Slice & Dice, Rechiseled: Create |
-| Construção e decoração | Rechiseled, Macaw's Doors, Macaw's Windows, Macaw's Fences and Walls, Macaw's Trapdoors |
-| Exploração e mundo | MVS - Moog's Voyager Structures, Moog's Structure Lib, Nature's Compass, Distant Horizons, Simple Clouds |
-| Transporte e movimentação | Simple Planes, Small Ships, AstikorCarts Redux, Gliders |
-| Animais e conteúdo rural | Alex's Mobs, Aquaculture Delight |
-| Ferramentas e progressão | Tinkers' Construct |
-| Ferramentas e qualidade de vida | Inventory Tweaks: ReFoxed, Polymorph, Particular Reforged |
-| Compatibilidade e bibliotecas | Sinytra Connector, Forgified Fabric API, Mantle, Kotlin for Forge, Fusion, SuperMartijn642's Core Lib, SuperMartijn642's Config Lib |
+| Fazenda e comida | Farmer's Delight, Create Slice & Dice, Pam's HarvestCraft 2 - Trees, Veggies Delight, Vintage Delight, Aquaculture Delight, Crabber's Delight, Quality Food, FarmLife Remastered, Spice of Life Onion, Let's Do Bakery, Brewery, Farm & Charm, HerbalBrews, Meadow e Vinery |
+| Decoração | Handcrafted, Beautify, Fantasy's Furniture, Refurbished Furniture, Let's Do Furniture, Rechiseled, Rechiseled: Create, Macaw's Doors, Macaw's Windows, Macaw's Fences and Walls, Macaw's Trapdoors, Macaw's Bridges, Wallpapers, Accents, Chimes |
+| Create e transporte | Create, Create: Bells & Whistles, Create: Connected, Create Crafts & Additions, Create: Steam 'n' Rails, Create Railways Navigator, Create: Numismatics, Create: Pattern Schematics, Automobility, Little Tractor, Via Romana, Simple Planes, Small Ships, AstikorCarts Redux, Gliders |
+| Animais e vida rural | Aquaculture 2, Alex's Mobs, Better Beekeeping, Buzzier Bees, Critters and Companions, DragN's Livestock Overhaul, DragN's LO: Pets, Domestication Innovation Fixed, Adopt a Pet, Simply Cats, Working Dogs |
+| Exploração e mundo | MVS - Moog's Voyager Structures, Towns and Towers, William Wythers' Overhauled Overworld, Let's Do WilderNature, Serene Seasons, Antique Atlas 4, Nature's Compass, Better Clouds, Passable Foliage |
+| Ferramentas e progressão | Tinkers' Construct, Construction Wand, Effortless Structure, Tom's Simple Storage Mod, Functional Storage, Sophisticated Backpacks, Sophisticated Storage, Mob Lassos, Watering Cans [Dew Drop] |
+| Qualidade de vida | Jade, JEI, AppleSkin, Mouse Tweaks, Carry On, Crafting Tweaks, BetterF3, Comforts, Inventory Tweaks: ReFoxed, Polymorph, Gravestone Mod, Panda's Falling Trees |
+| Visual e imersão | Fresh Animations, Not Enough Animations, Sound Physics Remastered, Exposure, Particular Reforged, Continuity, Fusion, Entity Model Features, Entity Texture Features, Sodium/Embeddium Dynamic Lights |
+| Multiplayer | Simple Voice Chat, Simple Voice Radio, Simple Create Radios, What Are They Up To, Skin Restorer, squaremap, WATERFrAMES |
+| Performance e estabilidade | ModernFix, FerriteCore, Embeddium, ImmediatelyFast, Entity Culling, Radium Reforged, Connectivity, Packet Fixer, Saturn, AllTheLeaks, spark |
 
 ---
 
