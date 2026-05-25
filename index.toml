@@ -10,7 +10,7 @@ hash = "fb8a8c65ad784f278e822d9a1d661bb378ddf69fa508f2d078ef3ad93b98edcc"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
-hash = "fe466b90d862fa0f9d8fd9310b40ae0a111e1684060a6cd24b787806e3ebcf59"
+hash = "937c6d7e1ec3be2dec1c81545645eb6360a72ab3a840a89331891ead0e0ed6dd"
 
 [[files]]
 file = "config/defaultoptions/servers.dat"
@@ -122,6 +122,11 @@ hash = "8d80af49aa519553f4bee0585914d1058b53b207549735c979f8624a3a1829b1"
 metafile = true
 
 [[files]]
+file = "mods/brewin-and-chewin.pw.toml"
+hash = "dc45e2a3431d818f9bb2b7217a62e62ec8f455ca37b9f4f35947d2c442bad42b"
+metafile = true
+
+[[files]]
 file = "mods/buzzier-bees.pw.toml"
 hash = "6cb57650a207cc3b9c758f05fd59261187567fc5f5ee879ace7550cbe69b9f27"
 metafile = true
@@ -223,7 +228,7 @@ metafile = true
 
 [[files]]
 file = "mods/create.pw.toml"
-hash = "fb5c251cf4997fa65ca043bab7c9ecbd02e108031584a3e26276b77d212de23c"
+hash = "9d7971a7af2ff4a96a0e5aede76f9cf8dc978da601e2754f79d6ec8631125bb9"
 metafile = true
 
 [[files]]
@@ -344,6 +349,11 @@ metafile = true
 [[files]]
 file = "mods/farmers-delight.pw.toml"
 hash = "21ba13b128e773c2b603af4f9142975a6059affb5b2241c9db69943c3e7aabf6"
+metafile = true
+
+[[files]]
+file = "mods/farmers-respite.pw.toml"
+hash = "49431cb48a66b264c2cb7702c7bb80155d1a59a42d384348e30700ce0ebc1e4c"
 metafile = true
 
 [[files]]
@@ -607,6 +617,11 @@ hash = "e72f73611904e14d915418f0e3c6cb483cdc600e211375c2eceb393fec5b80f1"
 metafile = true
 
 [[files]]
+file = "mods/my-nethers-delight.pw.toml"
+hash = "a27715adab9f478c1bdf1789c1e51343bb2300e36f6ead52c4f62aeae595c791"
+metafile = true
+
+[[files]]
 file = "mods/natures-compass.pw.toml"
 hash = "8cad1023bbc6e5c13961de6248a88b91538f3ad315dfdbb40c969e25606d98eb"
 metafile = true
@@ -654,6 +669,16 @@ metafile = true
 [[files]]
 file = "mods/patchouli.pw.toml"
 hash = "b2cb681aaf3e6085148392a06d40899239dc299aaf5ce0adf168fc225d922c97"
+metafile = true
+
+[[files]]
+file = "mods/petrolpark-library.pw.toml"
+hash = "5d8dde6bb892cf91afdfe0e1748befb6bf1e642c19f6a3f735763329b9def0db"
+metafile = true
+
+[[files]]
+file = "mods/petrols-parts.pw.toml"
+hash = "f5e828787795697bdbff102333bdd756eadc181967c6f64460b292b0ca686952"
 metafile = true
 
 [[files]]
@@ -774,6 +799,11 @@ metafile = true
 [[files]]
 file = "mods/sodium-options-api.pw.toml"
 hash = "5240c62752415b5d66d4beffec4fe98c253eba8ebcbb2a5c1097fc3ad3de0b00"
+metafile = true
+
+[[files]]
+file = "mods/some-assembly-required.pw.toml"
+hash = "0e789ac4e45f15ff32aea16782cd839d3dec2aa192867a9e14db522356a671bf"
 metafile = true
 
 [[files]]
@@ -939,6 +969,11 @@ metafile = true
 [[files]]
 file = "mods/yacl.pw.toml"
 hash = "c08817fe8025a9d62c8f7abd5f56a54b90673e5ab60f39ae8fa1d70d5ace529b"
+metafile = true
+
+[[files]]
+file = "mods/youkais-homecoming.pw.toml"
+hash = "2b9fb4928201c81878a51e8bffd57a4ddecad20efe371da406b303c2d776776f"
 metafile = true
 
 [[files]]
