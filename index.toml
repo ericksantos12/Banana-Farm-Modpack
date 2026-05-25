@@ -213,7 +213,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-numismatics-crafting.pw.toml"
-hash = "ecf5c9b6aa0d43f9d7ffd79c9d5987b924e239635140cdd64ddff8b13c3c79df"
+hash = "a88ff0ca088fec54a2339579e4805e221a11b4f1f7243e1ea3be76a2831e03f1"
 metafile = true
 
 [[files]]
