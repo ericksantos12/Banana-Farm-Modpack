@@ -19,15 +19,15 @@ O pack mistura mods de agricultura, animais, decoração, performance, estrutura
 
 | Área | Exemplos no pack |
 | --- | --- |
-| Fazenda e comida | Farmer's Delight, Create Slice & Dice, Pam's HarvestCraft 2 - Trees, Veggies Delight, Vintage Delight, Aquaculture Delight, Crabber's Delight, Quality Food, FarmLife Remastered, Spice of Life Onion, Let's Do Bakery, Brewery, Farm & Charm, HerbalBrews, Meadow e Vinery |
+| Fazenda e comida | Farmer's Delight, Create Slice & Dice, Pam's HarvestCraft 2 - Trees, Veggies Delight, Vintage Delight, Aquaculture Delight, Crabber's Delight, My Nether's Delight, Gensokyo Delight, Quality Food, FarmLife Remastered, Spice of Life Onion, Farmer's Respite, Brewin' And Chewin', Let's Do Bakery, Brewery, Farm & Charm, HerbalBrews, Meadow e Vinery |
 | Decoração | Handcrafted, Beautify, Fantasy's Furniture, Refurbished Furniture, Let's Do Furniture, Rechiseled, Rechiseled: Create, Macaw's Doors, Macaw's Windows, Macaw's Fences and Walls, Macaw's Trapdoors, Macaw's Bridges, Wallpapers, Accents, Chimes |
-| Create e transporte | Create, Create: Bells & Whistles, Create: Connected, Create Crafts & Additions, Create: Steam 'n' Rails, Create Railways Navigator, Create: Numismatics, Create: Pattern Schematics, Automobility, Little Tractor, Via Romana, Simple Planes, Small Ships, AstikorCarts Redux, Gliders |
+| Create e transporte | Create, Create: Bells & Whistles, Create: Connected, Create Crafts & Additions, Create: Steam 'n' Rails, Create Railways Navigator, Create: Numismatics, Create: Pattern Schematics, Create: Some Assembly Required, Petrol's Parts, Automobility, Little Tractor, Via Romana, Simple Planes, Small Ships, AstikorCarts Redux, Gliders |
 | Animais e vida rural | Aquaculture 2, Alex's Mobs, Better Beekeeping, Buzzier Bees, Critters and Companions, DragN's Livestock Overhaul, DragN's LO: Pets, Domestication Innovation Fixed, Adopt a Pet, Simply Cats, Working Dogs |
 | Exploração e mundo | MVS - Moog's Voyager Structures, Towns and Towers, William Wythers' Overhauled Overworld, Let's Do WilderNature, Serene Seasons, Antique Atlas 4, Nature's Compass, Better Clouds, Passable Foliage |
 | Ferramentas e progressão | Tinkers' Construct, Construction Wand, Effortless Structure, Tom's Simple Storage Mod, Functional Storage, Sophisticated Backpacks, Sophisticated Storage, Mob Lassos, Watering Cans [Dew Drop] |
 | Qualidade de vida | Jade, JEI, AppleSkin, Mouse Tweaks, Carry On, Crafting Tweaks, BetterF3, Comforts, Inventory Tweaks: ReFoxed, Polymorph, Gravestone Mod, Panda's Falling Trees |
 | Visual e imersão | Fresh Animations, Not Enough Animations, Sound Physics Remastered, Exposure, Particular Reforged, Continuity, Fusion, Entity Model Features, Entity Texture Features, Sodium/Embeddium Dynamic Lights |
-| Multiplayer | Simple Voice Chat, Simple Voice Radio, Simple Create Radios, What Are They Up To, Skin Restorer, squaremap, WATERFrAMES |
+| Multiplayer | Simple Voice Chat, Simple Voice Radio, Simple Create Radios, What Are They Up To, Skin Restorer, squaremap, WATERFrAMES, WATERViSION |
 | Performance e estabilidade | ModernFix, FerriteCore, Embeddium, ImmediatelyFast, Entity Culling, Radium Reforged, Connectivity, Packet Fixer, Saturn, AllTheLeaks, spark |
 
 ---
