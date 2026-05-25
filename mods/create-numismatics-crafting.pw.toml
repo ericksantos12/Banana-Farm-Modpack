@@ -1,6 +1,6 @@
 name = "Create: Numismatics Crafting"
 filename = "create_numismatics_crafts-1.0.0-forge-1.20.1.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/RMzXi4oD/versions/zQ7u7tnT/create_numismatics_crafts-1.0.0-forge-1.20.1.jar"
