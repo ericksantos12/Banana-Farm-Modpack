@@ -212,6 +212,16 @@ hash = "d08820071cff0e5c0ac5f18260384fb0f9850651b97d44e0c3f44c8611cf538a"
 metafile = true
 
 [[files]]
+file = "mods/create-numismatics-crafting.pw.toml"
+hash = "ecf5c9b6aa0d43f9d7ffd79c9d5987b924e239635140cdd64ddff8b13c3c79df"
+metafile = true
+
+[[files]]
+file = "mods/create-numismatics-utils.pw.toml"
+hash = "277c6d75228047e0a77f52e30b62d54f4612c1fc1c9fb4bbdf5eecfbcc2f64a4"
+metafile = true
+
+[[files]]
 file = "mods/create-pattern-schematics.pw.toml"
 hash = "b629e1961449382a5240354a78dd6c4167d65c4da01f1cb0ac3360a96ce3d429"
 metafile = true
@@ -633,7 +643,7 @@ metafile = true
 
 [[files]]
 file = "mods/numismatics.pw.toml"
-hash = "5f36a03fb4cf32373ed78ee4813bea0376eb62bf287ffb640375f1c9b5795949"
+hash = "63504f8d1db513fa1a78c214d824be5a9ddba732850a461cae0bb1029b8462b7"
 metafile = true
 
 [[files]]
