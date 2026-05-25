@@ -228,7 +228,7 @@ metafile = true
 
 [[files]]
 file = "mods/create.pw.toml"
-hash = "9d7971a7af2ff4a96a0e5aede76f9cf8dc978da601e2754f79d6ec8631125bb9"
+hash = "fb5c251cf4997fa65ca043bab7c9ecbd02e108031584a3e26276b77d212de23c"
 metafile = true
 
 [[files]]
@@ -677,8 +677,13 @@ hash = "5d8dde6bb892cf91afdfe0e1748befb6bf1e642c19f6a3f735763329b9def0db"
 metafile = true
 
 [[files]]
+file = "mods/petrolpark.pw.toml"
+hash = "a7c06861753883eaf0d3328b49a99f38460229c9025326d5d6b96c228bd07b5d"
+metafile = true
+
+[[files]]
 file = "mods/petrols-parts.pw.toml"
-hash = "f5e828787795697bdbff102333bdd756eadc181967c6f64460b292b0ca686952"
+hash = "ee7905fd6574b870ba30073402da121d40ee4ea3b90967480605f2d38d7a1dc6"
 metafile = true
 
 [[files]]
