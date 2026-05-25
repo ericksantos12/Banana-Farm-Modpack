@@ -41,7 +41,7 @@ graphicsMode:1
 ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
-renderClouds:"false"
+renderClouds:"true"
 resourcePacks:["vanilla","mod_resources","Moonlight Mods Dynamic Assets","fabric","generated/fragmentum_layer","file/CreateSophStorage.zip","file/Farmer GUI 1.20.1 [1.7.8].zip","file/Tom\u0027s and Create Smashed.zip","file/Simple Create Radios V2.01.zip","file/JadeStardewValleyTheme.zip","file/Simply Cats 16x.zip","file/5.2 Adopt a Pet!.zip","file/CreateSophBackpacks.zip"]
 incompatibleResourcePacks:["file/CreateSophStorage.zip","file/Tom\u0027s and Create Smashed.zip","file/CreateSophBackpacks.zip"]
 lastServer:
