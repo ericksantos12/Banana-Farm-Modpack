@@ -225,14 +225,11 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          count="$(gh pr list --head dev --base main --state open --json number --jq 'length')"
-          echo "count=$count" >> "$GITHUB_OUTPUT"
+          number="$(gh pr list --head dev --base main --state open --json number --jq '.[0].number // empty')"
+          echo "number=$number" >> "$GITHUB_OUTPUT"
 
-      - name: Create release PR
-        if: steps.existing_pr.outputs.count == '0'
+      - name: Write PR body
         shell: bash
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           cat > pr-body.md <<'EOF'
           **This is an automated Pull Request from the dev branch.**
@@ -246,10 +243,26 @@ jobs:
           ${{ needs.info.outputs.changelog }}
           EOF
 
+      - name: Create release PR
+        if: steps.existing_pr.outputs.number == ''
+        shell: bash
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
           gh pr create \
             --base main \
             --head dev \
             --draft \
+            --title "Release: ${{ needs.info.outputs.project_version }}" \
+            --body-file pr-body.md
+
+      - name: Update release PR
+        if: steps.existing_pr.outputs.number != ''
+        shell: bash
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh pr edit "${{ steps.existing_pr.outputs.number }}" \
             --title "Release: ${{ needs.info.outputs.project_version }}" \
             --body-file pr-body.md
 
