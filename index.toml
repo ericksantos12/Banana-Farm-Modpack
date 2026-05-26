@@ -882,6 +882,11 @@ hash = "fb69c986964628b74a5287f8128f17d1f1fb4aef9c18e610cbb389bfe6dddb47"
 metafile = true
 
 [[files]]
+file = "mods/tconjei.pw.toml"
+hash = "ed05a65253c5ea88c0530aa0411477680570bac2d581e30f96173f81fcc36c8d"
+metafile = true
+
+[[files]]
 file = "mods/tinkers-construct.pw.toml"
 hash = "d976517d4d8951e9ee57ecdcdcb79a6c390614d595624b68287d945c2dcf9614"
 metafile = true
@@ -1029,6 +1034,11 @@ metafile = true
 [[files]]
 file = "resourcepacks/simply-cats-16x-textures.pw.toml"
 hash = "8d3c105a8242a7bc8c14a22a73a2a5baff9d60985a3630c12515830dc4fc7791"
+metafile = true
+
+[[files]]
+file = "resourcepacks/slightly-improved-font.pw.toml"
+hash = "1500696334c198418def3441b2a5764156c1b68d7de1882d345f61d842dc3d25"
 metafile = true
 
 [[files]]
