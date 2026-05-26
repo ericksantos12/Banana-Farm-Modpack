@@ -54,6 +54,8 @@ jobs:
       - name: Read pack metadata
         id: meta
         shell: bash
+        env:
+          PACK_RELEASE_TYPE: ${{ vars.RELEASE_TYPE }}
         run: |
           PACK_NAME="$(grep '^name = ' pack.toml | sed 's/name = "\(.*\)"/\1/')"
           PACK_VERSION="$(grep '^version = ' pack.toml | sed 's/version = "\(.*\)"/\1/')"
@@ -62,14 +64,23 @@ jobs:
           SAFE_NAME="$(echo "$PACK_NAME" | tr '[:upper:] ' '[:lower:]-' | tr -cd 'a-z0-9._-')"
           PROJECT_FILE_NAME="$SAFE_NAME-$PACK_VERSION"
           TAG="$SAFE_NAME-$PACK_VERSION-build-$GITHUB_RUN_NUMBER"
+          RELEASE_TYPE="${PACK_RELEASE_TYPE:-release}"
+
+          case "$RELEASE_TYPE" in
+            release|beta|alpha)
+              ;;
+            *)
+              echo "Invalid RELEASE_TYPE: $RELEASE_TYPE"
+              echo "Use one of: release, beta, alpha"
+              exit 1
+              ;;
+          esac
 
           if [[ "$GITHUB_REF_NAME" == "main" ]]; then
-            RELEASE_TYPE="release"
             PRERELEASE="false"
             MAKE_PR="false"
             MAKE_RELEASE="true"
           else
-            RELEASE_TYPE="beta"
             PRERELEASE="true"
             MAKE_PR="true"
             MAKE_RELEASE="false"
