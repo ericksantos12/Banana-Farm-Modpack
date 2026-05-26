@@ -167,6 +167,11 @@ hash = "58bf97ca61f74ea9a540f6e6090aef631155748c49b83a7a338b34d8dece9109"
 metafile = true
 
 [[files]]
+file = "mods/configured.pw.toml"
+hash = "8165f9f7f66ffe4fa7b92ef8f8564cd10f93ec2cf07d6931c442cf91333a1ca3"
+metafile = true
+
+[[files]]
 file = "mods/connectivity.pw.toml"
 hash = "5b0eaf19630d6145093ae6ff9a21cf2dbdd0da53d9289673ad5ccb099afa18b7"
 metafile = true
@@ -204,6 +209,11 @@ metafile = true
 [[files]]
 file = "mods/crafting-tweaks.pw.toml"
 hash = "fbd9aa57290eab3802b187f1baa9939dee9db2676653d923e31061b8deef0645"
+metafile = true
+
+[[files]]
+file = "mods/craftpresence.pw.toml"
+hash = "eb40c9df6e5f9ce3a75b3a7c7f989ac9834aa44763538bfa10556041cc616ee8"
 metafile = true
 
 [[files]]
@@ -904,6 +914,11 @@ metafile = true
 [[files]]
 file = "mods/towns-and-towers.pw.toml"
 hash = "00a0cba74675174812eea16aca533adfe9bac7b30a81a7e33dd81bd9343b45c4"
+metafile = true
+
+[[files]]
+file = "mods/unilib.pw.toml"
+hash = "47141ba25459964fd3247753cc60cd3946aace714f359e26bb36facc10655ee3"
 metafile = true
 
 [[files]]
