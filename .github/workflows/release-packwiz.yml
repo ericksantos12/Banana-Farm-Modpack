@@ -36,6 +36,7 @@ jobs:
       prerelease: ${{ steps.meta.outputs.prerelease }}
       changelog: ${{ steps.changelog.outputs.body }}
       make_pr: ${{ steps.meta.outputs.make_pr }}
+      make_release: ${{ steps.meta.outputs.make_release }}
       webhook_present: ${{ steps.webhook.outputs.present }}
       send_discord: ${{ steps.webhook.outputs.send_discord }}
     steps:
@@ -66,10 +67,12 @@ jobs:
             RELEASE_TYPE="release"
             PRERELEASE="false"
             MAKE_PR="false"
+            MAKE_RELEASE="true"
           else
             RELEASE_TYPE="beta"
             PRERELEASE="true"
             MAKE_PR="true"
+            MAKE_RELEASE="false"
           fi
 
           echo "project_name=$PACK_NAME" >> "$GITHUB_OUTPUT"
@@ -84,6 +87,7 @@ jobs:
           echo "release_type=$RELEASE_TYPE" >> "$GITHUB_OUTPUT"
           echo "prerelease=$PRERELEASE" >> "$GITHUB_OUTPUT"
           echo "make_pr=$MAKE_PR" >> "$GITHUB_OUTPUT"
+          echo "make_release=$MAKE_RELEASE" >> "$GITHUB_OUTPUT"
 
       - name: Generate packwiz mod changelog
         id: changelog
@@ -253,6 +257,7 @@ jobs:
     name: Build Project
     needs: [info]
     runs-on: ubuntu-latest
+    if: needs.info.outputs.make_release == 'true'
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -316,6 +321,7 @@ jobs:
     name: Release to GitHub
     needs: [info, build-project]
     runs-on: ubuntu-latest
+    if: needs.info.outputs.make_release == 'true'
     outputs:
       url: ${{ steps.release.outputs.url }}
     steps:
