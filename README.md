@@ -7,7 +7,7 @@
 ![Minecraft](https://img.shields.io/badge/Minecraft-1.20.1-62B47A?style=for-the-badge)
 ![Forge](https://img.shields.io/badge/Forge-47.4.20-F16436?style=for-the-badge)
 ![Packwiz](https://img.shields.io/badge/Packwiz-1.1.0-3D6FB6?style=for-the-badge)
-![Release](https://img.shields.io/badge/Releases-client%20%2B%20server-8A2BE2?style=for-the-badge)
+[![Release](https://img.shields.io/badge/Releases-client%20%2B%20server-8A2BE2?style=for-the-badge)](https://github.com/ericksantos12/Banana-Farm-Modpack/releases)
 
 </div>
 
@@ -38,12 +38,12 @@ Esta seção é para quem quer baixar e jogar o Banana Farm.
 
 ## Downloads
 
-Vá na aba **Releases** do repositório e baixe os arquivos da release mais recente.
+Vá na aba [**Releases**](https://github.com/ericksantos12/Banana-Farm-Modpack/releases) do repositório e baixe os arquivos da release mais recente.
 
 | Arquivo | Uso |
 | --- | --- |
-| `banana-farm-<versão>-client.zip` | Pack para jogar no launcher |
-| `banana-farm-<versão>-server.zip` | Pack para hospedar servidor |
+| `banana-farm-<versão>-curseforge.zip` | Pack para jogar no launcher |
+| `banana-farm-<versão>-serverpack.zip` | Pack para hospedar servidor |
 
 > **Não use** o `Source code.zip` do GitHub como modpack jogável.
 
@@ -51,7 +51,7 @@ Vá na aba **Releases** do repositório e baixe os arquivos da release mais rece
 
 ### CurseForge App
 
-1. Baixe o arquivo `banana-farm-<versão>-client.zip` na release mais recente.
+1. Baixe o arquivo `banana-farm-<versão>-curseforge.zip` na release mais recente.
 2. Abra o CurseForge App.
 3. Vá em Minecraft.
 4. Escolha importar perfil/modpack.
@@ -60,7 +60,7 @@ Vá na aba **Releases** do repositório e baixe os arquivos da release mais rece
 
 ### Prism Launcher
 
-1. Baixe o arquivo `banana-farm-<versão>-client.zip` na release mais recente.
+1. Baixe o arquivo `banana-farm-<versão>-curseforge.zip` na release mais recente.
 2. Abra o Prism Launcher.
 3. Clique em **Add Instance**.
 4. Escolha **Import from zip**.
@@ -69,11 +69,11 @@ Vá na aba **Releases** do repositório e baixe os arquivos da release mais rece
 
 ### Outros launchers
 
-Use o arquivo `client.zip` da release. O suporte de importação depende do launcher usado.
+Use o arquivo `.zip` da release. O suporte de importação depende do launcher usado.
 
 ## Instalação do Servidor
 
-1. Baixe o arquivo `banana-farm-<versão>-server.zip` na release mais recente.
+1. Baixe o arquivo `banana-farm-<versão>-serverpack.zip` na release mais recente.
 2. Extraia o conteúdo em uma pasta limpa do servidor.
 3. Instale Java compatível com Minecraft `1.20.1`.
 4. Siga o processo normal do Forge server para aceitar `eula.txt` e iniciar o servidor.
