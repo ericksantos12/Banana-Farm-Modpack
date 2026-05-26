@@ -870,11 +870,6 @@ hash = "f351a7387dd3096811b0cfffba8abd05f6cf955ca7cadc10d70bff39aa66558d"
 metafile = true
 
 [[files]]
-file = "mods/squaremap.pw.toml"
-hash = "5c78dbb88adfa00cec3fe9ebc557fa2ae88457417b32ccffc8ef9c3353405226"
-metafile = true
-
-[[files]]
 file = "mods/stardew-fishing.pw.toml"
 hash = "3b58ab7677e1805437c4e86152ca595050b820bf1592838cab57cadf34f03133"
 metafile = true
