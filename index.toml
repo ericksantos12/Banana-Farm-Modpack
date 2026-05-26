@@ -5,6 +5,10 @@ file = "config/betterf3.toml"
 hash = "270993c0b0210fa1c208b7106dd2791571372f5eeec67740c477f1904f0033a3"
 
 [[files]]
+file = "config/craftpresence.json"
+hash = "ef7dbaaee5bf3e9cbe6e1312d3642b49d48eb29795ed21e57d8088ded3b32a95"
+
+[[files]]
 file = "config/defaultoptions/keybindings.txt"
 hash = "fb8a8c65ad784f278e822d9a1d661bb378ddf69fa508f2d078ef3ad93b98edcc"
 
@@ -15,6 +19,10 @@ hash = "937c6d7e1ec3be2dec1c81545645eb6360a72ab3a840a89331891ead0e0ed6dd"
 [[files]]
 file = "config/defaultoptions/servers.dat"
 hash = "9c2751a68591f210669182d12f0cb4debb0ca75fb678746d76f5da035473f86f"
+
+[[files]]
+file = "config/livestock-overhaul-common.toml"
+hash = "48e72d9a1269b27c576ad5f4dff06737bdc92632d323e5a1555203ea334a0f50"
 
 [[files]]
 file = "mods/accents.pw.toml"
@@ -167,6 +175,11 @@ hash = "58bf97ca61f74ea9a540f6e6090aef631155748c49b83a7a338b34d8dece9109"
 metafile = true
 
 [[files]]
+file = "mods/configured.pw.toml"
+hash = "8165f9f7f66ffe4fa7b92ef8f8564cd10f93ec2cf07d6931c442cf91333a1ca3"
+metafile = true
+
+[[files]]
 file = "mods/connectivity.pw.toml"
 hash = "5b0eaf19630d6145093ae6ff9a21cf2dbdd0da53d9289673ad5ccb099afa18b7"
 metafile = true
@@ -204,6 +217,11 @@ metafile = true
 [[files]]
 file = "mods/crafting-tweaks.pw.toml"
 hash = "fbd9aa57290eab3802b187f1baa9939dee9db2676653d923e31061b8deef0645"
+metafile = true
+
+[[files]]
+file = "mods/craftpresence.pw.toml"
+hash = "eb40c9df6e5f9ce3a75b3a7c7f989ac9834aa44763538bfa10556041cc616ee8"
 metafile = true
 
 [[files]]
@@ -852,11 +870,6 @@ hash = "f351a7387dd3096811b0cfffba8abd05f6cf955ca7cadc10d70bff39aa66558d"
 metafile = true
 
 [[files]]
-file = "mods/squaremap.pw.toml"
-hash = "5c78dbb88adfa00cec3fe9ebc557fa2ae88457417b32ccffc8ef9c3353405226"
-metafile = true
-
-[[files]]
 file = "mods/stardew-fishing.pw.toml"
 hash = "3b58ab7677e1805437c4e86152ca595050b820bf1592838cab57cadf34f03133"
 metafile = true
@@ -882,6 +895,11 @@ hash = "fb69c986964628b74a5287f8128f17d1f1fb4aef9c18e610cbb389bfe6dddb47"
 metafile = true
 
 [[files]]
+file = "mods/tconjei.pw.toml"
+hash = "ed05a65253c5ea88c0530aa0411477680570bac2d581e30f96173f81fcc36c8d"
+metafile = true
+
+[[files]]
 file = "mods/tinkers-construct.pw.toml"
 hash = "d976517d4d8951e9ee57ecdcdcb79a6c390614d595624b68287d945c2dcf9614"
 metafile = true
@@ -899,6 +917,11 @@ metafile = true
 [[files]]
 file = "mods/towns-and-towers.pw.toml"
 hash = "00a0cba74675174812eea16aca533adfe9bac7b30a81a7e33dd81bd9343b45c4"
+metafile = true
+
+[[files]]
+file = "mods/unilib.pw.toml"
+hash = "47141ba25459964fd3247753cc60cd3946aace714f359e26bb36facc10655ee3"
 metafile = true
 
 [[files]]
@@ -1029,6 +1052,11 @@ metafile = true
 [[files]]
 file = "resourcepacks/simply-cats-16x-textures.pw.toml"
 hash = "8d3c105a8242a7bc8c14a22a73a2a5baff9d60985a3630c12515830dc4fc7791"
+metafile = true
+
+[[files]]
+file = "resourcepacks/slightly-improved-font.pw.toml"
+hash = "1500696334c198418def3441b2a5764156c1b68d7de1882d345f61d842dc3d25"
 metafile = true
 
 [[files]]
