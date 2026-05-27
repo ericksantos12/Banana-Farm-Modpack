@@ -63,7 +63,7 @@ jobs:
           LOADER_VERSION="$(grep '^forge = ' pack.toml | sed 's/forge = "\(.*\)"/\1/')"
           SAFE_NAME="$(echo "$PACK_NAME" | tr '[:upper:] ' '[:lower:]-' | tr -cd 'a-z0-9._-')"
           PROJECT_FILE_NAME="$SAFE_NAME-$PACK_VERSION"
-          TAG="$SAFE_NAME-$PACK_VERSION-build-$GITHUB_RUN_NUMBER"
+          TAG="$PACK_VERSION"
           RELEASE_TYPE="${PACK_RELEASE_TYPE:-release}"
 
           case "$RELEASE_TYPE" in
@@ -84,6 +84,11 @@ jobs:
             PRERELEASE="true"
             MAKE_PR="true"
             MAKE_RELEASE="false"
+          fi
+
+          if [[ "$MAKE_RELEASE" == "true" ]] && git rev-parse "$TAG" >/dev/null 2>&1; then
+            echo "Tag $TAG already exists. Bump pack.toml version before releasing."
+            exit 1
           fi
 
           echo "project_name=$PACK_NAME" >> "$GITHUB_OUTPUT"
