@@ -200,6 +200,11 @@ hash = "8cea6a7ec6b151f92a3a62261530bb1aefe173ad19840c0319aa10e0d8ab2386"
 metafile = true
 
 [[files]]
+file = "mods/cool-rain-reforged.pw.toml"
+hash = "7b0347cd13db646a253d7b50dc5a29f565661b0726da729d26963b928caf714c"
+metafile = true
+
+[[files]]
 file = "mods/coroutil.pw.toml"
 hash = "9f2bb57e05bad305f03c25c275c6d11e952835a41b2da68dba10a0bd1f3f6261"
 metafile = true
