@@ -955,6 +955,11 @@ hash = "50849065002ee424c74bf52a50e152a7bd269dae665a09d2581f86f55b1ae528"
 metafile = true
 
 [[files]]
+file = "mods/wakes-reforged.pw.toml"
+hash = "49ca9dc97f935dab04d4bc7dfb809e10887c756fe1b7af1fdc14379920afce60"
+metafile = true
+
+[[files]]
 file = "mods/wallpapers.pw.toml"
 hash = "9293df9eed20b6ba2d219b0131adc95ca6c05411913dc249dd5e9b385aef6906"
 metafile = true
