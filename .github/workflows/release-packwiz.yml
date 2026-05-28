@@ -21,9 +21,13 @@ jobs:
       release_type: ${{ vars.RELEASE_TYPE }}
       fail_if_tag_exists: true
 
+  lint:
+    name: Lint
+    uses: ./.github/workflows/lint.yml
+
   build-project:
     name: Build Project
-    needs: [info]
+    needs: [info, lint]
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository

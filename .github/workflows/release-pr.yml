@@ -22,9 +22,13 @@ jobs:
       release_type: ${{ vars.RELEASE_TYPE }}
       fail_if_tag_exists: false
 
+  lint:
+    name: Lint
+    uses: ./.github/workflows/lint.yml
+
   create-pr:
     name: Create Release PR
-    needs: [info]
+    needs: [info, lint]
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
