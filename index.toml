@@ -115,6 +115,11 @@ hash = "cf702349b89066726963844ff123a21f7a56c7201dde09cdcffa84da62d41e0d"
 metafile = true
 
 [[files]]
+file = "mods/bluemap.pw.toml"
+hash = "c95753b5a5db1ee56db105798b4c3f25e8db05854743c2ecab76785a52bbe84d"
+metafile = true
+
+[[files]]
 file = "mods/blueprint.pw.toml"
 hash = "81926d253de0a8ff9520fb51a5b34394a020cd56c2a063e71ce4187d9b33e891"
 metafile = true
@@ -201,7 +206,7 @@ metafile = true
 
 [[files]]
 file = "mods/cool-rain-reforged.pw.toml"
-hash = "7b0347cd13db646a253d7b50dc5a29f565661b0726da729d26963b928caf714c"
+hash = "6444b29c0f16a5a8e35db9b98f8ff28a35cd042308b31e21017239233b7fed1b"
 metafile = true
 
 [[files]]
@@ -615,6 +620,11 @@ hash = "4060d5afd849f988fab9dd602998144180149f547f6f5052ab7f12538f84d49c"
 metafile = true
 
 [[files]]
+file = "mods/measurements.pw.toml"
+hash = "2e1da3fbab6e68ef8b09f0b360bed59c2dbb86b2c8427b8d929f30078b47e771"
+metafile = true
+
+[[files]]
 file = "mods/midnightlib.pw.toml"
 hash = "893b3e91c2165e5b3d7950ad543d6898bd3d50b7bfa411352ab0c60447c9e8e3"
 metafile = true
@@ -961,7 +971,7 @@ metafile = true
 
 [[files]]
 file = "mods/wakes-reforged.pw.toml"
-hash = "49ca9dc97f935dab04d4bc7dfb809e10887c756fe1b7af1fdc14379920afce60"
+hash = "8fa15a1af69402b3c91346ec795d77eccdf51d17740c098df78a755ab3141510"
 metafile = true
 
 [[files]]
