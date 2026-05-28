@@ -277,6 +277,11 @@ hash = "c3af28b2f1c49476b026443f36bcbde377443381af551b31a0bf65097795bacd"
 metafile = true
 
 [[files]]
+file = "mods/chunk-sending-forge-fabric.pw.toml"
+hash = "4ab858babfd5ef7474b4e78c93b1819a78eef5b92ca30349f16aaa82f883fc55"
+metafile = true
+
+[[files]]
 file = "mods/chunky.pw.toml"
 hash = "0e17f9758f6f67ef87aa6f8d5afc47901521a05904cd8470ef65063b48e69d73"
 metafile = true
@@ -482,6 +487,11 @@ hash = "a4e4e7f3521a41282b4b8032127305d86cbf20c26e53f6362a8eff5f93e7e0c7"
 metafile = true
 
 [[files]]
+file = "mods/dynamic-view.pw.toml"
+hash = "18783d9086008a42af3ceb78864d066d39721070965699ac29d2ed0a7cfbf576"
+metafile = true
+
+[[files]]
 file = "mods/dynamiclights-reforged.pw.toml"
 hash = "8f2270a50a633db681826cbfb691e6efdb25e1e0c4702125c13d525b52fe229f"
 metafile = true
@@ -562,6 +572,11 @@ hash = "932ddad36de5cc064fd285cff392872050de95e262029d336e99f44e0ce01d97"
 metafile = true
 
 [[files]]
+file = "mods/fastload.pw.toml"
+hash = "b4fc21a94115c0044b9c7bf79b5b5eddef5034361039a1cbc1af4afc47662f46"
+metafile = true
+
+[[files]]
 file = "mods/fastsuite.pw.toml"
 hash = "75dc68e45d7c68af849412a7813d2c87da6b35c5f6205da71fafb6bb249c9f3e"
 metafile = true
@@ -574,6 +589,11 @@ metafile = true
 [[files]]
 file = "mods/ferritecore.pw.toml"
 hash = "5bd0506bc0be25116b234f2b5af9447f60d82ae1cb6c5be4e12d8841f6c2501c"
+metafile = true
+
+[[files]]
+file = "mods/fix-gpu-memory-leak.pw.toml"
+hash = "e60a8e1a8559394229fbd54e3e386709f10d3a693f0d470b3708da08736efaae"
 metafile = true
 
 [[files]]
@@ -809,6 +829,11 @@ metafile = true
 [[files]]
 file = "mods/melody.pw.toml"
 hash = "c9f8bce06b85e4dbfdaecc7d0930bf7f4fabccc7967f867b7eb7acb8dd5b77a7"
+metafile = true
+
+[[files]]
+file = "mods/memoryleakfix.pw.toml"
+hash = "ade41e4315735aa9116a0222b332e03d3f8df6eea301764d40d0bdc40f5e8689"
 metafile = true
 
 [[files]]
@@ -1049,6 +1074,11 @@ metafile = true
 [[files]]
 file = "mods/small-ships.pw.toml"
 hash = "a291a8d50f30843e49d92db1cde7734327e809b52d24183eecff8c165eed82a6"
+metafile = true
+
+[[files]]
+file = "mods/smooth-chunk-save.pw.toml"
+hash = "a061b4f98461fc38b4ff6495b5e3a9b8708e9d87333c2cbb29e6b265053a5abe"
 metafile = true
 
 [[files]]
