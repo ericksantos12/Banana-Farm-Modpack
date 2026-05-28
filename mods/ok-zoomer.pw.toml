@@ -1,0 +1,13 @@
+name = "Ok Zoomer - It's Zoom!"
+filename = "ok_zoomer-forge-5.4.0-beta.9.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "68578eb7a2bb2f7c1eba041d67e558ebe5e63414"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7682985
+project-id = 354047
