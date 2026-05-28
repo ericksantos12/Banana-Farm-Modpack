@@ -1,0 +1,209 @@
+name: Packwiz Info
+
+on:
+  workflow_call:
+    inputs:
+      release_type:
+        description: Release type for release notes and external platforms
+        required: false
+        type: string
+        default: release
+      fail_if_tag_exists:
+        description: Fail when the version tag already exists
+        required: false
+        type: boolean
+        default: false
+    outputs:
+      project_name:
+        value: ${{ jobs.info.outputs.project_name }}
+      project_version:
+        value: ${{ jobs.info.outputs.project_version }}
+      project_file_name:
+        value: ${{ jobs.info.outputs.project_file_name }}
+      project_full_name:
+        value: ${{ jobs.info.outputs.project_full_name }}
+      safe_name:
+        value: ${{ jobs.info.outputs.safe_name }}
+      tag:
+        value: ${{ jobs.info.outputs.tag }}
+      minecraft_version:
+        value: ${{ jobs.info.outputs.minecraft_version }}
+      loader_version:
+        value: ${{ jobs.info.outputs.loader_version }}
+      loader_type:
+        value: ${{ jobs.info.outputs.loader_type }}
+      release_type:
+        value: ${{ jobs.info.outputs.release_type }}
+      changelog:
+        value: ${{ jobs.info.outputs.changelog }}
+
+jobs:
+  info:
+    name: Pack Info
+    runs-on: ubuntu-latest
+    outputs:
+      project_name: ${{ steps.meta.outputs.project_name }}
+      project_version: ${{ steps.meta.outputs.project_version }}
+      project_file_name: ${{ steps.meta.outputs.project_file_name }}
+      project_full_name: ${{ steps.meta.outputs.project_full_name }}
+      safe_name: ${{ steps.meta.outputs.safe_name }}
+      tag: ${{ steps.meta.outputs.tag }}
+      minecraft_version: ${{ steps.meta.outputs.minecraft_version }}
+      loader_version: ${{ steps.meta.outputs.loader_version }}
+      loader_type: ${{ steps.meta.outputs.loader_type }}
+      release_type: ${{ steps.meta.outputs.release_type }}
+      changelog: ${{ steps.changelog.outputs.body }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Check packwiz files
+        shell: bash
+        run: |
+          test -f pack.toml || { echo "Could not find pack.toml"; exit 1; }
+          test -f index.toml || { echo "Could not find index.toml"; exit 1; }
+
+      - name: Read pack metadata
+        id: meta
+        shell: bash
+        env:
+          PACK_RELEASE_TYPE: ${{ inputs.release_type }}
+          FAIL_IF_TAG_EXISTS: ${{ inputs.fail_if_tag_exists }}
+        run: |
+          PACK_NAME="$(grep '^name = ' pack.toml | sed 's/name = "\(.*\)"/\1/')"
+          PACK_VERSION="$(grep '^version = ' pack.toml | sed 's/version = "\(.*\)"/\1/')"
+          MINECRAFT_VERSION="$(grep '^minecraft = ' pack.toml | sed 's/minecraft = "\(.*\)"/\1/')"
+          LOADER_VERSION="$(grep '^forge = ' pack.toml | sed 's/forge = "\(.*\)"/\1/')"
+          SAFE_NAME="$(echo "$PACK_NAME" | tr '[:upper:] ' '[:lower:]-' | tr -cd 'a-z0-9._-')"
+          PROJECT_FILE_NAME="$SAFE_NAME-$PACK_VERSION"
+          TAG="$PACK_VERSION"
+          RELEASE_TYPE="${PACK_RELEASE_TYPE:-release}"
+
+          case "$RELEASE_TYPE" in
+            release|beta|alpha)
+              ;;
+            *)
+              echo "Invalid RELEASE_TYPE: $RELEASE_TYPE"
+              echo "Use one of: release, beta, alpha"
+              exit 1
+              ;;
+          esac
+
+          if [[ "$FAIL_IF_TAG_EXISTS" == "true" ]] && git rev-parse "$TAG" >/dev/null 2>&1; then
+            echo "Tag $TAG already exists. Bump pack.toml version before releasing."
+            exit 1
+          fi
+
+          echo "project_name=$PACK_NAME" >> "$GITHUB_OUTPUT"
+          echo "project_version=$PACK_VERSION" >> "$GITHUB_OUTPUT"
+          echo "project_file_name=$PROJECT_FILE_NAME" >> "$GITHUB_OUTPUT"
+          echo "project_full_name=$PACK_NAME $PACK_VERSION" >> "$GITHUB_OUTPUT"
+          echo "safe_name=$SAFE_NAME" >> "$GITHUB_OUTPUT"
+          echo "tag=$TAG" >> "$GITHUB_OUTPUT"
+          echo "minecraft_version=$MINECRAFT_VERSION" >> "$GITHUB_OUTPUT"
+          echo "loader_version=$LOADER_VERSION" >> "$GITHUB_OUTPUT"
+          echo "loader_type=forge" >> "$GITHUB_OUTPUT"
+          echo "release_type=$RELEASE_TYPE" >> "$GITHUB_OUTPUT"
+
+      - name: Generate packwiz mod changelog
+        id: changelog
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          latest_tag="$(git describe --tags --abbrev=0 2>/dev/null || true)"
+          base_ref="$latest_tag"
+
+          name_from_file() {
+            local file="$1"
+            grep '^name = ' "$file" | sed 's/name = "\(.*\)"/\1/' || true
+          }
+
+          name_from_ref() {
+            local ref="$1"
+            local file="$2"
+            git show "$ref:$file" 2>/dev/null | grep '^name = ' | sed 's/name = "\(.*\)"/\1/' || true
+          }
+
+          append_item() {
+            local file="$1"
+            local name="$2"
+            if [[ -z "$name" ]]; then
+              name="$file"
+            fi
+            printf -- '- %s' "$name"
+          }
+
+          added=""
+          removed=""
+          changed=""
+
+          if [[ -z "$base_ref" ]]; then
+            while IFS= read -r file; do
+              added+="$(append_item "$file" "$(name_from_file "$file")")"$'\n'
+            done < <(find mods -name '*.pw.toml' -type f | sort)
+          else
+            while IFS=$'\t' read -r status file previous_file; do
+              case "$status" in
+                A)
+                  added+="$(append_item "$file" "$(name_from_file "$file")")"$'\n'
+                  ;;
+                D)
+                  removed+="$(append_item "$file" "$(name_from_ref "$base_ref" "$file")")"$'\n'
+                  ;;
+                M)
+                  changed+="$(append_item "$file" "$(name_from_file "$file")")"$'\n'
+                  ;;
+                R*)
+                  removed+="$(append_item "$file" "$(name_from_ref "$base_ref" "$file")")"$'\n'
+                  added+="$(append_item "$previous_file" "$(name_from_file "$previous_file")")"$'\n'
+                  ;;
+              esac
+            done < <(git diff --name-status "$base_ref"..HEAD -- 'mods/*.pw.toml')
+          fi
+
+          {
+            echo 'body<<EOF'
+            echo "## Packwiz mod changes"
+            echo
+            if [[ -n "$base_ref" ]]; then
+              echo "Compared against tag: \`$base_ref\`"
+            else
+              echo "No previous tag found. Listing current mods as added."
+            fi
+            echo
+            echo "### Added"
+            if [[ -n "$added" ]]; then
+              printf '%s' "$added"
+            else
+              echo "- None"
+            fi
+            echo
+            echo "### Removed"
+            if [[ -n "$removed" ]]; then
+              printf '%s' "$removed"
+            else
+              echo "- None"
+            fi
+            echo
+            echo "### Changed"
+            if [[ -n "$changed" ]]; then
+              printf '%s' "$changed"
+            else
+              echo "- None"
+            fi
+            echo EOF
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Generate GitHub summary
+        shell: bash
+        run: |
+          cat >> "$GITHUB_STEP_SUMMARY" <<'EOF'
+          **Name**: ${{ steps.meta.outputs.project_name }}
+          **Release**: `${{ steps.meta.outputs.project_version }}`
+          **Release Type**: `${{ steps.meta.outputs.release_type }}`
+          **Game Version**: `${{ steps.meta.outputs.minecraft_version }}`
+          **Loader**: `${{ steps.meta.outputs.loader_type }}-${{ steps.meta.outputs.loader_version }}`
+          EOF
