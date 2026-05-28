@@ -1,0 +1,80 @@
+name: Create Release PR
+run-name: "Release PR #${{ github.run_number }}"
+
+on:
+  push:
+    branches:
+      - dev
+
+permissions:
+  contents: read
+  pull-requests: write
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  info:
+    name: Pack Info
+    uses: ./.github/workflows/packwiz-info.yml
+    with:
+      release_type: ${{ vars.RELEASE_TYPE }}
+      fail_if_tag_exists: false
+
+  create-pr:
+    name: Create Release PR
+    needs: [info]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Check existing PR
+        id: existing_pr
+        shell: bash
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          number="$(gh pr list --head dev --base main --state open --json number --jq '.[0].number // empty')"
+          echo "number=$number" >> "$GITHUB_OUTPUT"
+
+      - name: Write PR body
+        shell: bash
+        run: |
+          cat > pr-body.md <<'EOF'
+          **This is an automated Pull Request from the dev branch.**
+
+          **Name**: ${{ needs.info.outputs.project_name }}
+          **Release**: `${{ needs.info.outputs.project_version }}`
+          **Release Type**: `${{ needs.info.outputs.release_type }}`
+          **Game Version**: `${{ needs.info.outputs.minecraft_version }}`
+          **Loader**: `${{ needs.info.outputs.loader_type }}-${{ needs.info.outputs.loader_version }}`
+
+          ${{ needs.info.outputs.changelog }}
+          EOF
+
+      - name: Create release PR
+        if: steps.existing_pr.outputs.number == ''
+        shell: bash
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh pr create \
+            --base main \
+            --head dev \
+            --draft \
+            --title "Release: ${{ needs.info.outputs.project_version }}" \
+            --body-file pr-body.md
+
+      - name: Update release PR
+        if: steps.existing_pr.outputs.number != ''
+        shell: bash
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh pr edit "${{ steps.existing_pr.outputs.number }}" \
+            --title "Release: ${{ needs.info.outputs.project_version }}" \
+            --body-file pr-body.md
