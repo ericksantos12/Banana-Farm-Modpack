@@ -673,7 +673,7 @@ metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "2621dfb5b3ad17a3adf927cc92a3bc6b0dd982c32f0265f920b29a61b34d182e"
+hash = "a5320178c1cc118331b309b2e5cc902375163992d2427e1563a692930106e3ee"
 metafile = true
 
 [[files]]
@@ -759,11 +759,6 @@ metafile = true
 [[files]]
 file = "mods/lexiconfig.pw.toml"
 hash = "e72b77792a8d646cb9ff26043d590041d3d8ed9aaedd0b097d5879c90525d70f"
-metafile = true
-
-[[files]]
-file = "mods/little-tractor.pw.toml"
-hash = "a2776476c987a2d7cbba910b6855dde75465bee781535134a52766605dae17e6"
 metafile = true
 
 [[files]]
@@ -868,7 +863,7 @@ metafile = true
 
 [[files]]
 file = "mods/mouse-tweaks.pw.toml"
-hash = "e72f73611904e14d915418f0e3c6cb483cdc600e211375c2eceb393fec5b80f1"
+hash = "c17b9de2050b52f12368cea16836e8c6ac43be9683b2fc4755a9b3d4a60fa67b"
 metafile = true
 
 [[files]]
