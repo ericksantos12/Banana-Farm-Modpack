@@ -5,6 +5,10 @@ file = "config/betterf3.toml"
 hash = "270993c0b0210fa1c208b7106dd2791571372f5eeec67740c477f1904f0033a3"
 
 [[files]]
+file = "config/bluemap/core.conf"
+hash = "bd0912424a1c7c1f412fe463048b9522f1de7958916016679fcca3bc0cbd1fbe"
+
+[[files]]
 file = "config/craftpresence.json"
 hash = "ef7dbaaee5bf3e9cbe6e1312d3642b49d48eb29795ed21e57d8088ded3b32a95"
 
