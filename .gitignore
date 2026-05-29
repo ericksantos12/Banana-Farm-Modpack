@@ -4,3 +4,19 @@
 *.zip
 
 DISCORD-CHANGELOG.md
+
+# Node.js
+**/node_modules/
+
+# dotenv
+.env
+
+# VSCode
+!/.vscode/*.code-workspace
+/.vscode/*
+
+# ProbeJS
+/kubejs/probe/
+/kubejs/config/probejs.json
+/kubejs/config/probe-settings.json
+/kubejs/*/jsconfig.json
