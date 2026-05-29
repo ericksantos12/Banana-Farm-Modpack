@@ -1349,8 +1349,3 @@ metafile = true
 file = "resourcepacks/toms-and-create-smashed.pw.toml"
 hash = "2627e3150f649066b86e7cb8f826172057ff922104abd3b43a688f359f2fd845"
 metafile = true
-
-[[files]]
-file = "tide-extra-compatibility.pw.toml"
-hash = "eaa27f1d0c91286d2addafad13ae916a6142f578610e8573df88b82592488ad8"
-metafile = true
