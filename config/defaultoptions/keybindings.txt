@@ -104,11 +104,11 @@ key_key.stardew_fishing.minigame_button:key.mouse.left:NONE
 key_key.sophisticatedbackpacks.open_backpack:key.keyboard.b:NONE
 key_key.sophisticatedbackpacks.inventory_interaction:key.keyboard.c:NONE
 key_key.sophisticatedbackpacks.tool_swap:key.keyboard.unknown:NONE
+key_key.sophisticatedbackpacks.toggle_upgrade_1:key.keyboard.z:ALT
+key_key.sophisticatedbackpacks.toggle_upgrade_5:key.keyboard.unknown:NONE
 key_key.sophisticatedbackpacks.toggle_upgrade_4:key.keyboard.unknown:NONE
 key_key.sophisticatedbackpacks.toggle_upgrade_3:key.keyboard.unknown:NONE
 key_key.sophisticatedbackpacks.toggle_upgrade_2:key.keyboard.x:ALT
-key_key.sophisticatedbackpacks.toggle_upgrade_1:key.keyboard.z:ALT
-key_key.sophisticatedbackpacks.toggle_upgrade_5:key.keyboard.unknown:NONE
 key_key.move_heli_up.desc:key.keyboard.space:NONE
 key_key.plane_inventory_open.desc:key.keyboard.x:NONE
 key_key.plane_drop_payload.desc:key.keyboard.c:NONE
