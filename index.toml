@@ -14,7 +14,7 @@ hash = "ef7dbaaee5bf3e9cbe6e1312d3642b49d48eb29795ed21e57d8088ded3b32a95"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
-hash = "74e198d0579fb1a16a66332764045895279dd8b610459e79b6941db9635aa69d"
+hash = "7ce35a13b7d967c850e112f78c9260f5c6d0684205a62d269a44a0bef3723888"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
@@ -22,7 +22,7 @@ hash = "6d5762c90ad32bd16e60638322fb2c77d06e0c182b5aabc5efeca9ca7e355e99"
 
 [[files]]
 file = "config/defaultoptions/servers.dat"
-hash = "9c2751a68591f210669182d12f0cb4debb0ca75fb678746d76f5da035473f86f"
+hash = "fba0d145837464f247aaf328d33164ff67fa550bdf1c9071bd8be0bb6c3f0c63"
 
 [[files]]
 file = "config/fancymenu/assets/loading.png"
@@ -1156,6 +1156,16 @@ hash = "fb69c986964628b74a5287f8128f17d1f1fb4aef9c18e610cbb389bfe6dddb47"
 metafile = true
 
 [[files]]
+file = "mods/tide-extra-compatibility.pw.toml"
+hash = "b0e3edb9309ceb7976d9cf5fdb5e416f70c654f27b0d648d97cd0ad79ef69342"
+metafile = true
+
+[[files]]
+file = "mods/tide.pw.toml"
+hash = "ad7ef27fc487bf29f16e91e08dc4056f59c97ac85279c037c4503c1b267ef39e"
+metafile = true
+
+[[files]]
 file = "mods/tinkers-construct.pw.toml"
 hash = "d976517d4d8951e9ee57ecdcdcb79a6c390614d595624b68287d945c2dcf9614"
 metafile = true
@@ -1338,4 +1348,9 @@ metafile = true
 [[files]]
 file = "resourcepacks/toms-and-create-smashed.pw.toml"
 hash = "2627e3150f649066b86e7cb8f826172057ff922104abd3b43a688f359f2fd845"
+metafile = true
+
+[[files]]
+file = "tide-extra-compatibility.pw.toml"
+hash = "eaa27f1d0c91286d2addafad13ae916a6142f578610e8573df88b82592488ad8"
 metafile = true
