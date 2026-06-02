@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:bread"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "title": "Padaria",
+    "subtitle": "Projeto produtivo",
+    "description": [
+      "<h1 color=\"green\" shadowed=\"true\">Padaria</h1>",
+      "<p>Montar uma padaria para produzir e vender paes, doces e alimentos assados.</p>",
+      "<hr color=\"green\"/>",
+      "<h2 color=\"yellow\">Objetivo</h2>",
+      "<ul color=\"green\"><li>Organizar cozinha, atendimento e estoque de ingredientes.</li><li>Manter producao constante para abastecer moradores e viajantes.</li><li>Pensar em precos, encomendas ou combos para atender a cidade.</li></ul>",
+      "<hint title=\"Negocio simples\" icon=\"minecraft:bread\" color=\"green\"><p>A padaria pode ser um negocio <span bold=\"true\">util e sempre procurado</span>.</p></hint>",
+      "<blockquote color=\"green\"><p>Pao quente e sinal de casa por perto.</p></blockquote>",
+      "<br/>",
+      "<br/>",
+      "<br/>",
+      "<hint title=\"Mods sugeridos\" icon=\"minecraft:compass\" color=\"white\"><p>Use Let's Do: Bakery e itens vanilla para a cozinha principal; Create pode automatizar etapas. Farmer's Delight e Farmer's Respite ajudam a expandir o cardapio.</p></hint>"
+    ],
+    "groups": {
+      "Agricultura e Alimentacao": {
+        "position": [
+          80,
+          0
+        ]
+      }
+    }
+  },
+  "tasks": {
+    "concluir": {
+      "type": "heracles:check",
+      "title": "Projeto concluido"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "type": "heracles:xp",
+      "title": "Recompensa",
+      "xptype": "POINTS",
+      "amount": 60
+    }
+  }
+}

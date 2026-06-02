@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": { "type": "heracles:item", "item": "minecraft:emerald" },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": "Comércio e Lojas",
+    "subtitle": "Tutorial de economia",
+    "description": [
+      "<h2 color=\"gold\" shadowed=\"true\">Tutorial de Economia</h2>",
+      "<p>Use esta página como referência para transformar produção em comércio: escolha produtos, organize estoque, defina preços e monte uma loja que outros jogadores consigam usar sem combinados manuais.</p>",
+      "<hr color=\"gold\"/>",
+      "<h2 color=\"yellow\">Setup básico</h2>",
+      "<ul color=\"gold\"><li>Escolha uma categoria clara: comida, ferramentas, blocos, decoração, transporte ou insumos industriais.</li><li>Separe estoque de vitrine para não vender seu material de uso pessoal.</li><li>Use placas, molduras ou displays para mostrar produto, preço e quantidade por compra.</li><li>Mantenha reposição fácil: baús de entrada, área de produção perto da loja ou rota de entrega com fornecedores.</li></ul>",
+      "<h2 color=\"yellow\">Alternativa 1: Create 6.0</h2>",
+      "<p>Use Stock Tickers e Packagers para uma loja mais industrial. Este caminho combina melhor quando seus produtos já saem de uma linha de produção e precisam ser empacotados em lotes padronizados.</p>",
+      "<hint title=\"Quando escolher Create\" icon=\"create:brass_casing\" color=\"gold\"><p>Bom para lojas automatizadas, kits, caixas fechadas, controle de estoque e produtos que passam por esteiras, depósitos ou sistemas mecânicos.</p></hint>",
+      "<h2 color=\"yellow\">Alternativa 2: Numismatics</h2>",
+      "<p>Use os blocos do Create: Numismatics quando quiser uma loja mais fácil de configurar. É uma ótima opção para trabalhos que não usam Create na produção, como vinicultura, agricultura, cozinha, carpintaria ou comércio manual.</p>",
+      "<hint title=\"Quando escolher Numismatics\" icon=\"minecraft:emerald\" color=\"gold\"><p>Bom para mercados, bancas pequenas, lojas de jogador, compra e venda direta, caixas e economia mais legível para visitantes.</p></hint>",
+      "<h2 color=\"yellow\">Segurança e organização</h2>",
+      "<p>Use SecurityCraft para proteger portas, baús, estoque, caixa e áreas privadas da loja. Deixe a área pública simples, mas mantenha reposição e cofres fora do alcance de visitantes.</p>"
+    ],
+    "groups": { "Início": { "position": [80, 0] } }
+  }
+}

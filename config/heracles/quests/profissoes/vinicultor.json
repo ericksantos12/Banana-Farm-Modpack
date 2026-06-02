@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": { "type": "heracles:item", "item": "minecraft:sweet_berries" },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": "Vinicultor",
+    "subtitle": "Guia de profissão",
+    "description": [
+      "<h2 color=\"green\" shadowed=\"true\">Vinicultor</h2>",
+      "<p>Um caminho para quem quer cuidar de vinhedos, bebidas finas, adegas e comércio de produtos rurais especializados.</p>",
+      "<hr color=\"green\"/>",
+      "<h2 color=\"yellow\">O que você faz</h2>",
+      "<ul color=\"green\"><li>Planta e organiza vinhedos.</li><li>Processa bebidas, armazena lotes e cria uma marca própria.</li><li>Vende para tavernas, mercados, festas e colecionadores.</li></ul>",
+      "<h2 color=\"yellow\">Projetos possíveis</h2>",
+      "<p>Vinícola, adega, loja de bebidas, fazenda de uvas, rota de entrega para tavernas e área turística rural.</p>",
+      "<h2 color=\"yellow\">Mods para explorar</h2>",
+      "<p>Let's Do: Vinery, Create Vinery e Create para automação opcional.</p>",
+      "<h2 color=\"yellow\">Como ser útil no SMP</h2>",
+      "<p>Venda bebidas com identidade própria e forneça produtos para pousadas, mercados e eventos sociais.</p>"
+    ],
+    "groups": { "Profissões": { "position": [80, 75] } }
+  }
+}

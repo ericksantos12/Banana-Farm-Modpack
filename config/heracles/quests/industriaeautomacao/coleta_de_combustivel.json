@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": { "type": "heracles:item", "item": "minecraft:lava_bucket" },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "title": "Coleta de Combustivel",
+    "subtitle": "Projeto produtivo",
+    "description": [
+      "<h1 color=\"red\" shadowed=\"true\">Coleta de Combustivel</h1>",
+      "<p>Organizar coleta, armazenamento e distribuicao de combustiveis para geradores e maquinas.</p>",
+      "<hr color=\"red\"/>",
+      "<h2 color=\"yellow\">Objetivo</h2>",
+      "<ul color=\"red\"><li>Definir quais combustiveis serao coletados e onde ficarao armazenados.</li><li>Preparar um fluxo seguro de entrada, estoque e retirada.</li><li>Abastecer sistemas ligados ao Create: Diesel Generators e outras demandas energeticas.</li></ul>",
+      "<hint title=\"Energia continua\" icon=\"minecraft:lava_bucket\" color=\"red\"><p>Combustivel bem organizado evita que maquinas importantes parem no meio da producao.</p></hint>",
+      "<blockquote color=\"red\"><p>Energia confiavel comeca antes do motor ligar.</p></blockquote>",
+      "<br/>",
+      "<br/>",
+      "<br/>",
+      "<hint title=\"Mods sugeridos\" icon=\"minecraft:compass\" color=\"white\"><p>Use Create: Diesel Generators para pumps, coleta e transporte de combustivel. Create ajuda com tanques, tubulacao mecanica e automacao do abastecimento.</p></hint>"
+    ],
+    "groups": { "Industria e Automacao": { "position": [160, 225] } }
+  },
+  "tasks": { "concluir": { "type": "heracles:check", "title": "Projeto concluido" } },
+  "rewards": { "xp": { "type": "heracles:xp", "title": "Recompensa", "xptype": "POINTS", "amount": 90 } }
+}

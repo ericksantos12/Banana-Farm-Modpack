@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": { "type": "heracles:item", "item": "create:andesite_alloy" },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "title": "Fabrica de Andesite Alloy",
+    "subtitle": "Projeto produtivo",
+    "description": [
+      "<h1 color=\"gray\" shadowed=\"true\">Fabrica de Andesite Alloy</h1>",
+      "<p>Produzir andesite alloy de forma constante para abastecer maquinas basicas.</p>",
+      "<hr color=\"gray\"/>",
+      "<h2 color=\"yellow\">Objetivo</h2>",
+      "<ul color=\"gray\"><li>Garantir entrada confiavel de andesite e zinc ou iron nuggets.</li><li>Organizar processamento, estoque e retirada de pedidos.</li><li>Vender ou fornecer alloy para novos construtores industriais.</li></ul>",
+      "<hint title=\"Base industrial\" icon=\"create:andesite_alloy\" color=\"gray\"><p>Sem alloy, quase toda automacao fica parada no primeiro passo.</p></hint>",
+      "<blockquote color=\"gray\"><p>O material simples vira progresso quando nunca falta.</p></blockquote>",
+      "<br/>",
+      "<br/>",
+      "<br/>",
+      "<hint title=\"Mods sugeridos\" icon=\"minecraft:compass\" color=\"white\"><p>Use Create para misturadores, prensas, funis, esteiras e automacao da producao de Andesite Alloy em escala.</p></hint>"
+    ],
+    "groups": { "Industria e Automacao": { "position": [80, 0] } }
+  },
+  "tasks": { "concluir": { "type": "heracles:check", "title": "Projeto concluido" } },
+  "rewards": { "xp": { "type": "heracles:xp", "title": "Recompensa", "xptype": "POINTS", "amount": 90 } }
+}

@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": { "type": "heracles:item", "item": "minecraft:oak_sapling" },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hearts.png",
+    "title": "Parque",
+    "subtitle": "Projeto cultural",
+    "description": [
+      "<h1 color=\"pink\" shadowed=\"true\">Parque</h1>",
+      "<p>Criar um espaco de lazer, descanso e circulacao para jogadores.</p>",
+      "<hr color=\"pink\"/>",
+      "<h2 color=\"yellow\">Objetivo</h2>",
+      "<ul color=\"pink\"><li>Reservar area para passeio, descanso e encontros.</li><li>Conectar o parque a caminhos importantes.</li><li>Oferecer um intervalo entre producao, comercio e exploracao.</li></ul>",
+      "<hint title=\"Lazer publico\" icon=\"minecraft:oak_sapling\" color=\"pink\"><p>Nem todo projeto precisa produzir item; alguns produzem vontade de ficar.</p></hint>",
+      "<blockquote color=\"pink\"><p>Uma cidade tambem cresce nos lugares onde descansa.</p></blockquote>"
+    ],
+    "groups": { "Cultura e Lazer": { "position": [80, 0] } }
+  },
+  "tasks": { "concluir": { "type": "heracles:check", "title": "Projeto concluido" } },
+  "rewards": { "xp": { "type": "heracles:xp", "title": "Recompensa", "xptype": "POINTS", "amount": 80 } }
+}

@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": { "type": "heracles:item", "item": "minecraft:compass" },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": "Jogue do Seu Jeito",
+    "subtitle": "Guia de liberdade",
+    "description": [
+      "<h2 color=\"gold\" shadowed=\"true\">Jogue do Seu Jeito</h2>",
+      "<p>Este livro existe para inspirar ideias, não para mandar em como você joga. As quests de projetos e as páginas de profissões são guias, sugestões e pontos de partida.</p>",
+      "<hr color=\"gold\"/>",
+      "<h2 color=\"yellow\">Quests não são lei</h2>",
+      "<p>Os projetos principais ajudam o servidor a ter objetivos compartilhados, mas você não precisa tratar cada página como uma obrigação. Se uma ideia não combina com você, pule, adapte ou crie outra.</p>",
+      "<h2 color=\"yellow\">Profissões não são classes fixas</h2>",
+      "<p>As profissões mostram caminhos possíveis: cozinheiro, engenheiro, piloto, agricultor, construtor e muitos outros. Você pode misturar várias, trocar de foco quando quiser ou não seguir nenhuma.</p>",
+      "<hint title=\"Liberdade primeiro\" icon=\"minecraft:heart_of_the_sea\" color=\"gold\"><p>O melhor jeito de jogar é aquele que te dá vontade de voltar:</p><p>construir, explorar, conversar, vender, decorar, automatizar</p><p>ou simplesmente passear pelo mundo.</p></hint>",
+      "<h2 color=\"yellow\">Use como inspiração</h2>",
+      "<ul color=\"gold\"><li>Quer seguir quests? Siga.</li><li>Quer abrir uma loja sem profissão definida? Abra.</li><li>Quer morar longe e explorar sozinho? Também vale.</li><li>Quer juntar três ideias e criar algo novo? Melhor ainda.</li></ul>",
+      "<h2 color=\"yellow\">Objetivo real</h2>",
+      "<p>Divirta-se, respeite o espaço dos outros jogadores e ajude o servidor a ter histórias boas. O resto é ferramenta para você criar seu próprio caminho.</p>",
+      "<br/>",
+      "<p color=\"gray\" italic=\"true\">Not all those who wander are lost.</p>",
+      "<p color=\"gray\" italic=\"true\">- J. R. R. Tolkien</p>"
+    ],
+    "groups": { "Início": { "position": [0, 0] } }
+  }
+}

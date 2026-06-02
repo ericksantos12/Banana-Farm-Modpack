@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": { "type": "heracles:item", "item": "minecraft:redstone" },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "title": "Gerador de Energia",
+    "subtitle": "Infraestrutura industrial",
+    "description": [
+      "<h1 color=\"red\" shadowed=\"true\">Gerador de Energia</h1>",
+      "<p>Criar uma fonte de energia para abastecer maquinas, linhas de producao e infraestrutura industrial.</p>",
+      "<hr color=\"red\"/>",
+      "<h2 color=\"yellow\">Objetivo</h2>",
+      "<ul color=\"red\"><li>Garantir entrada constante de combustivel e materiais de manutencao.</li><li>Organizar pontos de saida para maquinas e consumidores industriais.</li><li>Evitar gargalos de energia em linhas de producao importantes.</li></ul>",
+      "<hint title=\"Energia industrial\" icon=\"minecraft:redstone\" color=\"red\"><p>Um gerador confiavel mantem a industria viva mesmo quando a demanda cresce.</p></hint>",
+      "<blockquote color=\"red\"><p>Maquinas so viram progresso quando existe energia para mantelas acordadas.</p></blockquote>",
+      "<br/>",
+      "<br/>",
+      "<br/>",
+      "<hint title=\"Mods sugeridos\" icon=\"minecraft:compass\" color=\"white\"><p>Use Create: Diesel Generators para geradores movidos a combustivel e Create Crafts and Additions para geradores eletricos, cabos e integracao de energia com maquinas.</p></hint>"
+    ],
+    "groups": { "Industria e Automacao": { "position": [80, 150] } }
+  },
+  "dependencies": [
+    "coleta_de_combustivel",
+    "ferrovia_principal"
+  ],
+  "tasks": { "concluir": { "type": "heracles:check", "title": "Projeto concluido" } },
+  "rewards": { "xp": { "type": "heracles:xp", "title": "Recompensa", "xptype": "POINTS", "amount": 120 } }
+}

@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": { "type": "heracles:item", "item": "minecraft:painting" },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": "Mídia e Comunicação",
+    "subtitle": "Guia de profissão",
+    "description": [
+      "<h2 color=\"aqua\" shadowed=\"true\">Mídia e Comunicação</h2>",
+      "<p>Um caminho para quem quer criar rádio, vídeos, anúncios, painéis, eventos e comunicação pública no servidor.</p>",
+      "<hr color=\"aqua\"/>",
+      "<h2 color=\"yellow\">O que você faz</h2>",
+      "<ul color=\"aqua\"><li>Cria conteúdo visual, sonoro ou informativo para a cidade.</li><li>Ajuda lojas, eventos e projetos a serem divulgados.</li><li>Organiza canais de comunicação entre grupos e regiões.</li></ul>",
+      "<h2 color=\"yellow\">Projetos possíveis</h2>",
+      "<p>Estúdio de rádio, cinema, mural de anúncios, agência de propaganda, sala de transmissão e cobertura de eventos.</p>",
+      "<h2 color=\"yellow\">Mods para explorar</h2>",
+      "<p>WATERFRAMES, WATERMeDIA, Simple Voice Chat, Simple Voice Radio e Immersive Paintings.</p>",
+      "<h2 color=\"yellow\">Como ser útil no SMP</h2>",
+      "<p>Divulgue projetos, registre momentos importantes e ajude a comunidade a saber o que está acontecendo no servidor.</p>"
+    ],
+    "groups": { "Profissões": { "position": [240, 300] } }
+  }
+}

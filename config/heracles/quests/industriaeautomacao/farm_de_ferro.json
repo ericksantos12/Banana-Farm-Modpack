@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": { "type": "heracles:item", "item": "minecraft:iron_ingot" },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "title": "Farm de Ferro",
+    "subtitle": "Projeto produtivo",
+    "description": [
+      "<h1 color=\"gray\" shadowed=\"true\">Farm de Ferro</h1>",
+      "<p>Construir uma producao estavel de ferro para abastecer construtores, maquinas e comercio.</p>",
+      "<hr color=\"gray\"/>",
+      "<h2 color=\"yellow\">Objetivo</h2>",
+      "<ul color=\"gray\"><li>Gerar ferro de forma estavel e previsivel.</li><li>Organizar coleta, armazenamento e retirada de pedidos.</li><li>Permitir venda, distribuicao ou fornecimento para projetos maiores.</li></ul>",
+      "<hint title=\"Producao essencial\" icon=\"minecraft:iron_ingot\" color=\"gray\"><p>Ferro constante sustenta trilhos, maquinas, ferramentas e reparos.</p></hint>",
+      "<blockquote color=\"gray\"><p>Quando o basico nao falta, a criatividade sobra.</p></blockquote>",
+      "<br/>",
+      "<br/>",
+      "<br/>",
+      "<hint title=\"Mods sugeridos\" icon=\"minecraft:compass\" color=\"white\"><p>Use Create para coleta, transporte, armazenamento e processamento de ferro.</p></hint>"
+    ],
+    "groups": { "Industria e Automacao": { "position": [160, 75] } }
+  },
+  "tasks": { "concluir": { "type": "heracles:check", "title": "Projeto concluido" } },
+  "rewards": { "xp": { "type": "heracles:xp", "title": "Recompensa", "xptype": "POINTS", "amount": 100 } }
+}

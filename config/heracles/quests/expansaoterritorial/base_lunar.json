@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": { "type": "heracles:item", "item": "northstar:moon_stone" },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
+    "title": "Base Lunar",
+    "subtitle": "Expansao territorial",
+    "description": [
+      "<h1 color=\"purple\" shadowed=\"true\">Base Lunar</h1>",
+      "<p>Estabelecer uma base funcional na Lua para pesquisa, extracao e suporte a novas missoes.</p>",
+      "<hr color=\"purple\"/>",
+      "<h2 color=\"yellow\">Objetivo</h2>",
+      "<ul color=\"purple\"><li>Criar abrigo pressurizado ou area segura para operacao prolongada.</li><li>Organizar oxigenio, energia, armazenamento e ponto de pouso.</li><li>Iniciar coleta de recursos lunares e preparar futuras expedicoes.</li></ul>",
+      "<hint title=\"Fronteira lunar\" icon=\"northstar:moon_stone\" color=\"purple\"><p>Uma base lunar transforma uma viagem arriscada em presenca permanente.</p></hint>",
+      "<blockquote color=\"purple\"><p>A primeira pegada vira historia; a primeira base vira futuro.</p></blockquote>",
+      "<br/>",
+      "<br/>",
+      "<br/>",
+      "<hint title=\"Mods sugeridos\" icon=\"minecraft:compass\" color=\"white\"><p>Use Create: Northstar - Redux para a Lua, oxigenio, traje espacial, blocos lunares e infraestrutura de sobrevivencia. Create pode apoiar automacao, energia e processamento de recursos fora da Terra.</p></hint>"
+    ],
+    "groups": { "Expansao Territorial": { "position": [400, 0] } }
+  },
+  "dependencies": [
+    "foguete_espacial"
+  ],
+  "tasks": { "concluir": { "type": "heracles:check", "title": "Projeto concluido" } },
+  "rewards": { "xp": { "type": "heracles:xp", "title": "Recompensa", "xptype": "POINTS", "amount": 260 } }
+}

@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": { "type": "heracles:item", "item": "minecraft:lead" },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hearts.png",
+    "title": "Zoologico",
+    "subtitle": "Projeto cultural",
+    "description": [
+      "<h1 color=\"pink\" shadowed=\"true\">Zoologico</h1>",
+      "<p>Criar um espaco para reunir, observar e proteger animais do SMP.</p>",
+      "<hr color=\"pink\"/>",
+      "<h2 color=\"yellow\">Objetivo</h2>",
+      "<ul color=\"pink\"><li>Organizar areas seguras para diferentes animais.</li><li>Facilitar visita, cuidado e alimentacao.</li><li>Registrar especies raras ou importantes para a comunidade.</li></ul>",
+      "<hint title=\"Cuidado\" icon=\"minecraft:lead\" color=\"pink\"><p>Um zoologico bom valoriza os animais sem transformar cuidado em bagunca.</p></hint>",
+      "<blockquote color=\"pink\"><p>Conviver tambem e aprender a proteger.</p></blockquote>"
+    ],
+    "groups": { "Cultura e Lazer": { "position": [0, 75] } }
+  },
+  "tasks": { "concluir": { "type": "heracles:check", "title": "Projeto concluido" } },
+  "rewards": { "xp": { "type": "heracles:xp", "title": "Recompensa", "xptype": "POINTS", "amount": 100 } }
+}

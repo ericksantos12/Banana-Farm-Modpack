@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": { "type": "heracles:item", "item": "minecraft:glass_bottle" },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": "Especialista em Chá",
+    "subtitle": "Guia de profissão",
+    "description": [
+      "<h2 color=\"green\" shadowed=\"true\">Especialista em Chá</h2>",
+      "<p>Um caminho para quem quer criar bebidas leves, chás, ervas e produtos para pousadas, cafeterias e viajantes.</p>",
+      "<hr color=\"green\"/>",
+      "<h2 color=\"yellow\">O que você faz</h2>",
+      "<ul color=\"green\"><li>Cultiva ervas, folhas e ingredientes para infusões.</li><li>Prepara bebidas para descanso, roleplay e comércio.</li><li>Abastece tavernas, pousadas, mercados e cozinheiros.</li></ul>",
+      "<h2 color=\"yellow\">Projetos possíveis</h2>",
+      "<p>Casa de chá, jardim herbal, cafeteria, banca de bebidas, cantina de viagem e contratos com pousadas.</p>",
+      "<h2 color=\"yellow\">Mods para explorar</h2>",
+      "<p>Farmer's Respite, Let's Do: HerbalBrews e Farmer's Delight.</p>",
+      "<h2 color=\"yellow\">Como ser útil no SMP</h2>",
+      "<p>Venda bebidas temáticas, forneça produtos para eventos e transforme agricultura simples em comércio social.</p>"
+    ],
+    "groups": { "Profissões": { "position": [240, 0] } }
+  }
+}

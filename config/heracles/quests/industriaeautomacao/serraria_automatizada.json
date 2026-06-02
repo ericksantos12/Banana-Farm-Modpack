@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": { "type": "heracles:item", "item": "create:mechanical_saw" },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "title": "Serraria Automatizada",
+    "subtitle": "Projeto produtivo",
+    "description": [
+      "<h1 color=\"gray\" shadowed=\"true\">Serraria Automatizada</h1>",
+      "<p>Processar madeira em escala para construcao, comercio e componentes industriais.</p>",
+      "<hr color=\"gray\"/>",
+      "<h2 color=\"yellow\">Objetivo</h2>",
+      "<ul color=\"gray\"><li>Automatizar corte e organizacao de madeira.</li><li>Separar saidas para troncos, tabuas e derivados.</li><li>Fornecer material para construtores e outros produtores.</li></ul>",
+      "<hint title=\"Producao renovavel\" icon=\"create:mechanical_saw\" color=\"gray\"><p>Madeira processada em escala sustenta construcao e economia.</p></hint>",
+      "<blockquote color=\"gray\"><p>A arvore vira cidade quando alguem organiza o corte.</p></blockquote>",
+      "<br/>",
+      "<br/>",
+      "<br/>",
+      "<hint title=\"Mods sugeridos\" icon=\"minecraft:compass\" color=\"white\"><p>Use Create para mechanical saws, deployers, esteiras e armazenamento automatico de madeira. Create Deco pode apoiar detalhes de serraria e area industrial.</p></hint>"
+    ],
+    "groups": { "Industria e Automacao": { "position": [80, 225] } }
+  },
+  "tasks": { "concluir": { "type": "heracles:check", "title": "Projeto concluido" } },
+  "rewards": { "xp": { "type": "heracles:xp", "title": "Recompensa", "xptype": "POINTS", "amount": 90 } }
+}

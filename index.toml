@@ -109,12 +109,264 @@ file = "config/fancymenu/user_variables.db"
 hash = "3d7d4cda73d6bde134a568ccbe4e8d2e7fbe701570012b71fa45acdb2258c823"
 
 [[files]]
+file = "config/heracles/groups.txt"
+hash = "0478ebad0f0649368aab5018ab4b5ce6165ccb7178884a73a24d3d74175cc485"
+
+[[files]]
+file = "config/heracles/quests/agriculturaealimentacao/apiario.json"
+hash = "4d4465ce212839f8712b2e7113d7d32373bf216a963bf904b388c8c1647a627a"
+
+[[files]]
+file = "config/heracles/quests/agriculturaealimentacao/fabrica_de_comida.json"
+hash = "59674358eaf0f4afac38e86a9a46c58adff18ec71d6051fe75d206fa7ac12ba9"
+
+[[files]]
+file = "config/heracles/quests/agriculturaealimentacao/floricultura.json"
+hash = "46ec30aeb6ec37d9b801803354660f2bcb2ab0a90d3262158bf3b3938ccc7000"
+
+[[files]]
+file = "config/heracles/quests/agriculturaealimentacao/padaria.json"
+hash = "b3cf243d7be82e3c3b9da72180e06d56a5d3647cae357b0fb4a0f5606b527c9c"
+
+[[files]]
+file = "config/heracles/quests/agriculturaealimentacao/vinicola.json"
+hash = "9ca36e3ff82ccc5f7e678cd33e05cb027f404860719fc39b2964c13366099039"
+
+[[files]]
+file = "config/heracles/quests/cidadeeservicos/armazem_comunitario.json"
+hash = "832a65fb69cdda5ef3325a3177c13ded218303224abe98304e945d36714d289f"
+
+[[files]]
+file = "config/heracles/quests/cidadeeservicos/escolher_centro_urbano.json"
+hash = "39cd2f2b37aaadb906956dbb0d37fc6c66ec73bcf3de46e703e79f8a5e83addb"
+
+[[files]]
+file = "config/heracles/quests/cidadeeservicos/mercado_da_cidade.json"
+hash = "a699146d5e6c4c1a607bec4adde5f543c34ed22a228157049747b0d0a7f19b11"
+
+[[files]]
+file = "config/heracles/quests/cidadeeservicos/pousada_taverna.json"
+hash = "f56f9978c1b9a2a00e6f5b110366f7192862b0f309da53818395a179463bedca"
+
+[[files]]
+file = "config/heracles/quests/cidadeeservicos/praca_central.json"
+hash = "1bf71f99e0a1a4329d2030c5bcef5f2a1b34e6c89ec24e46cbc3e96e7675df4b"
+
+[[files]]
+file = "config/heracles/quests/culturaelazer/jardim_botanico.json"
+hash = "0f64c26b6d7bd8a9baf18b6a14e20fffaf06c85baea5032d3ca842a7693231d2"
+
+[[files]]
+file = "config/heracles/quests/culturaelazer/museu.json"
+hash = "c095bb1f83799b29d78952a5a7d4ae62c0eacd1c1fc4cf1eaf653e721233df36"
+
+[[files]]
+file = "config/heracles/quests/culturaelazer/parque.json"
+hash = "2cec06128730d6a0ba630759d075adc1a54e7d96dadc6cd3708df567fa0cbf7f"
+
+[[files]]
+file = "config/heracles/quests/culturaelazer/zoologico.json"
+hash = "09d16a2f82f815da21daa1f8e02d68eb4385f585adf55dfa127840cf9a749ba7"
+
+[[files]]
+file = "config/heracles/quests/expansaoterritorial/aeroporto.json"
+hash = "4b3dc496b7284f0f355331e52e9f2b088ee0ba838569ddb047beb4c2de5b29dc"
+
+[[files]]
+file = "config/heracles/quests/expansaoterritorial/agencia_espacial.json"
+hash = "dbd7dc266fa796747d644f18bd859998ca6dd2a6235f83942e568dc572bd355b"
+
+[[files]]
+file = "config/heracles/quests/expansaoterritorial/base_lunar.json"
+hash = "1b1063ea39f76511cf6508bcda9b3f0679177f4bcc88ecc278b4db34e8b3d238"
+
+[[files]]
+file = "config/heracles/quests/expansaoterritorial/colonia_distante.json"
+hash = "269f93f2906d0b2e9c0678cdf35df7957fa68a0e9e68276d6687c9f5809219bd"
+
+[[files]]
+file = "config/heracles/quests/expansaoterritorial/foguete_espacial.json"
+hash = "2971afb14d145019c958394f342f9974aeacefd48dacfea3e7ac26bc4d8b2f58"
+
+[[files]]
+file = "config/heracles/quests/expansaoterritorial/linhas_ferreas_intermunicipais.json"
+hash = "763a01603e4b24224f14b026b74b53c492de47339c5f655a20bfdd9244605b98"
+
+[[files]]
+file = "config/heracles/quests/expansaoterritorial/porto.json"
+hash = "f03885f7c1d66a02b39a173ffb7999fc86ce2d6ce45ab057237677a02ce45993"
+
+[[files]]
+file = "config/heracles/quests/industriaeautomacao/coleta_de_combustivel.json"
+hash = "f8fa909e14219adaabb02eaa913889d8cda540ea5bec64ccb157dd33d5bd4dbc"
+
+[[files]]
+file = "config/heracles/quests/industriaeautomacao/distrito_industrial.json"
+hash = "dda8e926e3b34cbffcda92edc32288f1ea3963db59d2365ebd3175d7b7a9b42d"
+
+[[files]]
+file = "config/heracles/quests/industriaeautomacao/fabrica_de_andesite_alloy.json"
+hash = "2df5f3a071d8b361713e26f36e040843cbc15449e605bf1ff28c9977a191aea4"
+
+[[files]]
+file = "config/heracles/quests/industriaeautomacao/fabrica_de_brass.json"
+hash = "55eea8d07406ea5066ed0915b661747a01779e658c558ba773d09e48645294d1"
+
+[[files]]
+file = "config/heracles/quests/industriaeautomacao/farm_de_ferro.json"
+hash = "189ec028d9c8ec375e5a3560ce75a91e1a5dfe2bdb8d27b7460d6e237a5212e4"
+
+[[files]]
+file = "config/heracles/quests/industriaeautomacao/farm_de_ouro.json"
+hash = "6c70f04d241be77b0344182203faac80e6e36c2c7eb613948def2db43cd8ad9d"
+
+[[files]]
+file = "config/heracles/quests/industriaeautomacao/fundicao_central.json"
+hash = "b681830fccf1a310482581eccd4ce9d19ba894b7ec8acc242eef05e2ef7586e4"
+
+[[files]]
+file = "config/heracles/quests/industriaeautomacao/gerador_de_energia.json"
+hash = "b5358886bc70f3ff0449bf4406ac38593f00621885c677606d91c44d2af037a3"
+
+[[files]]
+file = "config/heracles/quests/industriaeautomacao/oficina_mecanica.json"
+hash = "3a1491ace83f2edc796c7a7672d27ab4c38aec003c5967f98355dfeadd90e1ee"
+
+[[files]]
+file = "config/heracles/quests/industriaeautomacao/pedreira_industrial.json"
+hash = "c1f97743a4986b190bcbf8fccd5f5e064c049c329e9de6ac6edb180eee1820e0"
+
+[[files]]
+file = "config/heracles/quests/industriaeautomacao/producao_de_maquinas.json"
+hash = "d5b21f336c91810865320befb587bed3d9a7acfcacb8ff4ec8370f8a2bc8e9b5"
+
+[[files]]
+file = "config/heracles/quests/industriaeautomacao/serraria_automatizada.json"
+hash = "675b25681988612c5cae2558df58c56be54e8faefbf00fef5069d4a8986ae052"
+
+[[files]]
+file = "config/heracles/quests/inicio/comercio_e_lojas.json"
+hash = "9fb2a52d8c69364ad86603d9b3478a3e47c9f386d2b419a10d07cf48fb011f52"
+
+[[files]]
+file = "config/heracles/quests/inicio/jogue_do_seu_jeito.json"
+hash = "d4e72fb0edc664f0f45fab13cdafc238e81c0a228fc2eb76e1a302a219074ede"
+
+[[files]]
+file = "config/heracles/quests/logisticaetransporte/estacao_central.json"
+hash = "e2a8ba1bbccf160714b1d73d183a391de4b1aad5908ddd58282d2697b6e3615a"
+
+[[files]]
+file = "config/heracles/quests/logisticaetransporte/estradas_principais.json"
+hash = "abe8e7ee9e4f012e6734063b3d85683077712a5d695ae118710e22b615ecf6c2"
+
+[[files]]
+file = "config/heracles/quests/logisticaetransporte/ferrovia_principal.json"
+hash = "060f074665a451453332fdfae11d6b85c80e2ff18be1802dbd118378c9928b35"
+
+[[files]]
+file = "config/heracles/quests/logisticaetransporte/producao_de_trilhos.json"
+hash = "ff4bf82248aa92452bbac19ed05f60d147a53fa11d49f3893a931d6c8bd475dc"
+
+[[files]]
+file = "config/heracles/quests/logisticaetransporte/train_depot.json"
+hash = "bef0e3d5207b71cf0e26fb37c59dcea69bbb6cf676fa910de83d8b9205c0ff22"
+
+[[files]]
+file = "config/heracles/quests/profissoes/agricultor.json"
+hash = "829822ac5c5ff4d17fbf4e3b37c5414ab1b9aa325174620057b4234f6677ff3e"
+
+[[files]]
+file = "config/heracles/quests/profissoes/cervejeiro.json"
+hash = "4ef3963b7392c12fc215a893c28b8cb4e2ae3096210c563d374d01e0d6114a16"
+
+[[files]]
+file = "config/heracles/quests/profissoes/cientista_espacial.json"
+hash = "c4c8f76c020bdf0341da824450f5f13f924b19cad9e20bba2330b054f31d4bd1"
+
+[[files]]
+file = "config/heracles/quests/profissoes/construtor_e_arquiteto.json"
+hash = "1017fd88b7f8aecec842cfc27089f21a899a0fa0a4fa6895bae6de4083340397"
+
+[[files]]
+file = "config/heracles/quests/profissoes/cozinheiro.json"
+hash = "6e7de2d250d47407915ba1d06a045d5c1c9ca784f4616dbe5fa4338e6ea10ecc"
+
+[[files]]
+file = "config/heracles/quests/profissoes/engenheiro_create.json"
+hash = "87e0d6f3555def8afe4d95c75b7a38480a8980a7b9cf065853d8d081222d95e3"
+
+[[files]]
+file = "config/heracles/quests/profissoes/engenheiro_rodoviario.json"
+hash = "725bcfdf0f89bf4720d3eb850477a218e06d32c85b326006a17e7de77b767186"
+
+[[files]]
+file = "config/heracles/quests/profissoes/especialista_em_cha.json"
+hash = "6a25cb8d82c7212ed926451003fb938d55d6418a4696948d55e17649bbff0810"
+
+[[files]]
+file = "config/heracles/quests/profissoes/explorador_e_cartografo.json"
+hash = "8f480872aa639544993236a716620248ab65ed8027a8ca28ff912c26e549f51b"
+
+[[files]]
+file = "config/heracles/quests/profissoes/ferreiro_tinkers.json"
+hash = "3318eedd37285fb012e59eb29fd76d1104c8131f31267d6eccb3ddacff66630c"
+
+[[files]]
+file = "config/heracles/quests/profissoes/ferroviario_e_logistico.json"
+hash = "e4783b4e3cd8ff0678c5e433113da7ed39e8d9866ebfe99217aa82fc97fb2261"
+
+[[files]]
+file = "config/heracles/quests/profissoes/florista.json"
+hash = "148d436613c5afbee11bca71c6d7cf1635c9bce6cb9499f87a9e6223397a60e5"
+
+[[files]]
+file = "config/heracles/quests/profissoes/madeireiro_e_carpinteiro.json"
+hash = "82bd615ce93b812b4f017e967c4f85840a0aeca530f3d47a6feda202ac63807f"
+
+[[files]]
+file = "config/heracles/quests/profissoes/midia_e_comunicacao.json"
+hash = "c9d5a772fd70adcdcf9fb7a1f3ccd2d044c9d870a726831da10447ffd21e072e"
+
+[[files]]
+file = "config/heracles/quests/profissoes/pecuarista_e_criador_de_animais.json"
+hash = "ab3f0e286ec961abfda1b35f91c4e68a9132818e9e5e131108e00ca307f03884"
+
+[[files]]
+file = "config/heracles/quests/profissoes/pescador_e_aquicultor.json"
+hash = "363581b8ee11ef8cff224b334ed44c485a8e35a50aa194d5d3049dbdcb181449"
+
+[[files]]
+file = "config/heracles/quests/profissoes/piloto.json"
+hash = "192a66113f6291e6bbed3710e3e8af9fec91103400f7e1f8a91146e7ef403194"
+
+[[files]]
+file = "config/heracles/quests/profissoes/treinador_de_pets.json"
+hash = "0a3a18e5e5f5e1056e8743bdd25bd6ff4ab295bebcd3d9c420b8cfe0a447edbd"
+
+[[files]]
+file = "config/heracles/quests/profissoes/vinicultor.json"
+hash = "8539eb4e5e382832b9fe91223db027ecc4d7874dca20cd7878cc0c9dd0fe249a"
+
+[[files]]
+file = "config/heracles/tutorial.html"
+hash = "aa442c3b95484b6b42d40506831235bff3c79e762592ef91f4785165a46b2522"
+
+[[files]]
 file = "config/livestock-overhaul-common.toml"
-hash = "48e72d9a1269b27c576ad5f4dff06737bdc92632d323e5a1555203ea334a0f50"
+hash = "7ed5769ed73fba4a4c59c89171510b51580fc7e1f6636366e91ced3789a0b560"
+
+[[files]]
+file = "icon.png"
+hash = "8997897afb951bc115bab10b422a77c502a49c78d13131cc6253f3c148c0cf30"
 
 [[files]]
 file = "kubejs/README.txt"
 hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
+
+[[files]]
+file = "kubejs/client_scripts/hide_livestock_vehicle_items.js"
+hash = "c06ff6fe3730a6712814cc0b38b309615b8502caebb6fa87ab174325ee263c6b"
 
 [[files]]
 file = "kubejs/config/client.properties"
@@ -135,6 +387,10 @@ hash = "8f47f1528f315f28da5a6c06654ec35e8da94098b1dff7205b03748cf25379d1"
 [[files]]
 file = "kubejs/package-lock.json"
 hash = "1bf355092df189425d8f5d0b1a320f4ee53f024d32258f990d64224498e196ff"
+
+[[files]]
+file = "kubejs/server_scripts/remove_livestock_vehicle_recipes.js"
+hash = "bdc82873503b53ed93a1e419694637df0cd9f34f8cb147211e7b37ffc4c4985e"
 
 [[files]]
 file = "kubejs/server_scripts/world_border_chunky.js"
@@ -341,6 +597,11 @@ hash = "6444b29c0f16a5a8e35db9b98f8ff28a35cd042308b31e21017239233b7fed1b"
 metafile = true
 
 [[files]]
+file = "mods/copycats.pw.toml"
+hash = "d89b1d59b9865cad867c71bbd2bc749b66fe49c307a23e77020b73b3d65b65f1"
+metafile = true
+
+[[files]]
 file = "mods/coroutil.pw.toml"
 hash = "9f2bb57e05bad305f03c25c275c6d11e952835a41b2da68dba10a0bd1f3f6261"
 metafile = true
@@ -376,6 +637,11 @@ hash = "fee58a333eaf51d4862fee34fe8ba7cb70140500023e06aca3c9fcf0e0f34719"
 metafile = true
 
 [[files]]
+file = "mods/create-diesel-generators.pw.toml"
+hash = "8075b607c4cbcf37445296cfab13c09f8b2cb8703c3cd91c8d677c96ab38d940"
+metafile = true
+
+[[files]]
 file = "mods/create-numismatics-crafting.pw.toml"
 hash = "a88ff0ca088fec54a2339579e4805e221a11b4f1f7243e1ea3be76a2831e03f1"
 metafile = true
@@ -398,6 +664,11 @@ metafile = true
 [[files]]
 file = "mods/create-steam-n-rails.pw.toml"
 hash = "a432e8775c2bdec53fca88146917905c5c82273e1b66af48b5ace0809433c8fe"
+metafile = true
+
+[[files]]
+file = "mods/create-vinery.pw.toml"
+hash = "62bcc7bdc9581edf32428041469f3ef43018f000fef332db330b7dc5620229c3"
 metafile = true
 
 [[files]]
@@ -448,11 +719,6 @@ metafile = true
 [[files]]
 file = "mods/default-options.pw.toml"
 hash = "3497e48c52866fe536932d77fbb5cb1793d4e268e52873f1ca5c1e961b777814"
-metafile = true
-
-[[files]]
-file = "mods/dew-drop-mod-compat.pw.toml"
-hash = "42bacaa8df6432ce2f28da2123412893cd2cd296e96732ecb8653ac45a9a1247"
 metafile = true
 
 [[files]]
@@ -891,6 +1157,11 @@ hash = "8cad1023bbc6e5c13961de6248a88b91538f3ad315dfdbb40c969e25606d98eb"
 metafile = true
 
 [[files]]
+file = "mods/northstar-redux.pw.toml"
+hash = "d4794dc3fcbf38687e3c3dbc54c8acdace888e3b3fae99b9b49dd3579d483a26"
+metafile = true
+
+[[files]]
 file = "mods/numismatics.pw.toml"
 hash = "63504f8d1db513fa1a78c214d824be5a9ddba732850a461cae0bb1029b8462b7"
 metafile = true
@@ -898,6 +1169,11 @@ metafile = true
 [[files]]
 file = "mods/oculus.pw.toml"
 hash = "f83b253ca6a8e6f2f847952704da0e1fb00e65cbb10b7c9cb15d1a1780618da0"
+metafile = true
+
+[[files]]
+file = "mods/odyssey-quests.pw.toml"
+hash = "e6cf00b5c66f4aaadf8ba8a0a3b3298c8cbc1a769e3bd4f8c96381a9ac8ca443"
 metafile = true
 
 [[files]]
@@ -966,13 +1242,13 @@ hash = "5ca42f4c23aee558ed76923d4fb92ecee736ebacb53790445c09d46bd9ccb27e"
 metafile = true
 
 [[files]]
-file = "mods/quality-food.pw.toml"
-hash = "3654264d7589402c0c5a09f10001d4caae6d035615b7bedd2a32f2d926ce5048"
+file = "mods/radium-reforged.pw.toml"
+hash = "77fa86d36ada0d178545853f987f9e71128e1833c9c29ae62c436c09bdb31948"
 metafile = true
 
 [[files]]
-file = "mods/radium-reforged.pw.toml"
-hash = "77fa86d36ada0d178545853f987f9e71128e1833c9c29ae62c436c09bdb31948"
+file = "mods/realistic-horse-genetics.pw.toml"
+hash = "c56bcec3ee959718dc87225ddc946de960a7f0c04509fdf6e1c8490853b56b24"
 metafile = true
 
 [[files]]
@@ -992,7 +1268,7 @@ metafile = true
 
 [[files]]
 file = "mods/resourceful-lib.pw.toml"
-hash = "ef0264b7d819848f72ab2f34643306187e712965a8246e1f733e1bd39d8fd681"
+hash = "5c07edd0c8fe82e85efd6c027476ba54cf98291526803b74614c3436292e4ab6"
 metafile = true
 
 [[files]]
@@ -1023,6 +1299,11 @@ metafile = true
 [[files]]
 file = "mods/seasonhud.pw.toml"
 hash = "88a721ff10e416fef42f8288b628e20e752d90ff23c97f033e46061cffa53c83"
+metafile = true
+
+[[files]]
+file = "mods/security-craft.pw.toml"
+hash = "0a9437e4b4d53291137e780a5f4d85dc06f584b1c43b8fdec788158da1770f3e"
 metafile = true
 
 [[files]]
@@ -1136,6 +1417,11 @@ hash = "f351a7387dd3096811b0cfffba8abd05f6cf955ca7cadc10d70bff39aa66558d"
 metafile = true
 
 [[files]]
+file = "mods/starcatcher.pw.toml"
+hash = "08d5c9c1a15f8ff6fd4ce5f0a8ed6fffe94f1573783984e3e39fcb84f790b2c0"
+metafile = true
+
+[[files]]
 file = "mods/stardew-fishing.pw.toml"
 hash = "3b58ab7677e1805437c4e86152ca595050b820bf1592838cab57cadf34f03133"
 metafile = true
@@ -1201,6 +1487,11 @@ hash = "00a0cba74675174812eea16aca533adfe9bac7b30a81a7e33dd81bd9343b45c4"
 metafile = true
 
 [[files]]
+file = "mods/truly-custom-horse-tack.pw.toml"
+hash = "6da4c1a0bafd170b2718764219d47ef03b34e267f9ceccc5f796bf8030c6ae51"
+metafile = true
+
+[[files]]
 file = "mods/unilib.pw.toml"
 hash = "47141ba25459964fd3247753cc60cd3946aace714f359e26bb36facc10655ee3"
 metafile = true
@@ -1238,11 +1529,6 @@ metafile = true
 [[files]]
 file = "mods/waterframes.pw.toml"
 hash = "bf80e336cf4ac7cc33ae97d1f4deac1fa94d5d1cb7c0ac6a2429c2d3120583f6"
-metafile = true
-
-[[files]]
-file = "mods/watering-cans-dew-drop.pw.toml"
-hash = "91dd5274264fee74cdfb5acc6ee8d83681b9a1a57ca2f24bacb07af3fddab17c"
 metafile = true
 
 [[files]]
@@ -1318,11 +1604,6 @@ metafile = true
 [[files]]
 file = "resourcepacks/create-sophisticated-storages.pw.toml"
 hash = "4e069051ed9caad9723d82fac4c7dd195bf7ba313e3d34108a8ca6519ab889b0"
-metafile = true
-
-[[files]]
-file = "resourcepacks/fa-player-extension.pw.toml"
-hash = "2ca0915d77d517822f91a7f3f07778cfcc181685ae6c69ba2b44ba3a2ef72cb5"
 metafile = true
 
 [[files]]

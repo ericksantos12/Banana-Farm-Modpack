@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": { "type": "heracles:item", "item": "minecraft:minecart" },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": "Engenheiro Rodoviário",
+    "subtitle": "Guia de profissão",
+    "description": [
+      "<h2 color=\"gray\" shadowed=\"true\">Engenheiro Rodoviário</h2>",
+      "<p>Um caminho para quem quer construir estradas, rodovias, garagens, postos, pontes e veículos para transporte terrestre.</p>",
+      "<hr color=\"gray\"/>",
+      "<h2 color=\"yellow\">O que você faz</h2>",
+      "<ul color=\"gray\"><li>Planeja vias, cruzamentos, pontes e rotas terrestres.</li><li>Constrói garagens, postos, oficinas e áreas de manutenção.</li><li>Ajuda jogadores a conectar bases por estradas legíveis e úteis.</li></ul>",
+      "<h2 color=\"yellow\">Projetos possíveis</h2>",
+      "<p>Rodovia principal, oficina de veículos, posto de combustível, garagem pública, ponte, estacionamento e sinalização urbana.</p>",
+      "<h2 color=\"yellow\">Mods para explorar</h2>",
+      "<p>Immersive Paintings, Automobility, Macaw's Bridges e Via Romana.</p>",
+      "<h2 color=\"yellow\">Como ser útil no SMP</h2>",
+      "<p>Crie caminhos fáceis de entender, melhore o transporte entre projetos e mantenha a infraestrutura terrestre funcionando.</p>"
+    ],
+    "groups": { "Profissões": { "position": [160, 300] } }
+  }
+}

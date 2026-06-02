@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": { "type": "heracles:item", "item": "minecraft:bricks" },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": "Construtor e Arquiteto",
+    "subtitle": "Guia de profissão",
+    "description": [
+      "<h2 color=\"aqua\" shadowed=\"true\">Construtor e Arquiteto</h2>",
+      "<p>Um caminho para quem gosta de criar casas, lojas, ruas, interiores e identidade visual para o servidor.</p>",
+      "<hr color=\"aqua\"/>",
+      "<h2 color=\"yellow\">O que você faz</h2>",
+      "<ul color=\"aqua\"><li>Planeja edifícios, bairros e áreas públicas.</li><li>Cria estilos visuais e transforma ideias em construções.</li><li>Ajuda outros jogadores com reformas, decoração e fachadas.</li></ul>",
+      "<h2 color=\"yellow\">Projetos possíveis</h2>",
+      "<p>Casas, lojas, ruas, praças, interiores, fachadas, distritos temáticos e contratos de construção.</p>",
+      "<h2 color=\"yellow\">Mods para explorar</h2>",
+      "<p>Handcrafted, Supplementaries, Create Deco, Create: Copycats+, Rechiseled, Fantasy's Furniture e Refurbished Furniture.</p>",
+      "<h2 color=\"yellow\">Como ser útil no SMP</h2>",
+      "<p>Venda projetos, construa por comissão e ajude a cidade a ter uma linguagem visual mais bonita e legível.</p>"
+    ],
+    "groups": { "Profissões": { "position": [80, 150] } }
+  }
+}

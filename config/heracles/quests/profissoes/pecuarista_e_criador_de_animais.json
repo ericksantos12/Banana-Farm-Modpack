@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": { "type": "heracles:item", "item": "minecraft:lead" },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": "Pecuarista e Criador de Animais",
+    "subtitle": "Guia de profissão",
+    "description": [
+      "<h2 color=\"green\" shadowed=\"true\">Pecuarista e Criador de Animais</h2>",
+      "<p>Um caminho para quem quer cuidar de animais, estábulos, genética, produtos rurais e fazendas vivas.</p>",
+      "<hr color=\"green\"/>",
+      "<h2 color=\"yellow\">O que você faz</h2>",
+      "<ul color=\"green\"><li>Cria animais para produção, companhia, transporte ou comércio.</li><li>Organiza currais, celeiros, pastos e áreas de manejo.</li><li>Fornece leite, ovos, lã, mel, montarias e animais selecionados.</li></ul>",
+      "<h2 color=\"yellow\">Projetos possíveis</h2>",
+      "<p>Rancho, estábulo, fazenda de produção, apiário avançado, leilão de animais, haras e área de criação seletiva.</p>",
+      "<h2 color=\"yellow\">Mods para explorar</h2>",
+      "<p>DragN's Livestock Overhaul, Realistic Horse Genetics, FarmLife Remastered, Better Beekeeping e Buzzier Bees.</p>",
+      "<h2 color=\"yellow\">Como ser útil no SMP</h2>",
+      "<p>Forneça animais, produtos rurais e montarias para jogadores que preferem construir, viajar ou produzir sem cuidar de criação.</p>"
+    ],
+    "groups": { "Profissões": { "position": [240, 225] } }
+  }
+}

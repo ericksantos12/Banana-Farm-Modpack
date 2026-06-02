@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:oak_door"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": "Pousada/Taverna",
+    "subtitle": "Projeto comercial",
+    "description": [
+      "<h1 color=\"gold\" shadowed=\"true\">Pousada/Taverna</h1>",
+      "<p>Criar um negocio acolhedor para descanso, comida, bebida e encontros entre jogadores.</p>",
+      "<hr color=\"gold\"/>",
+      "<h2 color=\"yellow\">Objetivo</h2>",
+      "<ul color=\"gold\"><li>Preparar quartos, mesas, balcao e area de atendimento.</li><li>Definir produtos ou servicos que possam ser vendidos pelo dono do local.</li><li>Oferecer um ponto social util para viajantes e moradores.</li></ul>",
+      "<hint title=\"Negocio do jogador\" icon=\"minecraft:oak_door\" color=\"aqua\"><p>Este projeto pode virar ponto social e tambem uma <span bold=\"true\">fonte honesta de lucro</span> para quem construir.</p></hint>",
+      "<blockquote color=\"gold\"><p>Onde ha uma mesa acesa, historias encontram abrigo.</p></blockquote>",
+      "<br/>",
+      "<br/>",
+      "<br/>",
+      "<hint title=\"Mods sugeridos\" icon=\"minecraft:compass\" color=\"white\"><p>Use Handcrafted, Supplementaries, Let's Do: Furniture, Refurbished Furniture e Fantasy's Furniture para quartos, mesas, balcoes e ambientacao. Let's Do: Brewery, Brewin' and Chewin', Let's Do: HerbalBrews, Farmer's Delight e Farmer's Respite ajudam com bebidas e comida.</p></hint>"
+    ],
+    "groups": {
+      "Cidade e Servicos": {
+        "position": [
+          160,
+          0
+        ]
+      }
+    }
+  },
+  "tasks": {
+    "concluir": {
+      "type": "heracles:check",
+      "title": "Projeto concluido"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "type": "heracles:xp",
+      "title": "Recompensa",
+      "xptype": "POINTS",
+      "amount": 80
+    }
+  }
+}

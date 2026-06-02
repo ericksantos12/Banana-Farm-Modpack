@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": { "type": "heracles:item", "item": "minecraft:blast_furnace" },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "title": "Fundicao Central",
+    "subtitle": "Infraestrutura industrial",
+    "description": [
+      "<h1 color=\"gray\" shadowed=\"true\">Fundicao Central</h1>",
+      "<p>Centralizar processamento de minerios e metais para uso industrial.</p>",
+      "<hr color=\"gray\"/>",
+      "<h2 color=\"yellow\">Objetivo</h2>",
+      "<ul color=\"gray\"><li>Receber minerios, combustivel e materiais brutos.</li><li>Processar metais com fluxo claro de entrada e saida.</li><li>Abastecer oficinas, fabricas e construtores.</li></ul>",
+      "<hint title=\"Processamento\" icon=\"minecraft:blast_furnace\" color=\"gray\"><p>Uma fundicao central transforma coleta dispersa em <span bold=\"true\">estoque confiavel</span>.</p></hint>",
+      "<blockquote color=\"gray\"><p>O fogo certo separa recurso bruto de futuro construido.</p></blockquote>",
+      "<br/>",
+      "<br/>",
+      "<br/>",
+      "<hint title=\"Mods sugeridos\" icon=\"minecraft:compass\" color=\"white\"><p>Use Create para esteiras, funis, brass funnels, lava e processamento automatizado. Create Crafts and Additions pode apoiar energia e integracao com maquinas eletricas.</p></hint>"
+    ],
+    "groups": { "Industria e Automacao": { "position": [80, 75] } }
+  },
+  "tasks": { "concluir": { "type": "heracles:check", "title": "Projeto concluido" } },
+  "rewards": { "xp": { "type": "heracles:xp", "title": "Recompensa", "xptype": "POINTS", "amount": 100 } }
+}

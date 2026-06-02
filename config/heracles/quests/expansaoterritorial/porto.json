@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": { "type": "heracles:item", "item": "minecraft:oak_boat" },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
+    "title": "Porto",
+    "subtitle": "Expansao territorial",
+    "description": [
+      "<h1 color=\"purple\" shadowed=\"true\">Porto</h1>",
+      "<p>Criar um ponto costeiro para viagens, cargas e conexao com novas regioes.</p>",
+      "<hr color=\"purple\"/>",
+      "<h2 color=\"yellow\">Objetivo</h2>",
+      "<ul color=\"purple\"><li>Organizar atracagem, armazenamento e acesso por terra.</li><li>Servir como saida para exploracao maritima.</li><li>Conectar comercio local a territorios distantes.</li></ul>",
+      "<hint title=\"Porta para fora\" icon=\"minecraft:oak_boat\" color=\"purple\"><p>Um porto bem usado transforma agua em estrada.</p></hint>",
+      "<blockquote color=\"purple\"><p>Todo horizonte fica menor quando existe onde ancorar.</p></blockquote>",
+      "<br/>",
+      "<br/>",
+      "<br/>",
+      "<hint title=\"Mods sugeridos\" icon=\"minecraft:compass\" color=\"white\"><p>Use Small Ships para transporte maritimo e barcos maiores; Supplementaries, Create Deco e Create podem ajudar com docas, guindastes, armazens e detalhes portuarios.</p></hint>"
+    ],
+    "groups": { "Expansao Territorial": { "position": [0, 0] } }
+  },
+  "tasks": { "concluir": { "type": "heracles:check", "title": "Projeto concluido" } },
+  "rewards": { "xp": { "type": "heracles:xp", "title": "Recompensa", "xptype": "POINTS", "amount": 110 } }
+}

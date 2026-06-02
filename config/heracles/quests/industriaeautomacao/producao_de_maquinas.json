@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": { "type": "heracles:item", "item": "create:mechanical_crafter" },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "title": "Producao de Maquinas",
+    "subtitle": "Infraestrutura industrial",
+    "description": [
+      "<h1 color=\"gray\" shadowed=\"true\">Producao de Maquinas</h1>",
+      "<p>Criar uma area dedicada a produzir componentes e maquinas para outros projetos.</p>",
+      "<hr color=\"gray\"/>",
+      "<h2 color=\"yellow\">Objetivo</h2>",
+      "<ul color=\"gray\"><li>Separar receitas recorrentes de maquinas e componentes.</li><li>Manter estoque minimo de itens industriais importantes.</li><li>Diminuir o tempo de preparacao de novas fabricas.</li></ul>",
+      "<hint title=\"Escala\" icon=\"create:mechanical_crafter\" color=\"gray\"><p>Quanto mais facil montar maquinas, mais rapido o servidor cresce.</p></hint>",
+      "<blockquote color=\"gray\"><p>A melhor fabrica e aquela que ajuda outras fabricas a nascer.</p></blockquote>",
+      "<br/>",
+      "<br/>",
+      "<br/>",
+      "<hint title=\"Mods sugeridos\" icon=\"minecraft:compass\" color=\"white\"><p>Use Create para mechanical crafters, deployers, prensas e linhas de montagem. Create: Pattern Schematics pode ajudar a repetir maquinas e estruturas.</p></hint>"
+    ],
+    "groups": { "Industria e Automacao": { "position": [0, 75] } }
+  },
+  "tasks": { "concluir": { "type": "heracles:check", "title": "Projeto concluido" } },
+  "rewards": { "xp": { "type": "heracles:xp", "title": "Recompensa", "xptype": "POINTS", "amount": 110 } }
+}

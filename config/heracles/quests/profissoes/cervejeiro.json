@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": { "type": "heracles:item", "item": "minecraft:barrel" },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": "Cervejeiro",
+    "subtitle": "Guia de profissão",
+    "description": [
+      "<h2 color=\"gold\" shadowed=\"true\">Cervejeiro</h2>",
+      "<p>Um caminho para quem quer produzir bebidas de taverna, criar cardápios de bar e movimentar encontros sociais.</p>",
+      "<hr color=\"gold\"/>",
+      "<h2 color=\"yellow\">O que você faz</h2>",
+      "<ul color=\"gold\"><li>Produz bebidas, fermentados e produtos para tavernas.</li><li>Compra ingredientes de agricultores e cozinheiros.</li><li>Cria experiências sociais em pousadas, bares e eventos.</li></ul>",
+      "<h2 color=\"yellow\">Projetos possíveis</h2>",
+      "<p>Cervejaria, bar, adega de bebidas fortes, fornecimento para tavernas e linha de produtos para festas.</p>",
+      "<h2 color=\"yellow\">Mods para explorar</h2>",
+      "<p>Brewin' And Chewin', Legacy: Let's Do Brewery e Farmer's Delight.</p>",
+      "<h2 color=\"yellow\">Como ser útil no SMP</h2>",
+      "<p>Venda bebidas para pousadas, organize eventos e crie produtos de alto valor para encontros da comunidade.</p>"
+    ],
+    "groups": { "Profissões": { "position": [0, 75] } }
+  }
+}

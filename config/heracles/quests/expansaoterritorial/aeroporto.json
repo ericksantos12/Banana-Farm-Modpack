@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": { "type": "heracles:item", "item": "minecraft:feather" },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
+    "title": "Aeroporto",
+    "subtitle": "Expansao territorial",
+    "description": [
+      "<h1 color=\"purple\" shadowed=\"true\">Aeroporto</h1>",
+      "<p>Criar uma base para deslocamento aereo, acesso rapido e exploracao distante.</p>",
+      "<hr color=\"purple\"/>",
+      "<h2 color=\"yellow\">Objetivo</h2>",
+      "<ul color=\"purple\"><li>Reservar area para pouso, decolagem e armazenamento.</li><li>Conectar o aeroporto a estradas, trilhos ou centro logistico.</li><li>Dar suporte a viagens longas e expedicoes.</li></ul>",
+      "<hint title=\"Mobilidade\" icon=\"minecraft:feather\" color=\"purple\"><p>Transporte aereo encurta distancias que ainda nao tem estrada.</p></hint>",
+      "<blockquote color=\"purple\"><p>Quem aprende a partir tambem aprende a voltar melhor.</p></blockquote>",
+      "<br/>",
+      "<br/>",
+      "<br/>",
+      "<hint title=\"Mods sugeridos\" icon=\"minecraft:compass\" color=\"white\"><p>Use Simple Planes para aeronaves e deslocamento aereo. Simple Radio ajuda na comunicacao com a torre, autorizacoes de pouso e coordenacao de voos.</p></hint>"
+    ],
+    "groups": { "Expansao Territorial": { "position": [160, 0] } }
+  },
+  "tasks": { "concluir": { "type": "heracles:check", "title": "Projeto concluido" } },
+  "rewards": { "xp": { "type": "heracles:xp", "title": "Recompensa", "xptype": "POINTS", "amount": 130 } }
+}
