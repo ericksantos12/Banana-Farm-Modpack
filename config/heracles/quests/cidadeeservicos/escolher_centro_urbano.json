@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:compass"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": "Escolher o Centro Urbano",
+    "subtitle": "Projeto comunitario",
+    "description": [
+      "<h1 color=\"gold\" shadowed=\"true\">Escolher o Centro Urbano</h1>",
+      "<p>Definir em conjunto o ponto principal onde a cidade do SMP vai nascer.</p>",
+      "<hr color=\"gold\"/>",
+      "<h2 color=\"yellow\">Objetivo</h2>",
+      "<ul color=\"gold\"><li>Avaliar acesso, relevo, espaco para expansao e proximidade com recursos.</li><li>Marcar caminhos iniciais e reservar areas para servicos publicos.</li><li>Registrar a decisao para orientar futuras construcoes.</li></ul>",
+      "<hint title=\"Impacto\" icon=\"minecraft:compass\" color=\"aqua\"><p><span bold=\"true\">Um bom centro urbano</span> evita confusao e ajuda todos a construir na mesma direcao.</p></hint>",
+      "<blockquote color=\"gold\"><p>Toda grande cidade nasce quando alguem decide onde comecar.</p></blockquote>"
+    ],
+    "groups": {
+      "Cidade e Servicos": {
+        "position": [
+          0,
+          0
+        ]
+      }
+    }
+  },
+  "tasks": {
+    "concluir": {
+      "type": "heracles:check",
+      "title": "Projeto concluido"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "type": "heracles:xp",
+      "title": "Recompensa",
+      "xptype": "POINTS",
+      "amount": 30
+    }
+  }
+}

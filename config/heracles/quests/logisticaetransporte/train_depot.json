@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": { "type": "heracles:item", "item": "create:track_station" },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "title": "Train Depot",
+    "subtitle": "Infraestrutura de transporte",
+    "description": [
+      "<h1 color=\"aqua\" shadowed=\"true\">Train Depot</h1>",
+      "<p>Criar um ponto tecnico para montar, guardar e manter trens.</p>",
+      "<hr color=\"aqua\"/>",
+      "<h2 color=\"yellow\">Objetivo</h2>",
+      "<ul color=\"aqua\"><li>Reservar linhas para montagem e estacionamento de trens.</li><li>Organizar acesso a componentes e manutencao.</li><li>Dar suporte a rotas de carga e passageiros.</li></ul>",
+      "<hint title=\"Operacao ferroviaria\" icon=\"create:track_station\" color=\"aqua\"><p>Um depot bem definido torna a ferrovia mais facil de operar.</p></hint>",
+      "<blockquote color=\"aqua\"><p>Todo trem precisa de um lugar para comecar de novo.</p></blockquote>",
+      "<br/>",
+      "<br/>",
+      "<br/>",
+      "<hint title=\"Mods sugeridos\" icon=\"minecraft:compass\" color=\"white\"><p>Use Create para montar trens, tracks e estacoes; Create: Steam 'n' Rails amplia opcoes ferroviarias e Create Railways Navigator ajuda na organizacao das rotas.</p></hint>"
+    ],
+    "groups": { "Logistica e Transporte": { "position": [80, 0] } }
+  },
+  "dependencies": [
+    "producao_de_trilhos"
+  ],
+  "tasks": { "concluir": { "type": "heracles:check", "title": "Projeto concluido" } },
+  "rewards": { "xp": { "type": "heracles:xp", "title": "Recompensa", "xptype": "POINTS", "amount": 100 } }
+}

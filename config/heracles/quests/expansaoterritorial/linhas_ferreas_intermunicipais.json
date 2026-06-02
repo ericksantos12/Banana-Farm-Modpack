@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": { "type": "heracles:item", "item": "minecraft:powered_rail" },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
+    "title": "Linhas Ferreas Intermunicipais",
+    "subtitle": "Expansao territorial",
+    "description": [
+      "<h1 color=\"purple\" shadowed=\"true\">Linhas Ferreas Intermunicipais</h1>",
+      "<p>Expandir a malha ferroviaria para conectar cidades, colonias e postos distantes.</p>",
+      "<hr color=\"purple\"/>",
+      "<h2 color=\"yellow\">Objetivo</h2>",
+      "<ul color=\"purple\"><li>Definir rotas entre nucleos territoriais diferentes.</li><li>Planejar paradas, sinalizacao e manutencao.</li><li>Permitir transporte regular de pessoas e cargas.</li></ul>",
+      "<hint title=\"Rede ampla\" icon=\"minecraft:powered_rail\" color=\"purple\"><p>Linhas longas fazem o SMP parecer um mundo conectado.</p></hint>",
+      "<blockquote color=\"purple\"><p>Quando a linha chega, a distancia deixa de isolar.</p></blockquote>",
+      "<br/>",
+      "<br/>",
+      "<br/>",
+      "<hint title=\"Mods sugeridos\" icon=\"minecraft:compass\" color=\"white\"><p>Use Create para tracks, trens e estacoes; Create: Steam 'n' Rails amplia a malha ferroviaria e Create Railways Navigator ajuda a organizar rotas longas entre cidades.</p></hint>"
+    ],
+    "groups": { "Expansao Territorial": { "position": [0, 75] } }
+  },
+  "tasks": { "concluir": { "type": "heracles:check", "title": "Projeto concluido" } },
+  "rewards": { "xp": { "type": "heracles:xp", "title": "Recompensa", "xptype": "POINTS", "amount": 160 } }
+}

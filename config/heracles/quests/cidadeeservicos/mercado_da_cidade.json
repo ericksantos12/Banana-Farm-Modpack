@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "numismatics:spur"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": "Mercado da Cidade",
+    "subtitle": "Projeto comunitario",
+    "description": [
+      "<h1 color=\"gold\" shadowed=\"true\">Mercado da Cidade</h1>",
+      "<p>Criar uma infraestrutura publica para bancas, trocas e lojas dos jogadores.</p>",
+      "<hr color=\"gold\"/>",
+      "<h2 color=\"yellow\">Objetivo</h2>",
+      "<ul color=\"gold\"><li>Reservar espacos claros para vendedores diferentes.</li><li>Facilitar circulacao, vitrines e acesso aos produtos.</li><li>Permitir que cada jogador venda itens proprios sem perder a organizacao do conjunto.</li></ul>",
+      "<hint title=\"Economia local\" icon=\"numismatics:spur\" color=\"aqua\"><p>O mercado e comunitario como estrutura, mas cada banca pode sustentar o <span bold=\"true\">trabalho de quem produz</span>.</p></hint>",
+      "<blockquote color=\"gold\"><p>Comercio justo faz a cidade respirar.</p></blockquote>",
+      "<br/>",
+      "<br/>",
+      "<br/>",
+      "<hint title=\"Mods sugeridos\" icon=\"minecraft:compass\" color=\"white\"><p>Use Create 6.0 para infraestrutura, transporte e vitrines mecanicas; Create: Numismatics para moedas, bancos e vendas. Create Numismatics Crafting e Numismatics Utils podem apoiar receitas e utilidades economicas.</p></hint>"
+    ],
+    "groups": {
+      "Cidade e Servicos": {
+        "position": [
+          80,
+          75
+        ]
+      }
+    }
+  },
+  "tasks": {
+    "concluir": {
+      "type": "heracles:check",
+      "title": "Projeto concluido"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "type": "heracles:xp",
+      "title": "Recompensa",
+      "xptype": "POINTS",
+      "amount": 70
+    }
+  }
+}

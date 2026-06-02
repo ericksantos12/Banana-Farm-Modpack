@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": { "type": "heracles:item", "item": "minecraft:fishing_rod" },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": "Pescador e Aquicultor",
+    "subtitle": "Guia de profissão",
+    "description": [
+      "<h2 color=\"aqua\" shadowed=\"true\">Pescador e Aquicultor</h2>",
+      "<p>Um caminho para quem quer viver de rios, mares, peixes, frutos do mar e abastecimento costeiro.</p>",
+      "<hr color=\"aqua\"/>",
+      "<h2 color=\"yellow\">O que você faz</h2>",
+      "<ul color=\"aqua\"><li>Pesca espécies variadas e organiza pontos de coleta.</li><li>Fornece peixe, mariscos e ingredientes para cozinheiros.</li><li>Ajuda portos, mercados e restaurantes a terem produtos frescos.</li></ul>",
+      "<h2 color=\"yellow\">Projetos possíveis</h2>",
+      "<p>Cais de pesca, mercado de peixe, viveiros, restaurante costeiro, frota pequena de barcos e contratos de entrega para cozinhas.</p>",
+      "<h2 color=\"yellow\">Mods para explorar</h2>",
+      "<p>Aquaculture 2, Stardew Fishing, Starcatcher, Tide 2, Aquaculture Delight e Crabber's Delight.</p>",
+      "<h2 color=\"yellow\">Como ser útil no SMP</h2>",
+      "<p>Abasteça cozinheiros, mercados e eventos com ingredientes marítimos que outros jogadores raramente coletam em volume.</p>"
+    ],
+    "groups": { "Profissões": { "position": [160, 225] } }
+  }
+}

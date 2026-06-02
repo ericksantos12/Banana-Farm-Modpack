@@ -1,0 +1,13 @@
+name = "Truly Custom Horse Tack"
+filename = "truly_custom_horse_tack-1.20.1-1.6.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/b7wNdzcU/versions/Y1BHmzfn/truly_custom_horse_tack-1.20.1-1.6.0.jar"
+hash-format = "sha512"
+hash = "d2b0c8b5fbe8e3bcf11ef93d8f5a254dab2252e01727a503ae9ae3d3883caf80168e987a050973af7358d14dffab3dc31903300cdb241d786ec1fb4cc5193b4d"
+
+[update]
+[update.modrinth]
+mod-id = "b7wNdzcU"
+version = "Y1BHmzfn"

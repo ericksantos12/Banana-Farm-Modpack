@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": { "type": "heracles:item", "item": "minecraft:minecart" },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "title": "Estacao Central",
+    "subtitle": "Infraestrutura de transporte",
+    "description": [
+      "<h1 color=\"aqua\" shadowed=\"true\">Estacao Central</h1>",
+      "<p>Criar o principal ponto de embarque, desembarque e orientacao ferroviaria.</p>",
+      "<hr color=\"aqua\"/>",
+      "<h2 color=\"yellow\">Objetivo</h2>",
+      "<ul color=\"aqua\"><li>Organizar plataformas, acessos e direcoes.</li><li>Facilitar conexao entre cidade, industria e territorios distantes.</li><li>Servir como referencia para novas rotas.</li></ul>",
+      "<hint title=\"Ponto central\" icon=\"minecraft:minecart\" color=\"aqua\"><p>A estacao central transforma transporte em servico publico.</p></hint>",
+      "<blockquote color=\"aqua\"><p>Quem chega bem orientado ja faz parte da cidade.</p></blockquote>",
+      "<br/>",
+      "<br/>",
+      "<br/>",
+      "<hint title=\"Mods sugeridos\" icon=\"minecraft:compass\" color=\"white\"><p>Use Create para plataformas, tracks e operacao dos trens; Create: Steam 'n' Rails melhora a infraestrutura ferroviaria e Create Railways Navigator ajuda a orientar destinos e conexoes.</p></hint>"
+    ],
+    "groups": { "Logistica e Transporte": { "position": [0, 75] } }
+  },
+  "tasks": { "concluir": { "type": "heracles:check", "title": "Projeto concluido" } },
+  "rewards": { "xp": { "type": "heracles:xp", "title": "Recompensa", "xptype": "POINTS", "amount": 120 } }
+}

@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:mechanical_press"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "title": "Fabrica de Comida",
+    "subtitle": "Projeto produtivo",
+    "description": [
+      "<h1 color=\"green\" shadowed=\"true\">Fabrica de Comida</h1>",
+      "<p>Construir uma instalacao produtiva para processar ingredientes e vender alimentos em escala.</p>",
+      "<hr color=\"green\"/>",
+      "<h2 color=\"yellow\">Objetivo</h2>",
+      "<ul color=\"green\"><li>Organizar entrada de materias-primas, processamento, estoque e retirada de pedidos.</li><li>Priorizar fluxo eficiente entre producao e venda.</li><li>Criar uma linha de produtos que possa abastecer viajantes, lojas e eventos.</li></ul>",
+      "<hint title=\"Projeto maior\" icon=\"create:mechanical_press\" color=\"green\"><p>Ideal para quem quer transformar agricultura em <span bold=\"true\">economia de verdade</span>.</p></hint>",
+      "<blockquote color=\"green\"><p>Um povo bem alimentado constroi mais longe.</p></blockquote>",
+      "<br/>",
+      "<br/>",
+      "<br/>",
+      "<hint title=\"Mods sugeridos\" icon=\"minecraft:compass\" color=\"white\"><p>Use Create para linhas de processamento, Farmer's Delight para pratos base e Some Assembly Required para montagem de alimentos. Croptopia, Vintage Delight e os addons de Delight podem expandir o catalogo.</p></hint>"
+    ],
+    "groups": {
+      "Agricultura e Alimentacao": {
+        "position": [
+          0,
+          75
+        ]
+      }
+    }
+  },
+  "tasks": {
+    "concluir": {
+      "type": "heracles:check",
+      "title": "Projeto concluido"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "type": "heracles:xp",
+      "title": "Recompensa",
+      "xptype": "POINTS",
+      "amount": 100
+    }
+  }
+}

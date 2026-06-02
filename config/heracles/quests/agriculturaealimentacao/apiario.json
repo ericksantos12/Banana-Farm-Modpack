@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:beehive"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "title": "Apiario",
+    "subtitle": "Projeto produtivo",
+    "description": [
+      "<h1 color=\"green\" shadowed=\"true\">Apiario</h1>",
+      "<p>Criar um apiario para produzir mel, cera e apoiar a polinizacao das fazendas.</p>",
+      "<hr color=\"green\"/>",
+      "<h2 color=\"yellow\">Objetivo</h2>",
+      "<ul color=\"green\"><li>Proteger colmeias e organizar uma area segura para coleta.</li><li>Manter acesso pratico para manutencao e expansao.</li><li>Vender derivados de abelha ou fornecer insumos para outros produtores.</li></ul>",
+      "<hint title=\"Producao pequena\" icon=\"minecraft:beehive\" color=\"green\"><p>Um apiario pequeno pode alimentar <span bold=\"true\">varios negocios ao redor</span>.</p></hint>",
+      "<blockquote color=\"green\"><p>Pequenas asas tambem movem grandes colheitas.</p></blockquote>",
+      "<br/>",
+      "<br/>",
+      "<br/>",
+      "<hint title=\"Mods sugeridos\" icon=\"minecraft:compass\" color=\"white\"><p>Use abelhas vanilla, Buzzier Bees e Better Beekeeping para ampliar colmeias, coleta, cera, mel e polinizacao.</p></hint>"
+    ],
+    "groups": {
+      "Agricultura e Alimentacao": {
+        "position": [
+          160,
+          0
+        ]
+      }
+    }
+  },
+  "tasks": {
+    "concluir": {
+      "type": "heracles:check",
+      "title": "Projeto concluido"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "type": "heracles:xp",
+      "title": "Recompensa",
+      "xptype": "POINTS",
+      "amount": 50
+    }
+  }
+}

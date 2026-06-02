@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:sweet_berries"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "title": "Vinicola",
+    "subtitle": "Projeto produtivo",
+    "description": [
+      "<h1 color=\"green\" shadowed=\"true\">Vinicola</h1>",
+      "<p>Construir uma vinicola para produzir, armazenar e vender bebidas.</p>",
+      "<hr color=\"green\"/>",
+      "<h2 color=\"yellow\">Objetivo</h2>",
+      "<ul color=\"green\"><li>Planejar vinhedos, processamento, armazenamento e atendimento.</li><li>Organizar uma cadeia de producao clara, da colheita ate a venda.</li><li>Definir como os produtos serao vendidos para outros jogadores.</li></ul>",
+      "<hint title=\"Negocio do jogador\" icon=\"minecraft:sweet_berries\" color=\"green\"><p>Quem construir a vinicola pode operar o negocio e <span bold=\"true\">lucrar com a producao</span>.</p></hint>",
+      "<blockquote color=\"green\"><p>O tempo tambem e ingrediente.</p></blockquote>",
+      "<br/>",
+      "<br/>",
+      "<br/>",
+      "<hint title=\"Mods sugeridos\" icon=\"minecraft:compass\" color=\"white\"><p>Use Let's Do: Vinery para vinhedos, barris e bebidas; Create Vinery pode complementar a automacao e a integracao com Create.</p></hint>"
+    ],
+    "groups": {
+      "Agricultura e Alimentacao": {
+        "position": [
+          0,
+          0
+        ]
+      }
+    }
+  },
+  "tasks": {
+    "concluir": {
+      "type": "heracles:check",
+      "title": "Projeto concluido"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "type": "heracles:xp",
+      "title": "Recompensa",
+      "xptype": "POINTS",
+      "amount": 80
+    }
+  }
+}

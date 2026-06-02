@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": { "type": "heracles:item", "item": "create:cogwheel" },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": "Engenheiro Create",
+    "subtitle": "Guia de profissão",
+    "description": [
+      "<h2 color=\"white\" shadowed=\"true\">Engenheiro Create</h2>",
+      "<p>Um caminho para quem gosta de transformar problemas do servidor em máquinas, linhas de produção e sistemas automáticos.</p>",
+      "<hr color=\"white\"/>",
+      "<h2 color=\"yellow\">O que você faz</h2>",
+      "<ul color=\"white\"><li>Projeta máquinas para processar itens em escala.</li><li>Conecta farms, oficinas e fábricas com transporte mecânico.</li><li>Ajuda outros jogadores a automatizar tarefas repetitivas.</li></ul>",
+      "<h2 color=\"yellow\">Projetos possíveis</h2>",
+      "<p>Linhas de montagem, fábricas compactas, sistemas de sorting, elevadores, portas mecânicas, farms automatizadas e infraestrutura industrial.</p>",
+      "<h2 color=\"yellow\">Mods para explorar</h2>",
+      "<p>Create, Create Crafts and Additions, Create: Connected, Create: Copycats+, Create: Bells and Whistles e Create: Pattern Schematics.</p>",
+      "<h2 color=\"yellow\">Como ser útil no SMP</h2>",
+      "<p>Ofereça projetos sob encomenda, venda componentes, mantenha fábricas públicas e ajude a resolver gargalos técnicos da cidade.</p>"
+    ],
+    "groups": { "Profissões": { "position": [0, 0] } }
+  }
+}

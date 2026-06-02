@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": { "type": "heracles:item", "item": "northstar:astronomy_table" },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
+    "title": "Agencia Espacial",
+    "subtitle": "Expansao territorial",
+    "description": [
+      "<h1 color=\"purple\" shadowed=\"true\">Agencia Espacial</h1>",
+      "<p>Organizar uma instituicao dedicada a pesquisa orbital, planejamento de missoes e infraestrutura espacial.</p>",
+      "<hr color=\"purple\"/>",
+      "<h2 color=\"yellow\">Objetivo</h2>",
+      "<ul color=\"purple\"><li>Construir um centro de comando com area de pesquisa e observacao.</li><li>Preparar armazenamento para pecas, combustivel e equipamentos espaciais.</li><li>Definir protocolos para lancamentos, manutencao e retorno de exploradores.</li></ul>",
+      "<hint title=\"Programa espacial\" icon=\"northstar:astronomy_table\" color=\"purple\"><p>A agencia transforma exploracao espacial em projeto coordenado do servidor.</p></hint>",
+      "<blockquote color=\"purple\"><p>Antes de tocar as estrelas, alguem precisa desenhar a rota.</p></blockquote>",
+      "<br/>",
+      "<br/>",
+      "<br/>",
+      "<hint title=\"Mods sugeridos\" icon=\"minecraft:compass\" color=\"white\"><p>Use Create: Northstar - Redux para astronomia, pesquisa espacial e equipamentos de missao. Create ajuda com automacao, fabricacao de componentes e infraestrutura tecnica da agencia.</p></hint>"
+    ],
+    "groups": { "Expansao Territorial": { "position": [240, 0] } }
+  },
+  "dependencies": [
+    "aeroporto"
+  ],
+  "tasks": { "concluir": { "type": "heracles:check", "title": "Projeto concluido" } },
+  "rewards": { "xp": { "type": "heracles:xp", "title": "Recompensa", "xptype": "POINTS", "amount": 180 } }
+}

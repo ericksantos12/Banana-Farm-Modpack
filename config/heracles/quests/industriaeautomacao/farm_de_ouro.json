@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": { "type": "heracles:item", "item": "minecraft:gold_ingot" },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "title": "Farm de Ouro",
+    "subtitle": "Projeto produtivo",
+    "description": [
+      "<h1 color=\"gold\" shadowed=\"true\">Farm de Ouro</h1>",
+      "<p>Garantir uma producao estavel de ouro para comercio, trilhos e automacoes.</p>",
+      "<hr color=\"gold\"/>",
+      "<h2 color=\"yellow\">Objetivo</h2>",
+      "<ul color=\"gold\"><li>Produzir ouro com coleta organizada.</li><li>Separar armazenamento, venda e retirada de pedidos.</li><li>Abastecer projetos que dependem de ouro em escala.</li></ul>",
+      "<hint title=\"Recurso estrategico\" icon=\"minecraft:gold_ingot\" color=\"gold\"><p>Ouro bem produzido acelera transporte, comercio e automacao.</p></hint>",
+      "<blockquote color=\"gold\"><p>Valor parado e tesouro; valor circulando e progresso.</p></blockquote>",
+      "<br/>",
+      "<br/>",
+      "<br/>",
+      "<hint title=\"Mods sugeridos\" icon=\"minecraft:compass\" color=\"white\"><p>Use Create para transporte, separação, armazenamento e processamento de ouro.</p></hint>"
+    ],
+    "groups": { "Industria e Automacao": { "position": [0, 150] } }
+  },
+  "tasks": { "concluir": { "type": "heracles:check", "title": "Projeto concluido" } },
+  "rewards": { "xp": { "type": "heracles:xp", "title": "Recompensa", "xptype": "POINTS", "amount": 110 } }
+}

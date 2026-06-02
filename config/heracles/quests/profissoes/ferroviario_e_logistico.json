@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": { "type": "heracles:item", "item": "create:track" },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": "Ferroviário e Logístico",
+    "subtitle": "Guia de profissão",
+    "description": [
+      "<h2 color=\"aqua\" shadowed=\"true\">Ferroviário e Logístico</h2>",
+      "<p>Um caminho para quem quer conectar pessoas, cidades, fábricas e recursos com transporte confiável.</p>",
+      "<hr color=\"aqua\"/>",
+      "<h2 color=\"yellow\">O que você faz</h2>",
+      "<ul color=\"aqua\"><li>Planeja rotas, estações e linhas de carga.</li><li>Opera trens, entregas e conexões entre projetos.</li><li>Reduz distância entre produtores e compradores.</li></ul>",
+      "<h2 color=\"yellow\">Projetos possíveis</h2>",
+      "<p>Ferrovias, estações, linhas intermunicipais, armazéns logísticos, rotas de carga e guias de viagem.</p>",
+      "<h2 color=\"yellow\">Mods para explorar</h2>",
+      "<p>Create, Create: Steam 'n' Rails e Create Railways Navigator.</p>",
+      "<h2 color=\"yellow\">Como ser útil no SMP</h2>",
+      "<p>Venda serviços de transporte, mantenha rotas públicas e ajude produtores a entregar recursos sem perder tempo.</p>"
+    ],
+    "groups": { "Profissões": { "position": [160, 150] } }
+  }
+}

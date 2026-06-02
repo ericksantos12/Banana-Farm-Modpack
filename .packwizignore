@@ -31,3 +31,6 @@ kubejs/dx
 /kubejs/config/probejs.json
 /kubejs/config/probe-settings.json
 /kubejs/*/jsconfig.json
+
+# Modpack update cheker
+meta.json

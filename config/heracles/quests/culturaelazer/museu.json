@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": { "type": "heracles:item", "item": "minecraft:item_frame" },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hearts.png",
+    "title": "Museu",
+    "subtitle": "Projeto cultural",
+    "description": [
+      "<h1 color=\"pink\" shadowed=\"true\">Museu</h1>",
+      "<p>Criar um espaco para preservar memorias, itens raros e historias do SMP.</p>",
+      "<hr color=\"pink\"/>",
+      "<h2 color=\"yellow\">Objetivo</h2>",
+      "<ul color=\"pink\"><li>Organizar exposicoes, colecoes e registros importantes.</li><li>Permitir doacoes ou emprestimos de itens dos jogadores.</li><li>Servir como arquivo vivo da comunidade.</li></ul>",
+      "<hint title=\"Memoria\" icon=\"minecraft:item_frame\" color=\"pink\"><p>Um museu transforma conquistas soltas em historia compartilhada.</p></hint>",
+      "<blockquote color=\"pink\"><p>O que e lembrado continua construindo depois que acaba.</p></blockquote>"
+    ],
+    "groups": { "Cultura e Lazer": { "position": [0, 0] } }
+  },
+  "tasks": { "concluir": { "type": "heracles:check", "title": "Projeto concluido" } },
+  "rewards": { "xp": { "type": "heracles:xp", "title": "Recompensa", "xptype": "POINTS", "amount": 90 } }
+}

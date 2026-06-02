@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": { "type": "heracles:item", "item": "minecraft:filled_map" },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": "Explorador e Cartógrafo",
+    "subtitle": "Guia de profissão",
+    "description": [
+      "<h2 color=\"purple\" shadowed=\"true\">Explorador e Cartógrafo</h2>",
+      "<p>Um caminho para quem quer descobrir o mundo, registrar lugares importantes e transformar viagem em informação útil.</p>",
+      "<hr color=\"purple\"/>",
+      "<h2 color=\"yellow\">O que você faz</h2>",
+      "<ul color=\"purple\"><li>Explora biomas, estruturas, rotas e recursos distantes.</li><li>Marca locais úteis e compartilha informação com a comunidade.</li><li>Ajuda a escolher colônias, estradas e novas frentes de expansão.</li></ul>",
+      "<h2 color=\"yellow\">Projetos possíveis</h2>",
+      "<p>Mapas de rotas, guias de biomas, postos avançados, relatórios de estruturas e rotas seguras para viajantes.</p>",
+      "<h2 color=\"yellow\">Mods para explorar</h2>",
+      "<p>Antique Atlas, BlueMap, Structory e YUNG's structures.</p>",
+      "<h2 color=\"yellow\">Como ser útil no SMP</h2>",
+      "<p>Encontre recursos raros e ajude projetos grandes a escolherem os melhores locais.</p>"
+    ],
+    "groups": { "Profissões": { "position": [240, 150] } }
+  }
+}

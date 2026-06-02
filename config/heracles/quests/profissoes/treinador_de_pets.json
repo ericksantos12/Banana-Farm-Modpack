@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": { "type": "heracles:item", "item": "minecraft:bone" },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": "Treinador de Pets",
+    "subtitle": "Guia de profissão",
+    "description": [
+      "<h2 color=\"gold\" shadowed=\"true\">Treinador de Pets</h2>",
+      "<p>Um caminho para quem quer trabalhar com adoção, companhia, cães de trabalho, gatos e animais úteis para jogadores.</p>",
+      "<hr color=\"gold\"/>",
+      "<h2 color=\"yellow\">O que você faz</h2>",
+      "<ul color=\"gold\"><li>Encontra, resgata e organiza pets para adoção.</li><li>Treina animais para companhia, guarda, exploração ou fazenda.</li><li>Ajuda jogadores a transportar e cuidar de seus animais.</li></ul>",
+      "<h2 color=\"yellow\">Projetos possíveis</h2>",
+      "<p>Abrigo de pets, canil, gatil, centro de treinamento, serviço de resgate e loja de acessórios para animais.</p>",
+      "<h2 color=\"yellow\">Mods para explorar</h2>",
+      "<p>Adopt a Pet, Simply Cats, Working Dogs, Domestication Innovation Fixed, DragN's LO: Pets e Mob Lassos.</p>",
+      "<h2 color=\"yellow\">Como ser útil no SMP</h2>",
+      "<p>Conecte jogadores a pets, organize adoções e ofereça ajuda quando animais precisam ser movidos, protegidos ou recuperados.</p>"
+    ],
+    "groups": { "Profissões": { "position": [0, 300] } }
+  }
+}

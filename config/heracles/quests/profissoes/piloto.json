@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": { "type": "heracles:item", "item": "minecraft:feather" },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": "Piloto",
+    "subtitle": "Guia de profissão",
+    "description": [
+      "<h2 color=\"purple\" shadowed=\"true\">Piloto</h2>",
+      "<p>Um caminho para quem quer operar aeronaves, conectar regiões distantes e transformar viagem aérea em serviço.</p>",
+      "<hr color=\"purple\"/>",
+      "<h2 color=\"yellow\">O que você faz</h2>",
+      "<ul color=\"purple\"><li>Voa entre aeroportos, colônias e áreas remotas.</li><li>Transporta jogadores, itens leves e informações urgentes.</li><li>Coordena pousos, decolagens e comunicação com a torre.</li></ul>",
+      "<h2 color=\"yellow\">Projetos possíveis</h2>",
+      "<p>Aeroporto, pista rural, serviço de táxi aéreo, torre de controle, rotas de voo e entregas rápidas.</p>",
+      "<h2 color=\"yellow\">Mods para explorar</h2>",
+      "<p>Simple Planes e Simple Radio.</p>",
+      "<h2 color=\"yellow\">Como ser útil no SMP</h2>",
+      "<p>Ofereça transporte rápido, ajude exploradores e mantenha comunicação clara entre bases distantes.</p>"
+    ],
+    "groups": { "Profissões": { "position": [0, 225] } }
+  }
+}

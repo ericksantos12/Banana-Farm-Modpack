@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": { "type": "heracles:item", "item": "minecraft:oak_log" },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": "Madeireiro e Carpinteiro",
+    "subtitle": "Guia de profissão",
+    "description": [
+      "<h2 color=\"green\" shadowed=\"true\">Madeireiro e Carpinteiro</h2>",
+      "<p>Um caminho para quem quer transformar florestas, madeira e detalhes em material de construção e mobiliário.</p>",
+      "<hr color=\"green\"/>",
+      "<h2 color=\"yellow\">O que você faz</h2>",
+      "<ul color=\"green\"><li>Produz madeira, tábuas, vigas e peças decorativas.</li><li>Abastece construtores com materiais prontos.</li><li>Cria móveis, interiores e detalhes de carpintaria.</li></ul>",
+      "<h2 color=\"yellow\">Projetos possíveis</h2>",
+      "<p>Serraria, marcenaria, loja de móveis, plantio renovável de árvores e catálogo de peças para construtores.</p>",
+      "<h2 color=\"yellow\">Mods para explorar</h2>",
+      "<p>Create Mechanical Saw, Handcrafted, Supplementaries, Let's Do: Furniture, Refurbished Furniture e Fantasy's Furniture.</p>",
+      "<h2 color=\"yellow\">Como ser útil no SMP</h2>",
+      "<p>Venda madeira processada, kits de construção, móveis prontos e serviços de interior para casas e lojas.</p>"
+    ],
+    "groups": { "Profissões": { "position": [0, 150] } }
+  }
+}

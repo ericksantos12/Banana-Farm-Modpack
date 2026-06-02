@@ -9,11 +9,11 @@
 	#This may help lower-end servers or computers run LO a little better if set to a higher value, since not as many animals will spawn. Only affects common farm animals (since they spawn most often) and does not affect anything vanilla or from other mods.
 	"Spawn Rate Prevention Percent" = 0.0
 	#Should horses be replaced by O-Horses?
-	"Replace Horses" = true
+	"Replace Horses" = false
 	#Should mules be replaced by O-Mules?
-	"Replace Mules" = true
+	"Replace Mules" = false
 	#Should donkeys be replaced by O-Donkeys?
-	"Replace Donkeys" = true
+	"Replace Donkeys" = false
 	#Should cows be replaced by O-Cows?
 	"Replace Cows" = true
 	#Should chickens be replaced by O-Chickens?
