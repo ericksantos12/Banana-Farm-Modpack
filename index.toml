@@ -354,7 +354,7 @@ hash = "aa442c3b95484b6b42d40506831235bff3c79e762592ef91f4785165a46b2522"
 
 [[files]]
 file = "config/livestock-overhaul-common.toml"
-hash = "7ed5769ed73fba4a4c59c89171510b51580fc7e1f6636366e91ced3789a0b560"
+hash = "9fc71d12f1090375d3e5a886444a1a7519497292a6882d4e4ba9e231f22de28c"
 
 [[files]]
 file = "icon.png"
@@ -1590,6 +1590,10 @@ metafile = true
 file = "mods/yungs-better-strongholds.pw.toml"
 hash = "32d07d192caa9459521c3b3bc21199ebe72d7f6cad9b3461e0b231180f46bb30"
 metafile = true
+
+[[files]]
+file = "packwiz-installer-bootstrap.jar"
+hash = "a8fbb24dc604278e97f4688e82d3d91a318b98efc08d5dbfcbcbcab6443d116c"
 
 [[files]]
 file = "resourcepacks/adopt-a-pet!!-dog-and-cat-.pw.toml"

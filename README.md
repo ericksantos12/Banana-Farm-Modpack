@@ -67,6 +67,18 @@ Vá na aba [**Releases**](https://github.com/ericksantos12/Banana-Farm-Modpack/r
 5. Selecione o `.zip` baixado.
 6. Aguarde o Prism Launcher importar o pack e baixar os mods.
 
+#### Atualizações automáticas com packwiz
+
+A instância já inclui `packwiz-installer-bootstrap.jar`.
+
+Para atualizar o modpack automaticamente antes de abrir o jogo, configure o **Pre-launch command** da instância no Prism Launcher:
+
+```powershell
+java -jar packwiz-installer-bootstrap.jar "https://raw.githubusercontent.com/ericksantos12/Banana-Farm-Modpack/main/pack.toml"
+```
+
+O Prism executará o installer antes do jogo abrir e sincronizará mods, configs, quests e scripts com o `pack.toml` publicado no GitHub.
+
 ### Outros launchers
 
 Use o arquivo `.zip` da release. O suporte de importação depende do launcher usado.
@@ -131,6 +143,22 @@ Exportar serverpack:
 ```sh
 packwiz curseforge export -s server -o banana-farm-server.zip
 ```
+
+## Teste local com Prism e packwiz serve
+
+Para testar mudanças locais sem depender do GitHub, rode na raiz do repositório:
+
+```powershell
+packwiz serve
+```
+
+Depois configure o **Pre-launch command** da instância dev no Prism Launcher:
+
+```powershell
+java -jar packwiz-installer-bootstrap.jar "http://127.0.0.1:8080/pack.toml"
+```
+
+Com isso, o Prism usa o servidor local do packwiz para instalar ou atualizar mods, configs, quests e scripts antes de abrir o jogo.
 
 ## Cuidados ao Manter
 
