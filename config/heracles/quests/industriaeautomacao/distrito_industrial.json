@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": { "type": "heracles:item", "item": "create:factory_gauge" },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "title": "Distrito Industrial",
+    "subtitle": "Infraestrutura industrial",
+    "description": [
+      "<h1 color=\"gray\" shadowed=\"true\">Distrito Industrial</h1>",
+      "<p>Reservar e organizar uma area para concentrar producao, energia e logistica industrial.</p>",
+      "<hr color=\"gray\"/>",
+      "<h2 color=\"yellow\">Objetivo</h2>",
+      "<ul color=\"gray\"><li>Definir espacos para fabricas, armazenamento e transporte.</li><li>Planejar acessos para carga, manutencao e expansao.</li><li>Reduzir conflitos entre producao pesada e areas residenciais.</li></ul>",
+      "<hint title=\"Planejamento\" icon=\"create:factory_gauge\" color=\"gray\"><p>Um distrito organizado permite que muitas fabricas convivam sem travar o servidor socialmente.</p></hint>",
+      "<blockquote color=\"gray\"><p>Industria cresce melhor quando tem lugar para respirar.</p></blockquote>"
+    ],
+    "groups": { "Industria e Automacao": { "position": [160, 150] } }
+  },
+  "dependencies": [
+    "ferrovia_principal"
+  ],
+  "tasks": { "concluir": { "type": "heracles:check", "title": "Projeto concluido" } },
+  "rewards": { "xp": { "type": "heracles:xp", "title": "Recompensa", "xptype": "POINTS", "amount": 140 } }
+}

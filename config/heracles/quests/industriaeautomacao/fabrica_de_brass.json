@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": { "type": "heracles:item", "item": "create:brass_ingot" },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "title": "Fabrica de Brass",
+    "subtitle": "Projeto produtivo",
+    "description": [
+      "<h1 color=\"gold\" shadowed=\"true\">Fabrica de Brass</h1>",
+      "<p>Estabelecer producao de brass para componentes avancados e automacoes maiores.</p>",
+      "<hr color=\"gold\"/>",
+      "<h2 color=\"yellow\">Objetivo</h2>",
+      "<ul color=\"gold\"><li>Organizar entrada de cobre, zinco e combustivel ou aquecimento.</li><li>Separar processamento, estoque e venda de brass.</li><li>Abastecer maquinas avancadas, filtros e sistemas logisticos.</li></ul>",
+      "<hint title=\"Avanco tecnico\" icon=\"create:brass_ingot\" color=\"gold\"><p>Brass abre a porta para automacoes mais precisas e economias maiores.</p></hint>",
+      "<blockquote color=\"gold\"><p>Quando o metal certo circula, a industria aprende a respirar.</p></blockquote>",
+      "<br/>",
+      "<br/>",
+      "<br/>",
+      "<hint title=\"Mods sugeridos\" icon=\"minecraft:compass\" color=\"white\"><p>Use Create para blaze burners, mixers, deployers e linhas de processamento de brass. Create: Connected pode ajudar com conexoes e componentes industriais.</p></hint>"
+    ],
+    "groups": { "Industria e Automacao": { "position": [160, 0] } }
+  },
+  "tasks": { "concluir": { "type": "heracles:check", "title": "Projeto concluido" } },
+  "rewards": { "xp": { "type": "heracles:xp", "title": "Recompensa", "xptype": "POINTS", "amount": 100 } }
+}

@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": { "type": "heracles:item", "item": "minecraft:flowering_azalea" },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hearts.png",
+    "title": "Jardim Botanico",
+    "subtitle": "Projeto cultural",
+    "description": [
+      "<h1 color=\"pink\" shadowed=\"true\">Jardim Botanico</h1>",
+      "<p>Reunir plantas, arvores e especies vegetais em um espaco de estudo e visita.</p>",
+      "<hr color=\"pink\"/>",
+      "<h2 color=\"yellow\">Objetivo</h2>",
+      "<ul color=\"pink\"><li>Catalogar e expor variedades de plantas do pack.</li><li>Oferecer acesso facil a mudas, flores ou referencias naturais.</li><li>Criar um ponto cultural ligado a agricultura e exploracao.</li></ul>",
+      "<hint title=\"Colecao viva\" icon=\"minecraft:flowering_azalea\" color=\"pink\"><p>Um jardim botanico preserva diversidade e inspira novos cultivos.</p></hint>",
+      "<blockquote color=\"pink\"><p>Cuidar do pequeno e lembrar que tudo cresce em silencio.</p></blockquote>"
+    ],
+    "groups": { "Cultura e Lazer": { "position": [160, 0] } }
+  },
+  "tasks": { "concluir": { "type": "heracles:check", "title": "Projeto concluido" } },
+  "rewards": { "xp": { "type": "heracles:xp", "title": "Recompensa", "xptype": "POINTS", "amount": 90 } }
+}

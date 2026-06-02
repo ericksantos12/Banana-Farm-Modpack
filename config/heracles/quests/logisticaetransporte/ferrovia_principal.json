@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": { "type": "heracles:item", "item": "create:track" },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "title": "Ferrovia Principal",
+    "subtitle": "Infraestrutura de transporte",
+    "description": [
+      "<h1 color=\"aqua\" shadowed=\"true\">Ferrovia Principal</h1>",
+      "<p>Construir a linha ferroviaria principal para conectar areas importantes do SMP.</p>",
+      "<hr color=\"aqua\"/>",
+      "<h2 color=\"yellow\">Objetivo</h2>",
+      "<ul color=\"aqua\"><li>Definir rota principal e pontos de parada.</li><li>Permitir transporte de jogadores, cargas e recursos.</li><li>Planejar expansoes futuras sem refazer toda a malha.</li></ul>",
+      "<hint title=\"Conexao\" icon=\"create:track\" color=\"aqua\"><p>A linha principal e a espinha dorsal da logistica.</p></hint>",
+      "<blockquote color=\"aqua\"><p>Distancia vira detalhe quando o caminho e confiavel.</p></blockquote>",
+      "<br/>",
+      "<br/>",
+      "<br/>",
+      "<hint title=\"Mods sugeridos\" icon=\"minecraft:compass\" color=\"white\"><p>Use Create para tracks, estacoes e trens funcionais; Create: Steam 'n' Rails adiciona variedade ferroviaria e Create Railways Navigator ajuda passageiros a entenderem a rede.</p></hint>"
+    ],
+    "groups": { "Logistica e Transporte": { "position": [160, 0] } }
+  },
+  "dependencies": [
+    "train_depot"
+  ],
+  "tasks": { "concluir": { "type": "heracles:check", "title": "Projeto concluido" } },
+  "rewards": { "xp": { "type": "heracles:xp", "title": "Recompensa", "xptype": "POINTS", "amount": 150 } }
+}

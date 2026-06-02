@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": { "type": "heracles:item", "item": "minecraft:anvil" },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": "Ferreiro Tinkers",
+    "subtitle": "Guia de profissão",
+    "description": [
+      "<h2 color=\"gray\" shadowed=\"true\">Ferreiro Tinkers</h2>",
+      "<p>Um caminho focado em dominar Tinkers' Construct para criar ferramentas, materiais, reparos e equipamentos personalizados.</p>",
+      "<hr color=\"gray\"/>",
+      "<h2 color=\"yellow\">O que você faz</h2>",
+      "<ul color=\"gray\"><li>Estuda materiais, modifiers e combinações de ferramentas.</li><li>Cria equipamentos sob encomenda para outros jogadores.</li><li>Organiza fundição, moldes, reparos e upgrades.</li></ul>",
+      "<h2 color=\"yellow\">Projetos possíveis</h2>",
+      "<p>Forja Tinkers, loja de ferramentas, oficina de reparo, laboratório de materiais e linhas de produção de peças.</p>",
+      "<h2 color=\"yellow\">Mods para explorar</h2>",
+      "<p>Tinkers' Construct.</p>",
+      "<h2 color=\"yellow\">Como ser útil no SMP</h2>",
+      "<p>Venda ferramentas especializadas, ofereca reparos e ajude jogadores a escolher equipamentos para cada atividade.</p>"
+    ],
+    "groups": { "Profissões": { "position": [160, 75] } }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": { "type": "heracles:item", "item": "minecraft:iron_pickaxe" },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "title": "Pedreira Industrial",
+    "subtitle": "Infraestrutura industrial",
+    "description": [
+      "<h1 color=\"gray\" shadowed=\"true\">Pedreira Industrial</h1>",
+      "<p>Criar uma operacao de extracao para fornecer pedra, minerios e materiais brutos.</p>",
+      "<hr color=\"gray\"/>",
+      "<h2 color=\"yellow\">Objetivo</h2>",
+      "<ul color=\"gray\"><li>Organizar area de mineracao, coleta e transporte.</li><li>Separar materiais uteis, residuos e armazenamento.</li><li>Abastecer construcoes grandes e fabricas dependentes de recursos brutos.</li></ul>",
+      "<hint title=\"Extracao\" icon=\"minecraft:iron_pickaxe\" color=\"gray\"><p>Uma pedreira reduz viagens repetidas e mantem obras grandes andando.</p></hint>",
+      "<blockquote color=\"gray\"><p>Do bloco arrancado nasce a estrutura que fica.</p></blockquote>",
+      "<br/>",
+      "<br/>",
+      "<br/>",
+      "<hint title=\"Mods sugeridos\" icon=\"minecraft:compass\" color=\"white\"><p>Use Create para drills, contraptions, esteiras e processamento de blocos. Create: Connected e Create: Copycats+ podem ajudar a integrar a pedreira ao distrito industrial.</p></hint>"
+    ],
+    "groups": { "Industria e Automacao": { "position": [0, 225] } }
+  },
+  "tasks": { "concluir": { "type": "heracles:check", "title": "Projeto concluido" } },
+  "rewards": { "xp": { "type": "heracles:xp", "title": "Recompensa", "xptype": "POINTS", "amount": 130 } }
+}

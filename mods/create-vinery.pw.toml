@@ -1,0 +1,13 @@
+name = "Create Vinery"
+filename = "createvinery-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2e10692cadbe6c5e5bf39fb6fcf822190dd5c3c5"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6639358
+project-id = 1284488

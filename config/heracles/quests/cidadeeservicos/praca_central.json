@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:bell"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": "Praca Central",
+    "subtitle": "Projeto comunitario",
+    "description": [
+      "<h1 color=\"gold\" shadowed=\"true\">Praca Central</h1>",
+      "<p>Construir o espaco publico que vai servir como ponto de encontro da cidade.</p>",
+      "<hr color=\"gold\"/>",
+      "<h2 color=\"yellow\">Objetivo</h2>",
+      "<ul color=\"gold\"><li>Criar uma area aberta e facil de reconhecer.</li><li>Conectar caminhos importantes e orientar o fluxo dos jogadores.</li><li>Reservar espaco para eventos, avisos e reunioes.</li></ul>",
+      "<hint title=\"Funcao publica\" icon=\"minecraft:bell\" color=\"aqua\"><p><span bold=\"true\">A praca</span> deve ser um lugar onde vale a pena parar, conversar e combinar novos projetos.</p></hint>",
+      "<blockquote color=\"gold\"><p>Uma praca bem feita transforma caminhos em encontros.</p></blockquote>"
+    ],
+    "groups": {
+      "Cidade e Servicos": {
+        "position": [
+          80,
+          0
+        ]
+      }
+    }
+  },
+  "tasks": {
+    "concluir": {
+      "type": "heracles:check",
+      "title": "Projeto concluido"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "type": "heracles:xp",
+      "title": "Recompensa",
+      "xptype": "POINTS",
+      "amount": 60
+    }
+  }
+}

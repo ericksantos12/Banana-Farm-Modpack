@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": { "type": "heracles:item", "item": "minecraft:cooked_beef" },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": "Cozinheiro",
+    "subtitle": "Guia de profissão",
+    "description": [
+      "<h2 color=\"green\" shadowed=\"true\">Cozinheiro</h2>",
+      "<p>Um caminho para quem quer transformar ingredientes em refeições, combos, restaurantes e comida útil para exploração.</p>",
+      "<hr color=\"green\"/>",
+      "<h2 color=\"yellow\">O que você faz</h2>",
+      "<ul color=\"green\"><li>Cria cardápios com comidas simples e especiais.</li><li>Compra ingredientes de agricultores, pescadores e exploradores.</li><li>Fornece comida para viagens, obras, eventos e lojas.</li></ul>",
+      "<h2 color=\"yellow\">Projetos possíveis</h2>",
+      "<p>Restaurante, marmitaria, cozinha industrial, banca de comida, combos para exploradores e contratos de abastecimento.</p>",
+      "<h2 color=\"yellow\">Mods para explorar</h2>",
+      "<p>Farmer's Delight, Let's Do: Bakery, Some Assembly Required, Vintage Delight, Crabber's Delight, Aquaculture Delight, Gensokyo Delight ~ Youkai's Homecoming e Farmer's Respite.</p>",
+      "<h2 color=\"yellow\">Como ser útil no SMP</h2>",
+      "<p>Venda comida pronta, monte kits para aventuras e ajude tavernas, mercados e eventos a terem produtos variados.</p>"
+    ],
+    "groups": { "Profissões": { "position": [160, 0] } }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": { "type": "heracles:item", "item": "minecraft:rail" },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "title": "Producao de Trilhos",
+    "subtitle": "Infraestrutura de transporte",
+    "description": [
+      "<h1 color=\"aqua\" shadowed=\"true\">Producao de Trilhos</h1>",
+      "<p>Garantir fornecimento de trilhos para ferrovias, estacoes e expansao logistica.</p>",
+      "<hr color=\"aqua\"/>",
+      "<h2 color=\"yellow\">Objetivo</h2>",
+      "<ul color=\"aqua\"><li>Organizar materiais e processamento para trilhos em escala.</li><li>Manter estoque para projetos ferroviarios publicos.</li><li>Facilitar manutencao e expansao da malha.</li></ul>",
+      "<hint title=\"Base ferroviaria\" icon=\"minecraft:rail\" color=\"aqua\"><p>Sem trilhos disponiveis, toda ferrovia vira promessa distante.</p></hint>",
+      "<blockquote color=\"aqua\"><p>Cada trilho colocado encurta o mundo.</p></blockquote>",
+      "<br/>",
+      "<br/>",
+      "<br/>",
+      "<hint title=\"Mods sugeridos\" icon=\"minecraft:compass\" color=\"white\"><p>Use Create para fabricar trilhos, componentes mecanicos e linhas de producao; Create: Steam 'n' Rails pode expandir trilhos, sinais e infraestrutura ferroviaria.</p></hint>"
+    ],
+    "groups": { "Logistica e Transporte": { "position": [0, 0] } }
+  },
+  "tasks": { "concluir": { "type": "heracles:check", "title": "Projeto concluido" } },
+  "rewards": { "xp": { "type": "heracles:xp", "title": "Recompensa", "xptype": "POINTS", "amount": 80 } }
+}

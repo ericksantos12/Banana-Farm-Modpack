@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": { "type": "heracles:item", "item": "minecraft:campfire" },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
+    "title": "Colonia Distante",
+    "subtitle": "Expansao territorial",
+    "description": [
+      "<h1 color=\"purple\" shadowed=\"true\">Colonia Distante</h1>",
+      "<p>Estabelecer um nucleo fora da cidade principal para ocupar e desenvolver nova area.</p>",
+      "<hr color=\"purple\"/>",
+      "<h2 color=\"yellow\">Objetivo</h2>",
+      "<ul color=\"purple\"><li>Escolher local com recursos, acesso e espaco de crescimento.</li><li>Criar abrigo, armazenamento e ponto de chegada.</li><li>Registrar conexao com a cidade principal.</li></ul>",
+      "<hint title=\"Nova frente\" icon=\"minecraft:campfire\" color=\"purple\"><p>Uma colonia distante transforma exploracao em presenca permanente.</p></hint>",
+      "<blockquote color=\"purple\"><p>Territorio so vira lar quando alguem decide ficar.</p></blockquote>",
+      "<br/>",
+      "<br/>",
+      "<br/>",
+      "<hint title=\"Mods sugeridos\" icon=\"minecraft:compass\" color=\"white\"><p>Use Antique Atlas e BlueMap para planejamento e orientacao; Via Romana pode apoiar conexoes de viagem entre nucleos. Supplementaries, Handcrafted e mods de construcao ajudam a transformar o posto em assentamento.</p></hint>"
+    ],
+    "groups": { "Expansao Territorial": { "position": [80, 0] } }
+  },
+  "tasks": { "concluir": { "type": "heracles:check", "title": "Projeto concluido" } },
+  "rewards": { "xp": { "type": "heracles:xp", "title": "Recompensa", "xptype": "POINTS", "amount": 120 } }
+}

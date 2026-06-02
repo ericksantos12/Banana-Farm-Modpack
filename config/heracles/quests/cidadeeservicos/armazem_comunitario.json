@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:chest"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": "Armazem Comunitario",
+    "subtitle": "Projeto comunitario",
+    "description": [
+      "<h1 color=\"gold\" shadowed=\"true\">Armazem Comunitario</h1>",
+      "<p>Construir um armazem publico para organizar recursos compartilhados do SMP.</p>",
+      "<hr color=\"gold\"/>",
+      "<h2 color=\"yellow\">Objetivo</h2>",
+      "<ul color=\"gold\"><li>Separar areas para blocos, comida, ferramentas, sementes e materiais de obra.</li><li>Usar sinalizacao simples para orientar deposito e retirada.</li><li>Manter o espaco pratico, expansivel e facil de administrar.</li></ul>",
+      "<hint title=\"Uso compartilhado\" icon=\"minecraft:chest\" color=\"aqua\"><p>O armazem deve ajudar a comunidade sem substituir as <span bold=\"true\">lojas e producoes privadas</span> dos jogadores.</p></hint>",
+      "<blockquote color=\"gold\"><p>O que guardamos juntos sustenta o que construimos depois.</p></blockquote>"
+    ],
+    "groups": {
+      "Cidade e Servicos": {
+        "position": [
+          0,
+          75
+        ]
+      }
+    }
+  },
+  "tasks": {
+    "concluir": {
+      "type": "heracles:check",
+      "title": "Projeto concluido"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "type": "heracles:xp",
+      "title": "Recompensa",
+      "xptype": "POINTS",
+      "amount": 70
+    }
+  }
+}

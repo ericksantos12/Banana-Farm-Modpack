@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": { "type": "heracles:item", "item": "minecraft:wheat" },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": "Agricultor",
+    "subtitle": "Guia de profissão",
+    "description": [
+      "<h2 color=\"green\" shadowed=\"true\">Agricultor</h2>",
+      "<p>Um caminho para quem quer transformar terra, água e paciência em comida, insumos e matéria-prima para outros negócios.</p>",
+      "<hr color=\"green\"/>",
+      "<h2 color=\"yellow\">O que você faz</h2>",
+      "<ul color=\"green\"><li>Cuida de plantações, vinhedos, apiários e recursos rurais.</li><li>Produz ingredientes para cozinheiros, tavernas, mercados e fábricas.</li><li>Organiza estoque e fornecimento constante para a cidade.</li></ul>",
+      "<h2 color=\"yellow\">Projetos possíveis</h2>",
+      "<p>Fazendas temáticas, estufas, apiários, vinhedos, campos de flores, plantações comerciais e rotas de entrega para lojas.</p>",
+      "<h2 color=\"yellow\">Mods para explorar</h2>",
+      "<p>Croptopia, Farmer's Delight, Let's Do: Vinery, Let's Do: Meadow, Buzzier Bees, Better Beekeeping e Farmer's Respite.</p>",
+      "<h2 color=\"yellow\">Como ser útil no SMP</h2>",
+      "<p>Venda ingredientes, aceite contratos de abastecimento e mantenha produtores urbanos alimentados com recursos confiáveis.</p>"
+    ],
+    "groups": { "Profissões": { "position": [80, 0] } }
+  }
+}

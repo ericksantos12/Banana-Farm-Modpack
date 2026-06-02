@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": { "type": "heracles:item", "item": "northstar:rocket_controls" },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
+    "title": "Foguete Espacial",
+    "subtitle": "Expansao territorial",
+    "description": [
+      "<h1 color=\"purple\" shadowed=\"true\">Foguete Espacial</h1>",
+      "<p>Construir e preparar um foguete capaz de levar jogadores, carga e equipamentos para fora do planeta.</p>",
+      "<hr color=\"purple\"/>",
+      "<h2 color=\"yellow\">Objetivo</h2>",
+      "<ul color=\"purple\"><li>Montar uma plataforma de lancamento segura e acessivel.</li><li>Produzir controles, motores, tanques e sistemas de suporte necessarios.</li><li>Preparar suprimentos para viagem, pouso e retorno.</li></ul>",
+      "<hint title=\"Primeiro lancamento\" icon=\"northstar:rocket_controls\" color=\"purple\"><p>O foguete marca a passagem de expansao terrestre para exploracao interplanetaria.</p></hint>",
+      "<blockquote color=\"purple\"><p>Todo mundo olha para o ceu; poucos constroem o caminho ate ele.</p></blockquote>",
+      "<br/>",
+      "<br/>",
+      "<br/>",
+      "<hint title=\"Mods sugeridos\" icon=\"minecraft:compass\" color=\"white\"><p>Use Create: Northstar - Redux para controles, foguetes, combustiveis e sistemas espaciais. Create e Create Crafts and Additions podem apoiar linhas de montagem, energia e producao de componentes.</p></hint>"
+    ],
+    "groups": { "Expansao Territorial": { "position": [320, 0] } }
+  },
+  "dependencies": [
+    "agencia_espacial"
+  ],
+  "tasks": { "concluir": { "type": "heracles:check", "title": "Projeto concluido" } },
+  "rewards": { "xp": { "type": "heracles:xp", "title": "Recompensa", "xptype": "POINTS", "amount": 220 } }
+}

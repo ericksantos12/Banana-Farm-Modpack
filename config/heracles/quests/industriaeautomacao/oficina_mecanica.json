@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": { "type": "heracles:item", "item": "create:cogwheel" },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "title": "Oficina Mecanica",
+    "subtitle": "Infraestrutura industrial",
+    "description": [
+      "<h1 color=\"gray\" shadowed=\"true\">Oficina Mecanica</h1>",
+      "<p>Criar uma base tecnica para fabricar, reparar e montar componentes mecanicos.</p>",
+      "<hr color=\"gray\"/>",
+      "<h2 color=\"yellow\">Objetivo</h2>",
+      "<ul color=\"gray\"><li>Organizar acesso a pecas, ferramentas e componentes Create.</li><li>Manter um ponto de apoio para manutencao de maquinas.</li><li>Facilitar novos projetos industriais no SMP.</li></ul>",
+      "<hint title=\"Impacto\" icon=\"create:cogwheel\" color=\"gray\"><p>Uma oficina reduz gargalos e transforma ideias soltas em <span bold=\"true\">maquinas funcionando</span>.</p></hint>",
+      "<blockquote color=\"gray\"><p>Toda engrenagem bem colocada move mais do que parece.</p></blockquote>",
+      "<br/>",
+      "<br/>",
+      "<br/>",
+      "<hint title=\"Mods sugeridos\" icon=\"minecraft:compass\" color=\"white\"><p>Use Create para fabricar componentes, engrenagens, shafts, deployers e maquinas de apoio. Create: Connected, Create: Copycats+ e Create: Pattern Schematics ajudam com montagem e padronizacao.</p></hint>"
+    ],
+    "groups": { "Industria e Automacao": { "position": [0, 0] } }
+  },
+  "tasks": { "concluir": { "type": "heracles:check", "title": "Projeto concluido" } },
+  "rewards": { "xp": { "type": "heracles:xp", "title": "Recompensa", "xptype": "POINTS", "amount": 70 } }
+}

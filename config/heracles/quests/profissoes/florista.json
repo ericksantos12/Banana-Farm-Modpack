@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": { "type": "heracles:item", "item": "minecraft:poppy" },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": "Florista",
+    "subtitle": "Guia de profissão",
+    "description": [
+      "<h2 color=\"green\" shadowed=\"true\">Florista</h2>",
+      "<p>Um caminho para quem quer transformar flores, jardins e detalhes naturais em decoração, comércio e eventos.</p>",
+      "<hr color=\"green\"/>",
+      "<h2 color=\"yellow\">O que você faz</h2>",
+      "<ul color=\"green\"><li>Cultiva flores, arbustos e plantas ornamentais.</li><li>Cria arranjos, jardins e paisagismo para casas e praças.</li><li>Fornece decoração natural para construtores, eventos e lojas.</li></ul>",
+      "<h2 color=\"yellow\">Projetos possíveis</h2>",
+      "<p>Floricultura, estufa, jardim de exposição, serviço de paisagismo, decoração para casamentos e banca de flores.</p>",
+      "<h2 color=\"yellow\">Mods para explorar</h2>",
+      "<p>Flowerary, Let's Do: Meadow, Beautify! e Supplementaries.</p>",
+      "<h2 color=\"yellow\">Como ser útil no SMP</h2>",
+      "<p>Ajude construções a parecerem vivas, venda flores raras e leve cor para bairros, lojas e eventos.</p>"
+    ],
+    "groups": { "Profissões": { "position": [80, 300] } }
+  }
+}

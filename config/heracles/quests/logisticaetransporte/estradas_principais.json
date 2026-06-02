@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": { "type": "heracles:item", "item": "minecraft:stone_bricks" },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "title": "Estradas Principais",
+    "subtitle": "Infraestrutura de transporte",
+    "description": [
+      "<h1 color=\"aqua\" shadowed=\"true\">Estradas Principais</h1>",
+      "<p>Construir rotas terrestres claras entre areas importantes do SMP.</p>",
+      "<hr color=\"aqua\"/>",
+      "<h2 color=\"yellow\">Objetivo</h2>",
+      "<ul color=\"aqua\"><li>Ligar cidade, fazendas, industria e pontos de interesse.</li><li>Facilitar deslocamento sem depender sempre de teleporte ou trilhos.</li><li>Marcar direcoes e entradas de forma simples.</li></ul>",
+      "<hint title=\"Acesso\" icon=\"minecraft:stone_bricks\" color=\"aqua\"><p>Estradas boas tornam o mapa mais legivel para todos.</p></hint>",
+      "<blockquote color=\"aqua\"><p>Um caminho bem feito convida alguem a ir mais longe.</p></blockquote>"
+    ],
+    "groups": { "Logistica e Transporte": { "position": [80, 75] } }
+  },
+  "tasks": { "concluir": { "type": "heracles:check", "title": "Projeto concluido" } },
+  "rewards": { "xp": { "type": "heracles:xp", "title": "Recompensa", "xptype": "POINTS", "amount": 100 } }
+}

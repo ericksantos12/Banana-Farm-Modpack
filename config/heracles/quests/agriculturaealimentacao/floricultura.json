@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:poppy"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "title": "Floricultura",
+    "subtitle": "Projeto produtivo",
+    "description": [
+      "<h1 color=\"green\" shadowed=\"true\">Floricultura</h1>",
+      "<p>Construir uma floricultura para cultivar, organizar e vender flores, plantas e arranjos decorativos.</p>",
+      "<hr color=\"green\"/>",
+      "<h2 color=\"yellow\">Objetivo</h2>",
+      "<ul color=\"green\"><li>Planejar uma estufa, jardim ou loja com espaço para cultivo e atendimento.</li><li>Organizar variedades de flores, plantas ornamentais e materiais de decoração natural.</li><li>Definir como os produtos serão vendidos para construtores, eventos e moradores.</li></ul>",
+      "<hint title=\"Negócio florido\" icon=\"minecraft:poppy\" color=\"green\"><p>Uma floricultura transforma paisagismo em <span bold=\"true\">serviço útil e bonito</span> para a cidade.</p></hint>",
+      "<blockquote color=\"green\"><p>Onde há flores, até a estrada parece chegada.</p></blockquote>",
+      "<br/>",
+      "<br/>",
+      "<br/>",
+      "<hint title=\"Mods sugeridos\" icon=\"minecraft:compass\" color=\"white\"><p>Use Flowerary para flores e arranjos, Let's Do: Meadow para clima rural, Beautify! para decoração e Supplementaries para detalhes de jardim.</p></hint>"
+    ],
+    "groups": {
+      "Agricultura e Alimentacao": {
+        "position": [
+          240,
+          0
+        ]
+      }
+    }
+  },
+  "tasks": {
+    "concluir": {
+      "type": "heracles:check",
+      "title": "Projeto concluído"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "type": "heracles:xp",
+      "title": "Recompensa",
+      "xptype": "POINTS",
+      "amount": 70
+    }
+  }
+}

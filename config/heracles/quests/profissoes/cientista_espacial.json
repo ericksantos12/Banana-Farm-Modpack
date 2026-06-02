@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": { "type": "heracles:item", "item": "northstar:astronomy_table" },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": "Cientista Espacial",
+    "subtitle": "Guia de profissão",
+    "description": [
+      "<h2 color=\"purple\" shadowed=\"true\">Cientista Espacial</h2>",
+      "<p>Um caminho para quem quer pesquisar astronomia, foguetes, oxigênio, Lua e infraestrutura fora da Terra.</p>",
+      "<hr color=\"purple\"/>",
+      "<h2 color=\"yellow\">O que você faz</h2>",
+      "<ul color=\"purple\"><li>Planeja missões, bases e equipamentos espaciais.</li><li>Produz suporte de vida, pesquisa e componentes avançados.</li><li>Ajuda o servidor a transformar exploração espacial em projeto organizado.</li></ul>",
+      "<h2 color=\"yellow\">Projetos possíveis</h2>",
+      "<p>Agência espacial, foguete, base lunar, laboratório, infraestrutura de oxigênio e coleta de recursos extraterrestres.</p>",
+      "<h2 color=\"yellow\">Mods para explorar</h2>",
+      "<p>Create: Northstar - Redux.</p>",
+      "<h2 color=\"yellow\">Como ser útil no SMP</h2>",
+      "<p>Guie a progressão espacial, produza equipamentos de missão e organize expedições para outros jogadores.</p>"
+    ],
+    "groups": { "Profissões": { "position": [80, 225] } }
+  }
+}
