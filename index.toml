@@ -492,6 +492,11 @@ hash = "cf702349b89066726963844ff123a21f7a56c7201dde09cdcffa84da62d41e0d"
 metafile = true
 
 [[files]]
+file = "mods/block-gradients.pw.toml"
+hash = "9d1c1c3afe53a5350760df96dea79c02e8e87d46a0fc42b99e22b896c2feb578"
+metafile = true
+
+[[files]]
 file = "mods/bluemap.pw.toml"
 hash = "c95753b5a5db1ee56db105798b4c3f25e8db05854743c2ecab76785a52bbe84d"
 metafile = true
@@ -1492,6 +1497,11 @@ hash = "00a0cba74675174812eea16aca533adfe9bac7b30a81a7e33dd81bd9343b45c4"
 metafile = true
 
 [[files]]
+file = "mods/true-ending.pw.toml"
+hash = "0bc775f6b740e9fa539e8237f49ce5265a15f16725fef1deeab7097ea6571099"
+metafile = true
+
+[[files]]
 file = "mods/truly-custom-horse-tack.pw.toml"
 hash = "6da4c1a0bafd170b2718764219d47ef03b34e267f9ceccc5f796bf8030c6ae51"
 metafile = true
@@ -1589,6 +1599,11 @@ metafile = true
 [[files]]
 file = "mods/yungs-api.pw.toml"
 hash = "9fb6a1a06b18f2ce7b0811200339d997925cb39bde220fbaea4d5c8067376c12"
+metafile = true
+
+[[files]]
+file = "mods/yungs-better-end-island.pw.toml"
+hash = "24876f77eefbda53cbeb1b3261dadd63e37f46389d184380e1e3f1f04d1f93f3"
 metafile = true
 
 [[files]]
