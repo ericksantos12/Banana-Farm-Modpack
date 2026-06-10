@@ -1,10 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "DISCORD-CHECKLIST-PROJETOS-CIDADE.md"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
 file = "config/betterf3.toml"
 hash = "270993c0b0210fa1c208b7106dd2791571372f5eeec67740c477f1904f0033a3"
 
