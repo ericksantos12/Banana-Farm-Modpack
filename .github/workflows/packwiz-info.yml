@@ -113,7 +113,8 @@ jobs:
         run: |
           set -euo pipefail
 
-          latest_tag="$(git describe --tags --abbrev=0 2>/dev/null || true)"
+          current_version="$(grep '^version = ' pack.toml | sed 's/version = "\(.*\)"/\1/')"
+          latest_tag="$(git tag --list | grep -E '^[0-9]+\.[0-9]+\.[0-9]+$' | sort -V | grep -Fxv "$current_version" | tail -n 1 || true)"
           base_ref="$latest_tag"
 
           name_from_file() {
