@@ -163,8 +163,6 @@ key_key.tconstruct.leggings_interact:key.keyboard.i:NONE
 key_key.jade.config:key.keyboard.keypad.0:NONE
 key_key.jade.show_overlay:key.keyboard.keypad.1:NONE
 key_key.jade.toggle_liquid:key.keyboard.keypad.2:NONE
-key_key.jade.show_recipes:key.keyboard.keypad.3:NONE
-key_key.jade.show_uses:key.keyboard.keypad.4:NONE
 key_key.jade.narrate:key.keyboard.keypad.5:NONE
 key_key.jade.show_details:key.keyboard.left.shift:NONE
 key_key.freecam.toggle:key.keyboard.f4:NONE
