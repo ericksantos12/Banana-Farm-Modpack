@@ -1,0 +1,13 @@
+name = "NEVEREND | Reimagined Ender Dragon"
+filename = "NEVEREND.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/UooG7Iuv/versions/Ehm1ppFg/NEVEREND.zip"
+hash-format = "sha512"
+hash = "0b524bc7ed127c9a71c4cb95caba8fe954c268f05119ad4816b0e04cbc7383c917a8d36afa2d6e615a054eb82cc9e246555cf7ed794349530d15ab21a3abae26"
+
+[update]
+[update.modrinth]
+mod-id = "UooG7Iuv"
+version = "Ehm1ppFg"

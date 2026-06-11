@@ -15,7 +15,7 @@ reducedDebugInfo:false
 showSubtitles:false
 directionalAudio:false
 touchscreen:false
-fullscreen:false
+fullscreen:true
 bobView:true
 toggleCrouch:false
 toggleSprint:false
@@ -42,8 +42,8 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["vanilla","mod_resources","Moonlight Mods Dynamic Assets","fabric","generated/fragmentum_layer","file/CreateSophStorage.zip","file/Farmer GUI 1.20.1 [1.7.8].zip","file/Tom\u0027s and Create Smashed.zip","file/Simple Create Radios V2.01.zip","file/JadeStardewValleyTheme.zip","file/Simply Cats 16x.zip","file/5.2 Adopt a Pet!.zip","file/CreateSophBackpacks.zip","file/FA+Player-v1.0.zip"]
-incompatibleResourcePacks:["file/CreateSophStorage.zip","file/Tom\u0027s and Create Smashed.zip","file/CreateSophBackpacks.zip"]
+resourcePacks:["vanilla","mod_resources","Moonlight Mods Dynamic Assets","fabric","generated/fragmentum_layer","file/CreateSophStorage.zip","file/Farmer GUI 1.20.1 [1.7.8].zip","file/Tom\u0027s and Create Smashed.zip","file/Simple Create Radios V2.01.zip","file/JadeStardewValleyTheme.zip","file/Simply Cats 16x.zip","file/5.2 Adopt a Pet!.zip","file/CreateSophBackpacks.zip","file/NEVEREND.zip","file/5.3.1 FarmLife Remastered.zip"]
+incompatibleResourcePacks:["file/CreateSophStorage.zip","file/Tom\u0027s and Create Smashed.zip","file/CreateSophBackpacks.zip","file/NEVEREND.zip"]
 lastServer:
 lang:en_us
 soundDevice:""
@@ -84,8 +84,8 @@ onlyShowSecureChat:false
 panoramaScrollSpeed:1.0
 telemetryOptInExtra:false
 onboardAccessibility:false
-soundCategory_master:0.48841059602649006
-soundCategory_music:0.15140845070422534
+soundCategory_master:0.2947019867549669
+soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0
@@ -101,3 +101,4 @@ modelPart_right_sleeve:true
 modelPart_left_pants_leg:true
 modelPart_right_pants_leg:true
 modelPart_hat:true
+menuBackgroundBlurriness:5

@@ -13,12 +13,16 @@ file = "config/craftpresence.json"
 hash = "ef7dbaaee5bf3e9cbe6e1312d3642b49d48eb29795ed21e57d8088ded3b32a95"
 
 [[files]]
+file = "config/create-server.toml"
+hash = "1c0f390d8e41be250b42b5e73c70fff1f5b0f0ea0ab7b301f46752564770c2e6"
+
+[[files]]
 file = "config/defaultoptions/keybindings.txt"
-hash = "7ce35a13b7d967c850e112f78c9260f5c6d0684205a62d269a44a0bef3723888"
+hash = "3ee23ab2f0e55298f0b55bfd0cfd6ead98b15653764b4dcebf86766cbbd0151c"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
-hash = "6d5762c90ad32bd16e60638322fb2c77d06e0c182b5aabc5efeca9ca7e355e99"
+hash = "1229d15cfa6d49e6fa61fb471f6966e7418f45190b060ff91672e6f78d5b1462"
 
 [[files]]
 file = "config/defaultoptions/servers.dat"
@@ -492,6 +496,11 @@ hash = "cf702349b89066726963844ff123a21f7a56c7201dde09cdcffa84da62d41e0d"
 metafile = true
 
 [[files]]
+file = "mods/block-gradients.pw.toml"
+hash = "9a6e8193c37955703a59e50964e822495e8ff127a2e0f83a8d8c05720f6f462f"
+metafile = true
+
+[[files]]
 file = "mods/bluemap.pw.toml"
 hash = "c95753b5a5db1ee56db105798b4c3f25e8db05854743c2ecab76785a52bbe84d"
 metafile = true
@@ -642,6 +651,21 @@ hash = "8075b607c4cbcf37445296cfab13c09f8b2cb8703c3cd91c8d677c96ab38d940"
 metafile = true
 
 [[files]]
+file = "mods/create-encased.pw.toml"
+hash = "ae0249ad6127e0142f69f3c034140b466a14b76b88ecb38f129eed502ecad517"
+metafile = true
+
+[[files]]
+file = "mods/create-liquid-fuel.pw.toml"
+hash = "ca274f1a31ba6fdf3ce7fc4a14e5d6ffcaa19c711595d98d87deb1d9fe365727"
+metafile = true
+
+[[files]]
+file = "mods/create-more-package-couriers.pw.toml"
+hash = "5d87d83222dcf0cc2740c81be4aef151b8eef51e0708b0cd5f2b61f9e823206a"
+metafile = true
+
+[[files]]
 file = "mods/create-numismatics-crafting.pw.toml"
 hash = "a88ff0ca088fec54a2339579e4805e221a11b4f1f7243e1ea3be76a2831e03f1"
 metafile = true
@@ -664,6 +688,16 @@ metafile = true
 [[files]]
 file = "mods/create-steam-n-rails.pw.toml"
 hash = "a432e8775c2bdec53fca88146917905c5c82273e1b66af48b5ace0809433c8fe"
+metafile = true
+
+[[files]]
+file = "mods/create-stuff-additions.pw.toml"
+hash = "5fc160d4d515898e384320354d30bb2e9d76dfc58e54e00c270b4d70dd762836"
+metafile = true
+
+[[files]]
+file = "mods/create-vibrant-vaults.pw.toml"
+hash = "160342fcb8b3c96f8e47e27488fb73c0bafdf9fecc45dafa73e098601f932585"
 metafile = true
 
 [[files]]
@@ -694,6 +728,11 @@ metafile = true
 [[files]]
 file = "mods/critters-and-companions.pw.toml"
 hash = "dce7de4e5a948da16df350f36ffdd1b0be9843041777b0b2e3e1e1e87e1b1c9d"
+metafile = true
+
+[[files]]
+file = "mods/cropcritter.pw.toml"
+hash = "e2c815f3c21c39aa074e4ee701d53c6349bc4940aeb4d6c69bc203bb6d7baf04"
 metafile = true
 
 [[files]]
@@ -1432,6 +1471,11 @@ hash = "3b58ab7677e1805437c4e86152ca595050b820bf1592838cab57cadf34f03133"
 metafile = true
 
 [[files]]
+file = "mods/straw-statues.pw.toml"
+hash = "9a7fd0f91268419d3507dbe2603fdc4c9afe6560b837465bbb721245afabd920"
+metafile = true
+
+[[files]]
 file = "mods/structory.pw.toml"
 hash = "d0b06ed3c01796837223764708bafdc354ca271083f29700aa2de1c5e1b4ff89"
 metafile = true
@@ -1489,6 +1533,11 @@ metafile = true
 [[files]]
 file = "mods/towns-and-towers.pw.toml"
 hash = "00a0cba74675174812eea16aca533adfe9bac7b30a81a7e33dd81bd9343b45c4"
+metafile = true
+
+[[files]]
+file = "mods/true-ending.pw.toml"
+hash = "0bc775f6b740e9fa539e8237f49ce5265a15f16725fef1deeab7097ea6571099"
 metafile = true
 
 [[files]]
@@ -1592,6 +1641,11 @@ hash = "9fb6a1a06b18f2ce7b0811200339d997925cb39bde220fbaea4d5c8067376c12"
 metafile = true
 
 [[files]]
+file = "mods/yungs-better-end-island.pw.toml"
+hash = "24876f77eefbda53cbeb1b3261dadd63e37f46389d184380e1e3f1f04d1f93f3"
+metafile = true
+
+[[files]]
 file = "mods/yungs-better-strongholds.pw.toml"
 hash = "32d07d192caa9459521c3b3bc21199ebe72d7f6cad9b3461e0b231180f46bb30"
 metafile = true
@@ -1628,6 +1682,11 @@ metafile = true
 [[files]]
 file = "resourcepacks/fresh-animations.pw.toml"
 hash = "6a1556a0e4fcb411b33efafc3382b4abd9a6e671f140dc0d42e9aad2808e24f3"
+metafile = true
+
+[[files]]
+file = "resourcepacks/neverend-reimagined-ender-dragon.pw.toml"
+hash = "40fe58d40fd2596b470d9b4f4d950027e94f6a62f7e6a006150c4f86cbead04c"
 metafile = true
 
 [[files]]
