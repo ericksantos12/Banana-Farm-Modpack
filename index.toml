@@ -661,6 +661,11 @@ hash = "ca274f1a31ba6fdf3ce7fc4a14e5d6ffcaa19c711595d98d87deb1d9fe365727"
 metafile = true
 
 [[files]]
+file = "mods/create-more-package-couriers.pw.toml"
+hash = "5d87d83222dcf0cc2740c81be4aef151b8eef51e0708b0cd5f2b61f9e823206a"
+metafile = true
+
+[[files]]
 file = "mods/create-numismatics-crafting.pw.toml"
 hash = "a88ff0ca088fec54a2339579e4805e221a11b4f1f7243e1ea3be76a2831e03f1"
 metafile = true
