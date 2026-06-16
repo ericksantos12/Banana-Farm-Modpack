@@ -1,11 +1,11 @@
 name = "Banana Farm"
-version = "1.5.1"
+version = "1.5.2"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "34c65a3cf69bf8d27a64c897fd6c3642133ae80ea3edb624ae50c3c04b43b770"
+hash = "33c1e1d84eb2d2ba6a47249b3cc5e18ed781e90678f23e5ba7a46298cab019a9"
 
 [versions]
 forge = "47.4.20"
