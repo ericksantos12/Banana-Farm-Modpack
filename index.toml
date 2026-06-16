@@ -636,6 +636,16 @@ hash = "eb40c9df6e5f9ce3a75b3a7c7f989ac9834aa44763538bfa10556041cc616ee8"
 metafile = true
 
 [[files]]
+file = "mods/create-better-fps.pw.toml"
+hash = "eeb95fa0fe0bda52c662108febb325fadadac21466bb37c5afc0162e4e86068f"
+metafile = true
+
+[[files]]
+file = "mods/create-cobblestone.pw.toml"
+hash = "0c95519a4fe1f2ebf6f2369ea8464b0a81ef64c03b27557d7d3ab6bb72f5801b"
+metafile = true
+
+[[files]]
 file = "mods/create-connected.pw.toml"
 hash = "d08820071cff0e5c0ac5f18260384fb0f9850651b97d44e0c3f44c8611cf538a"
 metafile = true
@@ -686,6 +696,11 @@ hash = "6ec81473137647dd39281912ef17c2defb008d99b3e2f64723f804a78a2a36a7"
 metafile = true
 
 [[files]]
+file = "mods/create-repair.pw.toml"
+hash = "fe7e74c8e842f3fbdbba031b0a4d32721509ae9dc5cc36a63ee78d906e06b0c5"
+metafile = true
+
+[[files]]
 file = "mods/create-steam-n-rails.pw.toml"
 hash = "a432e8775c2bdec53fca88146917905c5c82273e1b66af48b5ace0809433c8fe"
 metafile = true
@@ -707,7 +722,7 @@ metafile = true
 
 [[files]]
 file = "mods/create.pw.toml"
-hash = "fb5c251cf4997fa65ca043bab7c9ecbd02e108031584a3e26276b77d212de23c"
+hash = "9d7971a7af2ff4a96a0e5aede76f9cf8dc978da601e2754f79d6ec8631125bb9"
 metafile = true
 
 [[files]]
@@ -743,11 +758,6 @@ metafile = true
 [[files]]
 file = "mods/curios.pw.toml"
 hash = "1315cd56b0b4a5b3d53374cebf4f1f3cd0546b05058740847bd226c1d1ccab39"
-metafile = true
-
-[[files]]
-file = "mods/data-anchor.pw.toml"
-hash = "acb7ebe72eeb476a26e5777cbbbad0a270db8ff85de0aa417be8e1228d26e2f4"
 metafile = true
 
 [[files]]
@@ -843,6 +853,11 @@ metafile = true
 [[files]]
 file = "mods/epherolib.pw.toml"
 hash = "fadaae47087ff0af2442bed6c9978eaa14f2926990738d81b5ce382d4c4a86fa"
+metafile = true
+
+[[files]]
+file = "mods/every-compat.pw.toml"
+hash = "5fc7c8a79a61f3f0e2c7ae1c414ca930cbb2994d7e5fab498863bd2cd6318d52"
 metafile = true
 
 [[files]]
@@ -1146,6 +1161,11 @@ hash = "893b3e91c2165e5b3d7950ad543d6898bd3d50b7bfa411352ab0c60447c9e8e3"
 metafile = true
 
 [[files]]
+file = "mods/mixinbooster.pw.toml"
+hash = "22f9313ff4357b8d30a8dbc15c5dfe15a82509cb63fda5fb066846b750f6e824"
+metafile = true
+
+[[files]]
 file = "mods/mob-lassos.pw.toml"
 hash = "f9f36fe64a29eab1f3fb98d9fe15477ff15a0c62e1b69ac392e612586da937ff"
 metafile = true
@@ -1172,7 +1192,7 @@ metafile = true
 
 [[files]]
 file = "mods/moonlight.pw.toml"
-hash = "a55da407afd55d84a18db1ed031ac1242b3becc74cea2c379e0d91e0cfd55052"
+hash = "1f862d7186e52e9bc96c4ec19ab62d2af9fffdd5dc056176f4be7ae4015345c0"
 metafile = true
 
 [[files]]
@@ -1193,6 +1213,11 @@ metafile = true
 [[files]]
 file = "mods/northstar-redux.pw.toml"
 hash = "d4794dc3fcbf38687e3c3dbc54c8acdace888e3b3fae99b9b49dd3579d483a26"
+metafile = true
+
+[[files]]
+file = "mods/not-enough-crashes-forge.pw.toml"
+hash = "232f73206d09fb0c8cac662fb82bbb53367795818ef05f70c290e391a5e4fa03"
 metafile = true
 
 [[files]]
@@ -1548,11 +1573,6 @@ metafile = true
 [[files]]
 file = "mods/veggies-delight.pw.toml"
 hash = "f1bf09da4d2760fe3e17a4e79e2b25b0cbef5486b946bd4a1bb6bdaf28e83f96"
-metafile = true
-
-[[files]]
-file = "mods/via-romana.pw.toml"
-hash = "48eed900ade7aa55bae93837f7a748a961d882bd9ec2714602a079550b2d7fe3"
 metafile = true
 
 [[files]]
