@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "LICENSE"
+hash = "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118"
+
+[[files]]
 file = "config/betterf3.toml"
 hash = "270993c0b0210fa1c208b7106dd2791571372f5eeec67740c477f1904f0033a3"
 
@@ -362,7 +366,7 @@ hash = "9fc71d12f1090375d3e5a886444a1a7519497292a6882d4e4ba9e231f22de28c"
 
 [[files]]
 file = "icon.png"
-hash = "8997897afb951bc115bab10b422a77c502a49c78d13131cc6253f3c148c0cf30"
+hash = "e110b86f8756ebd96bdbc8a5d2bb85f255e4aaece1d6c271b1da5671bc3b0f63"
 
 [[files]]
 file = "kubejs/README.txt"
@@ -666,6 +670,11 @@ hash = "ae0249ad6127e0142f69f3c034140b466a14b76b88ecb38f129eed502ecad517"
 metafile = true
 
 [[files]]
+file = "mods/create-enchantment-industry.pw.toml"
+hash = "9d5fe87411e96d180a82f8da60ca8d2020e7bba269b5a5ea084345e211da2bd6"
+metafile = true
+
+[[files]]
 file = "mods/create-liquid-fuel.pw.toml"
 hash = "ca274f1a31ba6fdf3ce7fc4a14e5d6ffcaa19c711595d98d87deb1d9fe365727"
 metafile = true
@@ -758,6 +767,11 @@ metafile = true
 [[files]]
 file = "mods/curios.pw.toml"
 hash = "1315cd56b0b4a5b3d53374cebf4f1f3cd0546b05058740847bd226c1d1ccab39"
+metafile = true
+
+[[files]]
+file = "mods/data-anchor.pw.toml"
+hash = "acb7ebe72eeb476a26e5777cbbbad0a270db8ff85de0aa417be8e1228d26e2f4"
 metafile = true
 
 [[files]]
@@ -1573,6 +1587,11 @@ metafile = true
 [[files]]
 file = "mods/veggies-delight.pw.toml"
 hash = "f1bf09da4d2760fe3e17a4e79e2b25b0cbef5486b946bd4a1bb6bdaf28e83f96"
+metafile = true
+
+[[files]]
+file = "mods/via-romana.pw.toml"
+hash = "48eed900ade7aa55bae93837f7a748a961d882bd9ec2714602a079550b2d7fe3"
 metafile = true
 
 [[files]]
