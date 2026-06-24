@@ -58,8 +58,8 @@ ServerEvents.tags('block', event => {
         'createdeco:zinc_mesh_fence',
         'createdeco:andesite_hull'
     ]
-    
+
     event.add('create:wrench_pickup', /.*:.*_trapdoor$/)
     event.add('create:wrench_pickup', wrenchableBlocks);
-    
+
 });

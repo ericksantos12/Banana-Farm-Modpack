@@ -4,7 +4,7 @@ ItemEvents.modifyTooltips(event => {
 
         'create:blaze_burner',
         [
-        '§6Now Accepting Fluid Lava§r'
+            '§6Now Accepting Fluid Lava§r'
         ]
     );
 
