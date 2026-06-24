@@ -3,6 +3,7 @@ name: Autolint
 on:
   workflow_call:
 
+
 jobs:
   run-linters:
     name: Lint KubeJS
