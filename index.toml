@@ -527,11 +527,6 @@ hash = "81926d253de0a8ff9520fb51a5b34394a020cd56c2a063e71ce4187d9b33e891"
 metafile = true
 
 [[files]]
-file = "mods/bobby-reforged.pw.toml"
-hash = "2a332a8963ab384a27f5257d38f9b78ad6d94f591dfd2eb14439d43abd5685da"
-metafile = true
-
-[[files]]
 file = "mods/bots-lib.pw.toml"
 hash = "8d80af49aa519553f4bee0585914d1058b53b207549735c979f8624a3a1829b1"
 metafile = true
