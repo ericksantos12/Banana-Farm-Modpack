@@ -374,7 +374,7 @@ hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
 
 [[files]]
 file = "kubejs/client_scripts/jei_hide.js"
-hash = "474c32024f74ab87eae55d0006c2efda8d5d060d2cfff3e8b0f31b12ea054b6e"
+hash = "8a9f241c294d8bdc92fc4ce3d36f07828edc2b36feb20868beecedaa65ea8162"
 
 [[files]]
 file = "kubejs/config/client.properties"
@@ -398,7 +398,7 @@ hash = "1bf355092df189425d8f5d0b1a320f4ee53f024d32258f990d64224498e196ff"
 
 [[files]]
 file = "kubejs/server_scripts/create_wrench.js"
-hash = "97add9fccb59bcab440d0b51473c0389685e884011bdd67db5ea818b0aa6240f"
+hash = "d9dfe0c2e8d8b4a8a8d60f7c397a7755090a0e3e553821b47110bb2be194bf3b"
 
 [[files]]
 file = "kubejs/server_scripts/phantomless.js"
@@ -406,11 +406,11 @@ hash = "4ecb516d3f11b2302edff98f409edb0b2d0ea28ea93b7e194377fd59f63a8c46"
 
 [[files]]
 file = "kubejs/server_scripts/recipes_remove.js"
-hash = "5d858cd8271e6217c82ce2291cf45612d95eb05ba9842f31846036b2f73829a2"
+hash = "e20f3485fe758bd76046a0fd6bfb9e0a271afb121b30c0123b2c40eeed4383de"
 
 [[files]]
 file = "kubejs/server_scripts/tooltips.js"
-hash = "2209e92073f541adb9f0fd8d70d749a26dcff3ffc4ba3f00bb4d7299842c4345"
+hash = "67cf29ee966430affb55e0f85a0095d6cdfc8565fbb61aeb3f808be81ba53ea3"
 
 [[files]]
 file = "kubejs/server_scripts/world_border_chunky.js"
